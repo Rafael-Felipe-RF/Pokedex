@@ -1,15 +1,21 @@
 @charset "utf-8";
 
+
 @media screen and (max-width: 999px){
 
+
 /*********************************************************
-Estilização da div da tela inicial
+Estilização da tela inicial
 ********************************************************/
 
 .container{
     display: flex;
     margin-top: 30px;
     flex-direction: column;
+}
+
+.container a{
+    text-decoration: none;
 }
 
 .imagem-pag-inicial{
@@ -21,6 +27,9 @@ Estilização da div da tela inicial
     text-shadow: 2px 2px 2px rgba(12, 11, 11, 0.425);
     border-radius: 3px;
     color: white;
+    width: 87vw;
+    background-size: cover;
+    background-position: center right;
 }
 
 /**************************************************************

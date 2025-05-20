@@ -10,14 +10,17 @@
     box-sizing: border-box;
 }
 
-
 /*********************************************************
-Estilização da div da tela inicial
+Estilização da tela inicial
 ********************************************************/
 
 .container{
     display: flex;
     margin-top: 30px;
+}
+
+.container a{
+    text-decoration: none;
 }
 
 .imagem-pag-inicial{
@@ -39,7 +42,6 @@ Estilização da div da tela inicial
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
 }
-
 
 /**************************************************************
 Imagens dos pokemons na tela inicial
@@ -103,6 +105,24 @@ Imagens dos pokemons na tela inicial
 
 #dragao{
     background-image: url(/imagens/tela-inicial/dragao.png);
+}
+
+/********************************************************
+Estilização página pokemons planta
+*********************************************************/
+
+.pagina-planta{
+    display: flex;
+    background-color: blue;
+
+    
+}
+
+.pokemon-planta{
+    border: 10px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
 }
 
 
