@@ -86,7 +86,7 @@ Imagens dos pokemons na tela inicial
 }
 
 #fantasma{
-    background-image: url..(/imagens/tela-inicial-movel/fantasma.png);
+    background-image: url(../imagens/tela-inicial-movel/fantasma.png);
 }
 
 #gelo{
