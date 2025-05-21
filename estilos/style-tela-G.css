@@ -48,7 +48,7 @@ Imagens dos pokemons na tela inicial
 **************************************************************/
 
 #planta{
-    background-image: url(/imagens/tela-inicial/planta.png);
+    background-image: url(./imagens/tela-inicial/planta.png);
 }
 
 #fogo{
