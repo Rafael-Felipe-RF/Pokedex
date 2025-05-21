@@ -62,7 +62,7 @@ Imagens dos pokemons na tela inicial
 }
 
 #eletrico{
-    background-image: url..(/imagens/tela-inicial-movel/eletrico.png);
+    background-image: url(../imagens/tela-inicial-movel/eletrico.png);
 }
 
 #terra{
