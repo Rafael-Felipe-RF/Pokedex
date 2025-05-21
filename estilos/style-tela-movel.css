@@ -37,64 +37,64 @@ Imagens dos pokemons na tela inicial
 **************************************************************/
 
 #planta{
-    background-image: url(/imagens/tela-inicial-movel/planta.png);
+    background-image: url(../imagens/tela-inicial-movel/planta.png);
     
 }
 
 #fogo{
-    background-image: url(/imagens/tela-inicial-movel/fogo.png);
+    background-image: url(../imagens/tela-inicial-movel/fogo.png);
 }
 
 #agua{
-    background-image: url(/imagens/tela-inicial-movel/agua.png);
+    background-image: url(../imagens/tela-inicial-movel/agua.png);
 }
 
 #inseto{
-    background-image: url(/imagens/tela-inicial-movel/inseto.png);
+    background-image: url(../imagens/tela-inicial-movel/inseto.png);
 }
 
 #normal{
-    background-image: url(/imagens/tela-inicial-movel/normal.png);
+    background-image: url(../imagens/tela-inicial-movel/normal.png);
 }
 
 #venenoso{
-    background-image: url(/imagens/tela-inicial-movel/venenoso.png);
+    background-image: url(../imagens/tela-inicial-movel/venenoso.png);
 }
 
 #eletrico{
-    background-image: url(/imagens/tela-inicial-movel/eletrico.png);
+    background-image: url..(/imagens/tela-inicial-movel/eletrico.png);
 }
 
 #terra{
-    background-image: url(/imagens/tela-inicial-movel/terra.png);
+    background-image: url(../imagens/tela-inicial-movel/terra.png);
 }
 
 #fada{
-    background-image: url(/imagens/tela-inicial-movel/fada.png);
+    background-image: url(../imagens/tela-inicial-movel/fada.png);
 }
 
 #lutador{
-    background-image: url(/imagens/tela-inicial-movel/lutador.png);
+    background-image: url(../imagens/tela-inicial-movel/lutador.png);
 }
 
 #psiquico{
-    background-image: url(/imagens/tela-inicial-movel/psiquico.png);
+    background-image: url(../imagens/tela-inicial-movel/psiquico.png);
 }
 
 #rocha{
-    background-image: url(/imagens/tela-inicial-movel/rocha.png);
+    background-image: url(../imagens/tela-inicial-movel/rocha.png);
 }
 
 #fantasma{
-    background-image: url(/imagens/tela-inicial-movel/fantasma.png);
+    background-image: url..(/imagens/tela-inicial-movel/fantasma.png);
 }
 
 #gelo{
-    background-image: url(/imagens/tela-inicial-movel/gelo.png);
+    background-image: url(../imagens/tela-inicial-movel/gelo.png);
 }
 
 #dragao{
-    background-image: url(/imagens/tela-inicial-movel/dragao.png);
+    background-image: url(../imagens/tela-inicial-movel/dragao.png);
 }
 
 
