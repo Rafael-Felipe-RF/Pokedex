@@ -154,6 +154,7 @@ Estilização página pokemons planta
 
 .planta{
     background-image: url(../imagens/fundos-paginas/fundo\ folha.png);
+    
 }
 .pagina-planta{
     display: flex;
@@ -162,7 +163,7 @@ Estilização página pokemons planta
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-bottom: 600px;
 }
 
 .pokemon-planta{
