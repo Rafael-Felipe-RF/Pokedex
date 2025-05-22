@@ -133,9 +133,8 @@ Estilização página pokemons planta
 .pagina-planta img{
     display: flex;
     justify-content: center;
-    
-
 }
+
 .pagina-planta h2{
     font-size: 35px;
     justify-content: center;
