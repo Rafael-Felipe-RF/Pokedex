@@ -112,13 +112,14 @@ Estilização geral das páginas dos pokémons
 *******************************************/
 .icone-elemento{
     display: flex;
-    align-content: center;
-    display: inline;
+    justify-content: center;
 }
 
 .titulo-pokemon{
+    font-size: 20px;
+    color: rgb(7, 7, 7);
     font-family: Arial, Helvetica, sans-serif;
-
+    text-align: center;
 }
 
 .texto-pokemon{
@@ -126,8 +127,27 @@ Estilização geral das páginas dos pokémons
     background-color: white;
     padding: 3px;
     text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
 }
 
+.imagem-pokemon{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.imagem-do-pokemon{
+    background-color: white;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.281);
+    margin-top: 15px;
+
+}
 /********************************************************
 Estilização página pokemons planta
 *********************************************************/
@@ -142,13 +162,14 @@ Estilização página pokemons planta
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .pokemon-planta{
     border: 1px solid rgba(167, 158, 158, 0.342);
     width: 300px;
     height: 450px;
-    background-color: rgb(212, 224, 224);
+    background-color: rgb(216, 235, 211);
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
@@ -159,10 +180,7 @@ Estilização página pokemons planta
     justify-content: center;
 }
 
-.pagina-planta h2{
-    font-size: 35px;
-    justify-content: center;
-}
+
 
 
 
