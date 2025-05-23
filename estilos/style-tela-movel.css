@@ -206,6 +206,13 @@ Estilização página pokemons fogo
     justify-content: center;
 }
 
+/********************************************************
+Esconder o botão voltar
+*********************************************************/
+
+.botao-voltar{
+    display: none;
+}
 
 
 
