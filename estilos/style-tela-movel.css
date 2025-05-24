@@ -206,6 +206,108 @@ Estilização página pokemons fogo
     justify-content: center;
 }
 
+/*********************************************
+Estilização página água
+********************************************/
+
+.agua{
+    background-image: url(../imagens/fundos-paginas/fundo-agua.png);
+    background-attachment: fixed;
+}
+
+.pagina-agua{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-agua{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(211, 222, 235);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+}
+
+.pagina-agua img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Inseto
+********************************************/
+
+.inseto{
+    background-image: url(../imagens/fundos-paginas/fundo-inseto.png);
+    background-attachment: fixed;
+}
+
+.pagina-inseto{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-inseto{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(235, 232, 211);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+}
+
+.pagina-agua img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Normal
+********************************************/
+
+.normal{
+    background-image: url(../imagens/fundos-paginas/fundo-normal.png);
+    background-attachment: fixed;
+}
+
+.pagina-normal{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-normal{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(235, 232, 211);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+}
+
+.pagina-agua img{
+    display: flex;
+    justify-content: center;
+}
+
 /********************************************************
 Esconder o botão voltar
 *********************************************************/

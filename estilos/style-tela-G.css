@@ -251,6 +251,41 @@ Estilização página água
     display: flex;
     justify-content: center;
 }
+
+/*********************************************
+Estilização página Inseto
+********************************************/
+
+.inseto{
+    background-image: url(../imagens/fundos-paginas/fundo-inseto.png);
+    background-attachment: fixed;
+}
+
+.pagina-inseto{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-inseto{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(235, 232, 211);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+}
+
+.pagina-inseto img{
+    display: flex;
+    justify-content: center;
+}
+
 /********************************************************
 Estilização botão Voltar
 *********************************************************/
