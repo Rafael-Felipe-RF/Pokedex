@@ -165,6 +165,7 @@ Estilização página pokemons planta
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
 }
 
 .pagina-planta img{
@@ -199,6 +200,7 @@ Estilização página pokemons fogo
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
 }
 
 .pagina-fogo img{
