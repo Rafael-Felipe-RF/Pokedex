@@ -166,6 +166,7 @@ Estilização página pokemons planta
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
     background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
 }
 
 .pagina-planta img{
@@ -201,6 +202,7 @@ Estilização página pokemons fogo
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
     background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
 }
 
 .pagina-fogo img{
@@ -235,6 +237,7 @@ Estilização página água
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
     background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
 }
 
 .pagina-agua img{
@@ -269,6 +272,7 @@ Estilização página Inseto
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
     background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
 }
 
 .pagina-agua img{
@@ -277,7 +281,7 @@ Estilização página Inseto
 }
 
 /*********************************************
-Estilização página Normal
+Estilização página normal
 ********************************************/
 
 .normal{
@@ -298,18 +302,18 @@ Estilização página Normal
     border: 1px solid rgba(167, 158, 158, 0.342);
     width: 300px;
     height: 450px;
-    background-color: rgb(235, 232, 211);
+    background-color: rgb(203, 211, 212);
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
     background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
 }
 
-.pagina-agua img{
+.pagina-inseto img{
     display: flex;
     justify-content: center;
 }
-
 /********************************************************
 Esconder o botão voltar
 *********************************************************/
