@@ -307,6 +307,7 @@ Estilização página normal
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
     background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    
     background-size: cover;
 }
 
@@ -314,6 +315,357 @@ Estilização página normal
     display: flex;
     justify-content: center;
 }
+
+/*********************************************
+Estilização página Venenoso
+********************************************/
+
+.venenoso{
+    background-image: url(../imagens/fundos-paginas/fundo-venenoso.png);
+    background-attachment: fixed;
+}
+
+.pagina-venenoso{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-venenoso{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-venenoso img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Elétrico
+********************************************/
+
+.eletrico{
+    background-image: url(../imagens/fundos-paginas/fundo-eletrico.png);
+    background-attachment: fixed;
+}
+
+.pagina-eletrico{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-eletrico{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-eletrico img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Terra
+********************************************/
+
+.eletrico{
+    background-image: url(../imagens/fundos-paginas/fundo-terra.png);
+    background-attachment: fixed;
+}
+
+.pagina-terra{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-terra{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-terra img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Fada
+********************************************/
+
+.fada{
+    background-image: url(../imagens/fundos-paginas/fundo-fada.png);
+    background-attachment: fixed;
+}
+
+.pagina-fada{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-fada{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-fada img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Lutador
+********************************************/
+
+.lutador{
+    background-image: url(../imagens/fundos-paginas/fundo-lutador.png);
+    background-attachment: fixed;
+}
+
+.pagina-lutador{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-lutador{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-lutador img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Psíquico
+********************************************/
+
+.psiquico{
+    background-image: url(../imagens/fundos-paginas/fundo-psiquico.png);
+    background-attachment: fixed;
+}
+
+.pagina-psiquico{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-psiquico{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-psiquico img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Rocha
+********************************************/
+
+.rocha{
+    background-image: url(../imagens/fundos-paginas/fundo-rocha.png);
+    background-attachment: fixed;
+}
+
+.pagina-rocha{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-rocha{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-rocha img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Fantasma
+********************************************/
+
+.fantasma{
+    background-image: url(../imagens/fundos-paginas/fundo-fantasma.png);
+    background-attachment: fixed;
+}
+
+.pagina-fantasma{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-fantasma{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-fantasma img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Gelo
+********************************************/
+
+.gelo{
+    background-image: url(../imagens/fundos-paginas/fundo-gelo.png);
+    background-attachment: fixed;
+}
+
+.pagina-gelo{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-gelo{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-gelo img{
+    display: flex;
+    justify-content: center;
+}
+
+/*********************************************
+Estilização página Dragão
+********************************************/
+
+.dragao{
+    background-image: url(../imagens/fundos-paginas/fundo-dragao.png);
+    background-attachment: fixed;
+}
+
+.pagina-dragao{
+    display: flex;
+    width: 98vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-dragao{
+    border: 1px solid rgba(167, 158, 158, 0.342);
+    width: 300px;
+    height: 450px;
+    background-color: rgb(203, 211, 212);
+    margin: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
+    padding: 18px;
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-size: cover;
+}
+
+.pagina-dragao img{
+    display: flex;
+    justify-content: center;
+}
+
 /********************************************************
 Esconder o botão voltar
 *********************************************************/
