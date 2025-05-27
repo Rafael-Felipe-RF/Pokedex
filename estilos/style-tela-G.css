@@ -112,7 +112,8 @@ Estilização geral das páginas dos pokémons
 *******************************************/
 .icone-elemento{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
 }
 
 .titulo-pokemon{
@@ -177,7 +178,7 @@ Estilização página pokemons planta
 }
 
 .pokemon-planta{
-    border: 8px solid rgb(27, 80, 3);
+    border: 8px solid rgb(235, 193, 8);
     border-radius: 10px;
     width: 300px;
     height: 450px;
@@ -185,7 +186,7 @@ Estilização página pokemons planta
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/planta.png);
     background-size: cover;
 
 }
@@ -223,7 +224,7 @@ Estilização página pokemons fogo
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/fogo.png);
     background-size: cover;
 }
 
@@ -261,7 +262,7 @@ Estilização página água
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/agua1.png);
     background-size: cover;
 }
 
@@ -294,11 +295,11 @@ Estilização página Inseto
     border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: rgb(116, 160, 110);
+    background-color: rgb(163, 196, 159);
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/inseto.png);
     background-size: cover;
 }
 
@@ -371,7 +372,7 @@ Estilização página Venenoso
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/venenoso.png);
     background-size: cover;
 }
 
@@ -404,11 +405,11 @@ Estilização página Elétrico
     border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: #edf5a9;
+    background-color: #a9e6f5;
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/eletrico.png);
     background-size: cover;
 }
 
@@ -442,11 +443,11 @@ Estilização página Terra
     border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: #887571;
+    background-color: #b4b0af;
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/terrestre.png);
     background-size: cover;
 }
 
@@ -483,7 +484,7 @@ Estilização página Fada
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/fada.png);
     background-size: cover;
 }
 
@@ -515,11 +516,11 @@ Estilização página Lutador
     border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: rgb(175, 174, 174);
+    background-color: rgb(121, 121, 122);
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/lutador.png);
     background-size: cover;
 }
 
@@ -555,7 +556,7 @@ Estilização página Psíquico
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/psiquico.png);
     background-size: cover;
 }
 
@@ -587,11 +588,11 @@ Estilização página Rocha
     border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: rgb(155, 143, 143);
+    background-color: rgb(164, 211, 219);
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/rocha.png);
     background-size: cover;
 }
 
@@ -628,7 +629,7 @@ Estilização página Fantasma
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/fantasm.png);
     background-size: cover;
 }
 
@@ -665,7 +666,7 @@ Estilização página Gelo
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/gelo.png);
     background-size: cover;
 }
 
@@ -697,11 +698,11 @@ Estilização página Dragão
     border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: rgb(195, 198, 248);
+    background-color: rgb(178, 179, 194);
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/dragao.png);
     background-size: cover;
 }
 
