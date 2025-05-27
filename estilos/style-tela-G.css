@@ -116,10 +116,12 @@ Estilização geral das páginas dos pokémons
 }
 
 .titulo-pokemon{
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(7, 7, 7);
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 .texto-pokemon{
@@ -129,6 +131,8 @@ Estilização geral das páginas dos pokémons
     text-align: center;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.144);
+    font-size: 12px;
+    
 }
 
 .imagem-pokemon{
@@ -146,6 +150,7 @@ Estilização geral das páginas dos pokémons
     border-radius: 15px;
     border: 2px solid rgba(0, 0, 0, 0.281);
     margin-top: 15px;
+    width: 100%
 
 }
 /********************************************************
@@ -169,7 +174,8 @@ Estilização página pokemons planta
 }
 
 .pokemon-planta{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(27, 80, 3);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(216, 235, 211);
@@ -178,6 +184,7 @@ Estilização página pokemons planta
     padding: 18px;
     background-image: url(../imagens/fundos-paginas/fundo-div.png);
     background-size: cover;
+
 }
 
 .pagina-planta img{
@@ -192,7 +199,7 @@ Estilização página pokemons fogo
 .fogo{
     background-image: url(../imagens/fundos-paginas/fundo-fogo.png);
     background-attachment: fixed;
-    background-color: rgba(255, 166, 0, 0.425);
+    background-color: rgba(155, 160, 125, 0.425);
 }
 
 .pagina-fogo{
@@ -205,10 +212,11 @@ Estilização página pokemons fogo
 }
 
 .pokemon-fogo{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: rgb(216, 162, 117);
+    background-color: rgb(229, 183, 183);
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
@@ -242,7 +250,8 @@ Estilização página água
 }
 
 .pokemon-agua{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+   border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(131, 223, 235);
@@ -278,7 +287,8 @@ Estilização página Inseto
 }
 
 .pokemon-inseto{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(116, 160, 110);
@@ -313,7 +323,8 @@ Estilização página normal
 }
 
 .pokemon-normal{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(203, 211, 212);
@@ -349,7 +360,8 @@ Estilização página Venenoso
 }
 
 .pokemon-venenoso{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(196, 139, 204);
@@ -385,10 +397,11 @@ Estilização página Elétrico
 }
 
 .pokemon-eletrico{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: rgb(196, 206, 109);
+    background-color: #edf5a9;
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
@@ -422,7 +435,8 @@ Estilização página Terra
 }
 
 .pokemon-terra{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: #887571;
@@ -458,7 +472,8 @@ Estilização página Fada
 }
 
 .pokemon-fada{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(241, 188, 241);
@@ -493,7 +508,8 @@ Estilização página Lutador
 }
 
 .pokemon-lutador{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(175, 174, 174);
@@ -528,7 +544,8 @@ Estilização página Psíquico
 }
 
 .pokemon-psiquico{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(177, 126, 236);
@@ -563,7 +580,8 @@ Estilização página Rocha
 }
 
 .pokemon-rocha{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(155, 143, 143);
@@ -599,7 +617,8 @@ Estilização página Fantasma
 }
 
 .pokemon-fantasma{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(115, 77, 219);
@@ -635,7 +654,8 @@ Estilização página Gelo
 }
 
 .pokemon-gelo{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
     background-color: rgb(10, 166, 228);
@@ -670,10 +690,11 @@ Estilização página Dragão
 }
 
 .pokemon-dragao{
-    border: 1px solid rgba(167, 158, 158, 0.342);
+    border: 8px solid rgb(235, 193, 8);
+    border-radius: 10px;
     width: 300px;
     height: 450px;
-    background-color: rgb(78, 88, 223);
+    background-color: rgb(195, 198, 248);
     margin: 10px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.329);
     padding: 18px;
