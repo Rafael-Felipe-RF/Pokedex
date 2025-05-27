@@ -110,6 +110,7 @@ Estilização geral das páginas dos pokémons
     color: rgb(7, 7, 7);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    
 }
 
 .texto-pokemon{
@@ -136,7 +137,7 @@ Estilização geral das páginas dos pokémons
     border-radius: 15px;
     border: 2px solid rgba(0, 0, 0, 0.281);
     margin-top: 15px;
-
+    width: 100%;
 }
 /********************************************************
 Estilização página pokemons planta

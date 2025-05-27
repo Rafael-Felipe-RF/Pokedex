@@ -122,6 +122,9 @@ Estilização geral das páginas dos pokémons
     text-align: left;
     letter-spacing: 5px;
     text-transform: uppercase;
+    background-color: rgb(192, 188, 188);
+    padding: 3px;
+    border-radius: 8px;
 }
 
 .texto-pokemon{
@@ -132,7 +135,6 @@ Estilização geral das páginas dos pokémons
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.144);
     font-size: 12px;
-    
 }
 
 .imagem-pokemon{
@@ -150,9 +152,10 @@ Estilização geral das páginas dos pokémons
     border-radius: 15px;
     border: 2px solid rgba(0, 0, 0, 0.281);
     margin-top: 15px;
-    width: 100%
-
+    width: 100%;
+    box-shadow: inset 5px 5px 12px black;
 }
+
 /********************************************************
 Estilização página pokemons planta
 *********************************************************/
