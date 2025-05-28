@@ -17,6 +17,7 @@ Estilização da tela inicial
 .container{
     display: flex;
     margin-top: 30px;
+    flex-direction: column;
 }
 
 .container a{
@@ -26,85 +27,81 @@ Estilização da tela inicial
 .imagem-pag-inicial{
     border: 1px solid black;
     margin: 10px;
-    height: 84vh;
-    width: 10%;
-    writing-mode: vertical-lr;
     font-size: 350%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
     padding: 8px;
     text-shadow: 2px 2px 2px rgba(12, 11, 11, 0.425);
     border-radius: 3px;
     color: white;
-    transition: all 0.3s ease-in-out;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.imagem-pag-inicial:hover{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transform: scale(1.1);
-}
+
 
 /**************************************************************
 Imagens dos pokemons na tela inicial
 **************************************************************/
 
 #planta{
-    background-image: url(../imagens/tela-inicial/planta.png);
+    background-image: url(../imagens/tela-inicial-movel/planta.png);
 }
 
 #fogo{
-    background-image: url(../imagens/tela-inicial/fogo.png);
+    background-image: url(../imagens/tela-inicial-movel/fogo.png);
 }
 
 #agua{
-    background-image: url(../imagens/tela-inicial/agua.png);
+    background-image: url(../imagens/tela-inicial-movel/agua.png);
 }
 
 #inseto{
-    background-image: url(../imagens/tela-inicial/inseto.png);
+    background-image: url(../imagens/tela-inicial-movel/inseto.png);
 }
 
 #normal{
-    background-image: url(../imagens/tela-inicial/normal.png);
+    background-image: url(../imagens/tela-inicial-movel/normal.png);
 }
 
 #venenoso{
-    background-image: url(../imagens/tela-inicial/venenoso.png);
+    background-image: url(../imagens/tela-inicial-movel/venenoso.png);
 }
 
 #eletrico{
-    background-image: url(../imagens/tela-inicial/eletrico.png);
+    background-image: url(../imagens/tela-inicial-movel/eletrico.png);
 }
 
 #terra{
-    background-image: url(../imagens/tela-inicial/terra.png);
+    background-image: url(../imagens/tela-inicial-movel/terra.png);
 }
 
 #fada{
-    background-image: url(../imagens/tela-inicial/fada.png);
+    background-image: url(../imagens/tela-inicial-movel/fada.png);
 }
 
 #lutador{
-    background-image: url(../imagens/tela-inicial/lutador.png);
+    background-image: url(../imagens/tela-inicial-movel/lutador.png);
 }
 
 #psiquico{
-    background-image: url(../imagens/tela-inicial/psiquico.png);
+    background-image: url(../imagens/tela-inicial-movel/psiquico.png);
 }
 
 #rocha{
-    background-image: url(../imagens/tela-inicial/rocha.png);
+    background-image: url(../imagens/tela-inicial-movel/rocha.png);
 }
 
 #fantasma{
-    background-image: url(../imagens/tela-inicial/fantasma.png);
+    background-image: url(../imagens/tela-inicial-movel/fantasma.png);
 }
 
 #gelo{
-    background-image: url(../imagens/tela-inicial/gelo.png);
+    background-image: url(../imagens/tela-inicial-movel/gelo.png);
 }
 
 #dragao{
-    background-image: url(../imagens/tela-inicial/dragao.png);
+    background-image: url(../imagens/tela-inicial-movel/dragao.png);
 }
 
 /*************************************************
