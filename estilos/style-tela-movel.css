@@ -721,4 +721,17 @@ Estilização botão Voltar
     bottom: -4px;
     right: 0px;  
 }
+/*********************************************************
+Estilização pokédex completa
+****************************************************/
+
+.container-1{
+    display: flex;
+    width: 95vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
 }

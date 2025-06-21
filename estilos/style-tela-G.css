@@ -729,6 +729,10 @@ Estilização botão Voltar
     right: 0px;  
 }
 
+/*********************************************************
+Estilização pokédex completa
+****************************************************/
+
 .container-1{
     display: flex;
     width: 95vw;
@@ -736,5 +740,34 @@ Estilização botão Voltar
     justify-content: space-evenly;
     align-items: center;
     margin: 30px;
+}
+
+/****************************************
+Estilização da página de entrada no site
+*****************************************/
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+}
+
+.container2 div{
+    border: 1px solid black;
+    width: 500px;
+    height: 800px;
+}
+    
+
+.pokedex{
+    margin-right: 25px;;
+
+}
+
+.elementos{
+    margin-left: 25px;;
+
 }
 }
