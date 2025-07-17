@@ -727,11 +727,11 @@ Estilização pokédex completa
 
 .container-1{
     display: flex;
-    width: 95vw;
+    width: 100dvw;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 30px;
+    margin: 10px;
 }
 /********************************************************
 Estilização página inicial
