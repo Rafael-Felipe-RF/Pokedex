@@ -764,6 +764,8 @@ Estilização página inicial
 .elementos{
     background: url(../imagens/página-inicial-movel/elementos.png);
     background-size: cover;
+    background-position: top;
+    margin-top: -1px;
     
 }
 
