@@ -738,17 +738,18 @@ Estilização página inicial
 *********************************************************/
 .container2{
     height: 100dvh;
+    width: 100dvw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center; 
-    background-color: aqua; 
+    background-color: rgb(122, 122, 116); 
 }
 
 .container2 div{
-    width: 95dvw;
-    height: 49dvh;
+    width: 97dvw;
+    height: 50dvh;
     
 }
 
