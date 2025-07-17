@@ -733,5 +733,40 @@ Estilização pokédex completa
     align-items: center;
     margin: 30px;
 }
+/********************************************************
+Estilização página inicial
+*********************************************************/
+.container2{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-color: aqua; 
+}
+
+.container2 div{
+    width: 95dvw;
+    height: 49dvh;
+    
+}
+
+.pokedex{
+    background: url(../imagens/página-inicial-movel/pokedex-completa.png);
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: -1px;
+    
+    
+}
+
+.elementos{
+    background: url(../imagens/página-inicial-movel/elementos.png);
+    background-size: cover;
+    
+}
+
+
 
 }
