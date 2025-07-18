@@ -746,27 +746,42 @@ Estilização pokédex completa
 Estilização da página de entrada no site
 *****************************************/
 .container2{
+    height: 100dvh;
+    width: 100dvw;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    margin: 50px;
-}
+    align-items: center;
+    text-align: center; 
+    background-color: rgb(177, 177, 172);
+    
 }
 
-/*.container2 div{
+.container2 div{
+    width: 550px;
+    height: 700px;
     border: 1px solid black;
-    width: 500px;
-    height: 800px;
-}
+    border-radius: 20px;
+    margin: 30px;
     
+}
+
 
 .pokedex{
-    margin-right: 25px;;
+    background: url(../imagens/página-inicial-movel/pokedex-completa-gd.png);
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: -1px;
 
+    
 }
 
 .elementos{
-    margin-left: 25px;;
+    background: url(../imagens/página-inicial-movel/elementos-GD.png);
+    background-size: cover;
+    background-position: top;
+    margin-top: -1px;
+    background-color: white;
 
-}*/
+}
+}
