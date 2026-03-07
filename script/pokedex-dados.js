@@ -1,5 +1,8 @@
 const pokemons = [
+
+  //Primeira Geração
   {
+    geracao: "Primeira Geração",
     numero: "0001",
     nome: "Bulbasaur",
     classe: "pokemon-planta",
@@ -13,6 +16,7 @@ const pokemons = [
     descricao: "Por algum tempo após o nascimento, ele usa os nutrientes contidos na semente em suas costas para crescer."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0002",
     nome: "Ivysaur",
     classe: "pokemon-planta",
@@ -26,6 +30,7 @@ const pokemons = [
     descricao: "Quanto mais luz solar Ivysaur recebe, mais força surge dentro dele, permitindo que o broto em suas costas cresça."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0003",
     nome: "Venusaur",
     classe: "pokemon-planta",
@@ -39,6 +44,7 @@ const pokemons = [
     descricao: "Enquanto se banha ao sol, consegue converter a luz em energia. Consequentemente, é mais potente no verão."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0004",
     nome: "Charmander",
     classe: "pokemon-fogo",
@@ -51,6 +57,7 @@ const pokemons = [
     descricao: "A chama em sua cauda demonstra a força de sua energia vital. Se Charmander estiver fraco, a chama também arderá fracamente."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0005",
     nome: "Charmeleon",
     classe: "pokemon-fogo",
@@ -63,6 +70,7 @@ const pokemons = [
     descricao: "Quando balança sua cauda flamejante, a temperatura ao seu redor sobe cada vez mais, atormentando seus oponentes."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0006",
     nome: "Charizard",
     classe: "pokemon-fogo",
@@ -76,6 +84,7 @@ const pokemons = [
     descricao: "Se Charizard ficar realmente irritado, a chama na ponta de sua cauda queima em um tom azul claro."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0007",
     nome: "Squirtle",
     classe: "pokemon-agua",
@@ -88,6 +97,7 @@ const pokemons = [
     descricao: "Após o nascimento, suas costas incham e endurecem, formando uma carapaça. Ela expele uma espuma potente pela boca."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0008",
     nome: "Wartortle",
     classe: "pokemon-agua",
@@ -100,6 +110,7 @@ const pokemons = [
     descricao: "A longa cauda peluda de Wartortle é um símbolo de longevidade, por isso este Pokémon é bastante popular entre as pessoas mais velhas."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0009",
     nome: "Blastoise",
     classe: "pokemon-agua",
@@ -112,6 +123,7 @@ const pokemons = [
     descricao: "Ela aumenta deliberadamente seu peso corporal para poder suportar o recuo dos jatos de água que dispara."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0010",
     nome: "Caterpie",
     classe: "pokemon-inseto",
@@ -124,6 +136,7 @@ const pokemons = [
     descricao: "Para se proteger, libera um odor horrível pela antena em sua cabeça para afastar os inimigos."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0011",
     nome: "Metapod",
     classe: "pokemon-inseto",
@@ -136,6 +149,7 @@ const pokemons = [
     descricao: "Está aguardando o momento certo para evoluir. Por isso permanece imóvel para evitar ataques."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0012",
     nome: "Butterfree",
     classe: "pokemon-inseto",
@@ -149,6 +163,7 @@ const pokemons = [
     descricao: "Ele adora o néctar das flores e consegue localizar áreas floridas que contenham até mesmo quantidades mínimas de pólen."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0013",
     nome: "Weedle",
     classe: "pokemon-inseto",
@@ -162,6 +177,7 @@ const pokemons = [
     descricao: "Cuidado com o ferrão afiado em sua cabeça. Ele se esconde na grama e nos arbustos, onde se alimenta de folhas."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0014",
     nome: "Kakuna",
     classe: "pokemon-inseto",
@@ -175,6 +191,7 @@ const pokemons = [
     descricao: "Capaz de se mover apenas ligeiramente. Quando ameaçado, pode estender seu ferrão e envenenar seu inimigo."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0015",
     nome: "Beedrill",
     classe: "pokemon-inseto",
@@ -188,6 +205,7 @@ const pokemons = [
     descricao: "Possui três ferrões venenosos nas patas dianteiras e na cauda. São usados para golpear repetidamente o inimigo."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0016",
     nome: "Pidgey",
     classe: "pokemon-normal",
@@ -201,6 +219,7 @@ const pokemons = [
     descricao: "Muito dócil. Se atacado, costuma levantar areia para se proteger em vez de revidar."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0017",
     nome: "Pidgeotto",
     classe: "pokemon-normal",
@@ -214,6 +233,7 @@ const pokemons = [
     descricao: "Este Pokémon é cheio de vitalidade. Ele voa constantemente por seu vasto território em busca de presas."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0018",
     nome: "Pidgeot",
     classe: "pokemon-normal",
@@ -227,6 +247,7 @@ const pokemons = [
     descricao: "Este Pokémon voa à velocidade de Mach 2, em busca de presas. Suas grandes garras são temidas como armas cruéis."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0019",
     nome: "Rattata",
     classe: "pokemon-normal",
@@ -239,6 +260,7 @@ const pokemons = [
     descricao: "Mastiga qualquer coisa com suas presas. Se você vir um, pode ter certeza de que outros 40 vivem na área."
   },
   {
+    geracao: "Primeira Geração",
     numero: "0020",
     nome: "Raticate",
     classe: "pokemon-normal",
@@ -251,6 +273,7 @@ const pokemons = [
     descricao: "Suas patas traseiras são palmadas. Elas funcionam como nadadeiras, permitindo que ele nade em rios e cace presas."
   },
   {
+    geracao: "Primeira Geração",
   numero: "0021",
   nome: "Spearow",
   classe: "pokemon-normal",
@@ -264,6 +287,7 @@ const pokemons = [
   descricao: "Inábil para voar alto. No entanto, consegue voar muito rápido para proteger seu território."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0022",
   nome: "Fearow",
   classe: "pokemon-normal",
@@ -277,6 +301,7 @@ const pokemons = [
   descricao: "Um Pokémon que existe há muitos anos. Se pressentir perigo, ele voa alto e para longe instantaneamente."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0023",
   nome: "Ekans",
   classe: "pokemon-venenoso",
@@ -289,6 +314,7 @@ const pokemons = [
   descricao: "Ela consegue destacar livremente a mandíbula para engolir presas grandes inteiras. No entanto, pode ficar pesada demais para se mover."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0024",
   nome: "Arbok",
   classe: "pokemon-venenoso",
@@ -301,6 +327,7 @@ const pokemons = [
   descricao: "O padrão em sua barriga parece ser um rosto assustador. Inimigos fracos fugirão só de ver o padrão."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0025",
   nome: "Pikachu",
   classe: "pokemon-eletrico",
@@ -313,6 +340,7 @@ const pokemons = [
   descricao: "Quando se irrita, descarrega imediatamente a energia armazenada nas bolsas em suas bochechas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0026",
   nome: "Raichu",
   classe: "pokemon-eletrico",
@@ -325,6 +353,7 @@ const pokemons = [
   descricao: "Quando sua eletricidade aumenta, seus músculos são estimulados e ele se torna mais agressivo do que o normal."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0027",
   nome: "Sandshrew",
   classe: "pokemon-terra",
@@ -337,6 +366,7 @@ const pokemons = [
   descricao: "Ele cava tocas profundas para viver. Quando em perigo, enrola o corpo para resistir a ataques."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0028",
   nome: "Sandslash",
   classe: "pokemon-terra",
@@ -349,6 +379,7 @@ const pokemons = [
   descricao: "É hábil em atacar com os espinhos nas costas e com suas garras afiadas, enquanto se move rapidamente."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0029",
   nome: "Nidoran♀",
   classe: "pokemon-venenoso",
@@ -361,6 +392,7 @@ const pokemons = [
   descricao: "As fêmeas são mais sensíveis aos odores do que os machos. Ao procurar alimento, elas usam seus bigodes para verificar a direção do vento e se manter a favor do vento, evitando predadores."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0030",
   nome: "Nidorina",
   classe: "pokemon-venenoso",
@@ -373,6 +405,7 @@ const pokemons = [
   descricao: "O chifre em sua cabeça atrofiou. Acredita-se que isso aconteça para que os filhotes de Nidorina não sejam espetados enquanto a mãe os alimenta."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0031",
   nome: "Nidoqueen",
   classe: "pokemon-venenoso",
@@ -386,6 +419,7 @@ const pokemons = [
   descricao: "O chifre em sua cabeça atrofiou. Acredita-se que isso aconteça para que os filhotes de Nidorina não sejam espetados enquanto a mãe os alimenta."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0032",
   nome: "Nidoran♂",
   classe: "pokemon-venenoso",
@@ -398,6 +432,7 @@ const pokemons = [
   descricao: "O chifre na testa de um Nidoran macho contém um veneno poderoso. Este é um Pokémon muito cauteloso, sempre atento às suas grandes orelhas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0033",
   nome: "Nidorino",
   classe: "pokemon-venenoso",
@@ -410,6 +445,7 @@ const pokemons = [
   descricao: "Com um chifre mais duro que diamante, este Pokémon anda por aí quebrando pedregulhos em busca de uma pedra da lua."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0034",
   nome: "Nidoking",
   classe: "pokemon-venenoso",
@@ -423,6 +459,7 @@ const pokemons = [
   descricao: "Quando entra em fúria, é impossível controlá-lo. Mas na presença de uma Nidoqueen com quem convive há muito tempo, Nidoking se acalma."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0035",
   nome: "Clefairy",
   classe: "pokemon-fada",
@@ -435,6 +472,7 @@ const pokemons = [
   descricao: "Nas noites de lua cheia, os Clefairy se reúnem de todos os lugares e dançam. Banhar-se ao luar os faz flutuar."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0036",
   nome: "Clefable",
   classe: "pokemon-fada",
@@ -447,6 +485,7 @@ const pokemons = [
   descricao: "Um Pokémon fada tímido e raramente visto, que foge e se esconde assim que percebe a presença de pessoas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0037",
   nome: "Vulpix",
   classe: "pokemon-fogo",
@@ -459,6 +498,7 @@ const pokemons = [
   descricao: "Se for atacado por um inimigo mais forte do que ele, finge estar ferido para enganá-lo e foge."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0038",
   nome: "Ninetales",
   classe: "pokemon-fogo",
@@ -471,6 +511,7 @@ const pokemons = [
   descricao: "Algumas lendas afirmam que cada uma de suas nove caudas possui um tipo único de poder místico especial."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0039",
   nome: "Jigglypuff",
   classe: "pokemon-fada",
@@ -484,6 +525,7 @@ const pokemons = [
   descricao: "Quando seus enormes olhos vacilam, ela canta uma melodia misteriosamente suave que embala seus inimigos para dormir."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0040",
   nome: "Wigglytuff",
   classe: "pokemon-fada",
@@ -497,6 +539,7 @@ const pokemons = [
   descricao: "Possui uma pelagem muito fina. Tome cuidado para não irritá-lo, ou ele pode inflar constantemente e desferir um golpe de corpo."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0041",
   nome: "Zubat",
   classe: "pokemon-venenoso",
@@ -510,6 +553,7 @@ const pokemons = [
   descricao: "Ele emite ondas ultrassônicas pela boca para verificar o ambiente ao redor. Mesmo em cavernas apertadas, Zubat voa com destreza."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0042",
   nome: "Golbat",
   classe: "pokemon-venenoso",
@@ -523,6 +567,7 @@ const pokemons = [
   descricao: "Adora beber o sangue de outras criaturas. Diz-se que, se encontra outros da sua espécie com fome, por vezes partilha o sangue que recolheu."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0043",
   nome: "Oddish",
   classe: "pokemon-planta",
@@ -536,6 +581,7 @@ const pokemons = [
   descricao: "Seu nome científico é Oddium wanderus. Diz-se que, ao cair da noite, ela consegue percorrer distâncias de até 300 metros, caminhando sobre suas duas raízes."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0044",
   nome: "Gloom",
   classe: "pokemon-planta",
@@ -549,6 +595,7 @@ const pokemons = [
   descricao: "O fluido que escorre de sua boca não é baba. É um néctar usado para atrair presas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0045",
   nome: "Vileplume",
   classe: "pokemon-planta",
@@ -562,6 +609,7 @@ const pokemons = [
   descricao: "O botão desabrocha com um estrondo. Em seguida, começa a espalhar pólen alergênico e venenoso."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0046",
   nome: "Paras",
   classe: "pokemon-inseto",
@@ -575,6 +623,7 @@ const pokemons = [
   descricao: "Escava tocas no solo para roer as raízes das árvores. Os cogumelos em suas costas absorvem a maior parte dos nutrientes."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0047",
   nome: "Parasect",
   classe: "pokemon-inseto",
@@ -588,6 +637,7 @@ const pokemons = [
   descricao: "O inseto hospedeiro tem sua energia drenada pelo cogumelo em suas costas. O cogumelo parece ser o responsável por todo o processo mental."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0048",
   nome: "Venonat",
   classe: "pokemon-inseto",
@@ -601,6 +651,7 @@ const pokemons = [
   descricao: "O veneno escorre por todo o seu corpo. Ele captura pequenos Pokémon insetos à noite, atraídos pela luz."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0049",
   nome: "Venomoth",
   classe: "pokemon-inseto",
@@ -614,6 +665,7 @@ const pokemons = [
   descricao: "As asas são cobertas por escamas semelhantes a poeira. Cada vez que bate as asas, libera uma poeira altamente tóxica."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0050",
   nome: "Diglett",
   classe: "pokemon-terra",
@@ -626,6 +678,7 @@ const pokemons = [
   descricao: "Vive a cerca de um metro de profundidade, onde se alimenta de raízes de plantas. Às vezes, aparece na superfície."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0051",
   nome: "Dugtrio",
   classe: "pokemon-terra",
@@ -638,6 +691,7 @@ const pokemons = [
   descricao: "Suas três cabeças se movem separadamente para cima e para baixo, soltando o solo próximo e facilitando a escavação."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0052",
   nome: "Meowth",
   classe: "pokemon-normal",
@@ -650,6 +704,7 @@ const pokemons = [
   descricao: "Durante o dia, apenas dorme. À noite, patrulha seu território com os olhos brilhando."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0053",
   nome: "Persian",
   classe: "pokemon-normal",
@@ -662,6 +717,7 @@ const pokemons = [
   descricao: "Apesar de sua pelagem ter muitos admiradores, é difícil criá-lo como animal de estimação devido ao seu temperamento imprevisível e agressivo."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0054",
   nome: "Psyduck",
   classe: "pokemon-agua",
@@ -674,6 +730,7 @@ const pokemons = [
   descricao: "É constantemente atormentado por dores de cabeça. Quando a dor de cabeça se intensifica, começa a usar poderes misteriosos."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0055",
   nome: "Golduck",
   classe: "pokemon-agua",
@@ -686,6 +743,7 @@ const pokemons = [
   descricao: "Quando nada a toda velocidade usando seus longos membros palmados, sua testa começa a brilhar de alguma forma."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0056",
   nome: "Mankey",
   classe: "pokemon-lutador",
@@ -698,6 +756,7 @@ const pokemons = [
   descricao: "Vive em grupos no topo das árvores. Se perde o seu grupo de vista, fica furioso com a solidão."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0057",
   nome: "Primeape",
   classe: "pokemon-lutador",
@@ -710,6 +769,7 @@ const pokemons = [
   descricao: "Ele fica furioso se sequer pressentir que alguém está olhando. Persegue qualquer um que cruze seu olhar."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0058",
   nome: "Growlithe",
   classe: "pokemon-fogo",
@@ -722,6 +782,7 @@ const pokemons = [
   descricao: "Possui uma natureza corajosa e confiável. Enfrenta destemidamente inimigos maiores e mais fortes."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0059",
   nome: "Arcanine",
   classe: "pokemon-fogo",
@@ -734,6 +795,7 @@ const pokemons = [
   descricao: "Um antigo pergaminho ilustrado mostra que as pessoas ficavam fascinadas com seu movimento enquanto percorria as pradarias."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0060",
   nome: "Poliwag",
   classe: "pokemon-agua",
@@ -746,6 +808,7 @@ const pokemons = [
   descricao: "O redemoinho na barriga é o interior do animal aparecendo através da pele. Ele fica mais visível depois que Poliwag come."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0061",
   nome: "Poliwhirl",
   classe: "pokemon-agua",
@@ -758,6 +821,7 @@ const pokemons = [
   descricao: "Suas duas patas são bem desenvolvidas. Embora possa viver em terra, prefere viver na água."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0062",
   nome: "Poliwrath",
   classe: "pokemon-agua",
@@ -771,6 +835,7 @@ const pokemons = [
   descricao: "Apesar de ser habilidoso em um estilo de natação dinâmica que utiliza todos os seus músculos, por algum motivo vive em terra firme."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0063",
   nome: "Abra",
   classe: "pokemon-psiquico",
@@ -783,6 +848,7 @@ const pokemons = [
   descricao: "Este Pokémon usa seus poderes psíquicos enquanto dorme. O conteúdo dos sonhos de Abra afeta os poderes que o Pokémon utiliza."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0064",
   nome: "Kadabra",
   classe: "pokemon-psiquico",
@@ -795,6 +861,7 @@ const pokemons = [
   descricao: "Usando seu poder psíquico, Kadabra levita enquanto dorme. Ele usa sua cauda elástica como travesseiro."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0065",
   nome: "Alakazam",
   classe: "pokemon-psiquico",
@@ -807,6 +874,7 @@ const pokemons = [
   descricao: "Possui um nível de inteligência incrivelmente alto. Alguns dizem que Alakazam se lembra de tudo o que lhe acontece, do nascimento à morte."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0066",
   nome: "Machop",
   classe: "pokemon-lutador",
@@ -819,6 +887,7 @@ const pokemons = [
   descricao: "Seu corpo inteiro é composto de músculos. Apesar de ter o tamanho de uma criança humana, consegue arremessar 100 adultos."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0067",
   nome: "Machoke",
   classe: "pokemon-lutador",
@@ -831,6 +900,7 @@ const pokemons = [
   descricao: "Seu corpo musculoso é tão poderoso que precisa usar um cinto de economia de energia para conseguir regular seus movimentos."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0068",
   nome: "Machamp",
   classe: "pokemon-lutador",
@@ -843,6 +913,7 @@ const pokemons = [
   descricao: "Ele desfere socos com seus quatro braços a uma velocidade estonteante. Consegue lançar 1.000 socos em dois segundos."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0069",
   nome: "Bellsprout",
   classe: "pokemon-planta",
@@ -856,6 +927,7 @@ const pokemons = [
   descricao: "Independentemente do que Bellsprout esteja fazendo, se detectar movimento por perto, reagirá imediatamente estendendo seus finos cipós."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0070",
   nome: "Weepinbell",
   classe: "pokemon-planta",
@@ -869,6 +941,7 @@ const pokemons = [
   descricao: "Embora esteja cheio de ácido, não derrete porque também exala um fluido protetor."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0071",
   nome: "Victreebel",
   classe: "pokemon-planta",
@@ -882,6 +955,7 @@ const pokemons = [
   descricao: "Uma vez dentro do corpo de Victreebel, até mesmo o objeto mais duro será derretido pelo ácido do Pokémon."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0072",
   nome: "Tentacool",
   classe: "pokemon-agua",
@@ -895,6 +969,7 @@ const pokemons = [
   descricao: "Quando a maré baixa, exemplares de Tentacool desidratados podem ser encontrados na costa."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0073",
   nome: "Tentacruel",
   classe: "pokemon-agua",
@@ -908,6 +983,7 @@ const pokemons = [
   descricao: "Nas raras ocasiões em que ocorrem grandes surtos de Tentacruel, todos os Pokémon peixes desaparecem do mar circundante."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0074",
   nome: "Geodude",
   classe: "pokemon-rocha",
@@ -921,6 +997,7 @@ const pokemons = [
   descricao: "Em repouso, parece apenas uma pedra. Mas se você pisar nela sem cuidado, ela vai agitar os punhos furiosamente."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0075",
   nome: "Graveler",
   classe: "pokemon-rocha",
@@ -934,6 +1011,7 @@ const pokemons = [
   descricao: "Anda devagar e rola para se mover. Não presta atenção a nenhum objeto que esteja em seu caminho."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0076",
   nome: "Golem",
   classe: "pokemon-rocha",
@@ -947,6 +1025,7 @@ const pokemons = [
   descricao: "Está envolto por uma carapaça dura, tão resistente quanto lajes de rocha. Troca de pele uma vez por ano para crescer."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0077",
   nome: "Ponyta",
   classe: "pokemon-fogo",
@@ -959,6 +1038,7 @@ const pokemons = [
   descricao: "Aproximadamente uma hora após o nascimento, a crina e a cauda flamejantes de Ponyta crescem, dando ao Pokémon uma aparência impressionante."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0078",
   nome: "Rapidash",
   classe: "pokemon-fogo",
@@ -971,6 +1051,7 @@ const pokemons = [
   descricao: "Ele galopa a quase 240 km/h. Com a crina flamejando ferozmente, corre como se fosse uma flecha."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0079",
   nome: "Slowpoke",
   classe: "pokemon-agua",
@@ -984,6 +1065,7 @@ const pokemons = [
   descricao: "É incrivelmente lento e desajeitado. Leva cinco segundos para sentir dor quando atacado."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0080",
   nome: "Slowbro",
   classe: "pokemon-agua",
@@ -997,6 +1079,7 @@ const pokemons = [
   descricao: "Quando um Slowpoke foi caçar no mar, sua cauda foi mordida por um Shellder. Isso o fez evoluir para Slowbro."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0081",
   nome: "Magnemite",
   classe: "pokemon-eletrico",
@@ -1010,6 +1093,7 @@ const pokemons = [
   descricao: "As ondas eletromagnéticas emitidas pelas unidades nas laterais de sua cabeça expelem a antigravidade, o que lhe permite flutuar."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0082",
   nome: "Magneton",
   classe: "pokemon-eletrico",
@@ -1023,6 +1107,7 @@ const pokemons = [
   descricao: "Três ímãs Magnemite estão ligados por uma forte força magnética. Se você se aproximar demais, poderá sentir dor de ouvido."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0083",
   nome: "Farfetch’d",
   classe: "pokemon-normal",
@@ -1036,6 +1121,7 @@ const pokemons = [
   descricao: "Ele não consegue viver sem o caule que sustenta. Por isso, defende o caule dos atacantes com a própria vida."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0084",
   nome: "Doduo",
   classe: "pokemon-normal",
@@ -1049,6 +1135,7 @@ const pokemons = [
   descricao: "Suas duas cabeças gêmeas possuem exatamente os mesmos genes e lutam em perfeita sincronia."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0085",
   nome: "Dodrio",
   classe: "pokemon-normal",
@@ -1062,6 +1149,7 @@ const pokemons = [
   descricao: "Agora ele tem três corações e três pares de pulmões. Embora não consiga correr tão rápido quanto Doduo, Dodrio pode continuar correndo por períodos mais longos."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0086",
   nome: "Seel",
   classe: "pokemon-agua",
@@ -1074,6 +1162,7 @@ const pokemons = [
   descricao: "A protuberância em sua cabeça é muito dura. Ela é usada para quebrar gelo espesso."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0087",
   nome: "Dewgong",
   classe: "pokemon-agua",
@@ -1087,6 +1176,7 @@ const pokemons = [
   descricao: "Durante o dia, dorme em águas oceânicas rasas e, à noite, quando a temperatura está mais baixa, procura alimento."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0088",
   nome: "Grimer",
   classe: "pokemon-venenoso",
@@ -1099,6 +1189,7 @@ const pokemons = [
   descricao: "Nascidos da lama, esses Pokémon agora se reúnem em locais poluídos e aumentam a quantidade de bactérias em seus corpos."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0089",
   nome: "Muk",
   classe: "pokemon-venenoso",
@@ -1111,6 +1202,7 @@ const pokemons = [
   descricao: "Está densamente coberto por uma lama imunda e repugnante. É tão tóxico que até suas pegadas contêm veneno."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0090",
   nome: "Shellder",
   classe: "pokemon-agua",
@@ -1123,6 +1215,7 @@ const pokemons = [
   descricao: "Está envolto numa casca mais dura que o diamante. Por dentro, porém, é surpreendentemente macio."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0091",
   nome: "Cloyster",
   classe: "pokemon-agua",
@@ -1136,6 +1229,7 @@ const pokemons = [
   descricao: "Os cloisteres que vivem em mares com fortes correntes de maré desenvolvem espinhos grandes e afiados em suas conchas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0092",
   nome: "Gastly",
   classe: "pokemon-fantasma",
@@ -1149,6 +1243,7 @@ const pokemons = [
   descricao: "Envolve o oponente em seu corpo semelhante a gás, enfraquecendo lentamente a presa ao envenená-la através da pele."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0093",
   nome: "Haunter",
   classe: "pokemon-fantasma",
@@ -1162,6 +1257,7 @@ const pokemons = [
   descricao: "Gosta de espreitar na escuridão e tocar nos ombros com uma mão gasosa. Seu toque causa tremores intermináveis."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0094",
   nome: "Gengar",
   classe: "pokemon-fantasma",
@@ -1175,6 +1271,7 @@ const pokemons = [
   descricao: "Para roubar a vida de sua presa, ele se esgueira para as sombras da vítima e aguarda silenciosamente uma oportunidade."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0095",
   nome: "Onix",
   classe: "pokemon-rocha",
@@ -1188,6 +1285,7 @@ const pokemons = [
   descricao: "Ao escavar o solo, absorve muitos objetos duros. É isso que torna seu corpo tão sólido."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0096",
   nome: "Drowzee",
   classe: "pokemon-psiquico",
@@ -1200,6 +1298,7 @@ const pokemons = [
   descricao: "Ela se lembra de todos os sonhos que devora. Raramente devora os sonhos dos adultos, pois os das crianças são muito mais saborosos."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0097",
   nome: "Hypno",
   classe: "pokemon-psiquico",
@@ -1212,6 +1311,7 @@ const pokemons = [
   descricao: "Quando fixar o olhar em um inimigo, usará uma combinação de movimentos psiônicos, como Hipnose e Confusão."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0098",
   nome: "Krabby",
   classe: "pokemon-agua",
@@ -1224,6 +1324,7 @@ const pokemons = [
   descricao: "Pode ser encontrado perto do mar. As grandes pinças voltam a crescer se forem arrancadas das suas órbitas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0099",
   nome: "Kingler",
   classe: "pokemon-agua",
@@ -1236,6 +1337,7 @@ const pokemons = [
   descricao: "A pinça maior tem uma força equivalente a 10.000 cavalos de potência. No entanto, é tão pesada que é difícil de mirar."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0100",
   nome: "Voltorb",
   classe: "pokemon-eletrico",
@@ -1248,6 +1350,7 @@ const pokemons = [
   descricao: "Ele rola para se mover. Se o terreno for irregular, um solavanco repentino ao passar por uma lombada pode fazê-lo explodir."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0101",
   nome: "Electrode",
   classe: "pokemon-eletrico",
@@ -1260,6 +1363,7 @@ const pokemons = [
   descricao: "Quanto mais energia acumula, mais rápido acelera. Mas isso também aumenta a probabilidade de explosão."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0102",
   nome: "Exeggcute",
   classe: "pokemon-planta",
@@ -1273,6 +1377,7 @@ const pokemons = [
   descricao: "Se você tocar em uma das cabeças de um Exeggcute, confundindo-a com um ovo, as outras cabeças se reunirão rapidamente e o atacarão em enxame."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0103",
   nome: "Exeggutor",
   classe: "pokemon-planta",
@@ -1286,6 +1391,7 @@ const pokemons = [
   descricao: "É chamada de Selva Ambulante. Cada uma das nozes tem um rosto e uma vontade própria."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0104",
   nome: "Cubone",
   classe: "pokemon-terra",
@@ -1298,6 +1404,7 @@ const pokemons = [
   descricao: "Quando a lembrança de sua mãe falecida a faz chorar, seus lamentos ecoam tristemente dentro do crânio que usa na cabeça."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0105",
   nome: "Marowak",
   classe: "pokemon-terra",
@@ -1310,6 +1417,7 @@ const pokemons = [
   descricao: "Este Pokémon superou sua tristeza para evoluir e desenvolver um novo corpo robusto. Marowak enfrenta seus oponentes bravamente, usando um osso como arma."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0106",
   nome: "Hitmonlee",
   classe: "pokemon-lutador",
@@ -1322,6 +1430,7 @@ const pokemons = [
   descricao: "No exato momento em que acerta um chute em seu alvo, Hitmonlee endurece os músculos da sola do pé, maximizando a potência do chute."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0107",
   nome: "Hitmonchan",
   classe: "pokemon-lutador",
@@ -1334,6 +1443,7 @@ const pokemons = [
   descricao: "Ele encurrala seus inimigos com uma combinação de socos de ambos os lados e, em seguida, finaliza-os com um único soco direto lançado a mais de 480 km/h."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0108",
   nome: "Lickitung",
   classe: "pokemon-normal",
@@ -1346,6 +1456,7 @@ const pokemons = [
   descricao: "Se a saliva pegajosa deste Pokémon entrar em contato com você e você não a limpar, uma coceira intensa começará. E essa coceira não passará."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0109",
   nome: "Koffing",
   classe: "pokemon-venenoso",
@@ -1358,6 +1469,7 @@ const pokemons = [
   descricao: "O gás tóxico fica retido dentro de seu corpo fino em forma de balão, podendo causar explosões de grandes proporções."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0110",
   nome: "Weezing",
   classe: "pokemon-venenoso",
@@ -1370,6 +1482,7 @@ const pokemons = [
   descricao: "Perfumes de alta qualidade são feitos utilizando os gases tóxicos presentes em seu interior, diluindo-os ao máximo."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0111",
   nome: "Rhyhorn",
   classe: "pokemon-rocha",
@@ -1383,6 +1496,7 @@ const pokemons = [
   descricao: "Rhyhorn reivindica uma área com mais de seis milhas de raio como seu território. Aparentemente, porém, ele se esquece de onde fica esse território quando está correndo."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0112",
   nome: "Rhydon",
   classe: "pokemon-rocha",
@@ -1396,6 +1510,7 @@ const pokemons = [
   descricao: "O chifre de um Rhydon é poderoso o suficiente para esmagar diamantes brutos. Esses Pokémon poliam seus chifres batendo-os uns contra os outros."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0113",
   nome: "Chansey",
   classe: "pokemon-normal",
@@ -1408,6 +1523,7 @@ const pokemons = [
   descricao: "Este Pokémon bondoso põe ovos altamente nutritivos e os compartilha com Pokémon ou pessoas feridas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0114",
   nome: "Tangela",
   classe: "pokemon-planta",
@@ -1420,6 +1536,7 @@ const pokemons = [
   descricao: "Escondido sob uma densa vegetação de trepadeiras que cresce sem parar, mesmo quando arrancadas, o verdadeiro aspecto deste Pokémon permanece um mistério."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0115",
   nome: "Kangaskhan",
   classe: "pokemon-normal",
@@ -1432,6 +1549,7 @@ const pokemons = [
   descricao: "Apesar de carregar seu filhote em uma bolsa na barriga, Kangaskhan é ágil e intimida seus oponentes com golpes rápidos."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0116",
   nome: "Horsea",
   classe: "pokemon-agua",
@@ -1444,6 +1562,7 @@ const pokemons = [
   descricao: "Se atacado, mesmo por um inimigo grande, o Horsea nada sem esforço para um local seguro, utilizando sua barbatana dorsal bem desenvolvida."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0117",
   nome: "Seadra",
   classe: "pokemon-agua",
@@ -1456,6 +1575,7 @@ const pokemons = [
   descricao: "O macho cria os filhotes. Se for abordado enquanto cuida dos filhotes, usará seus espinhos tóxicos para afastar o intruso."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0118",
   nome: "Goldeen",
   classe: "pokemon-agua",
@@ -1468,6 +1588,7 @@ const pokemons = [
   descricao: "Suas nadadeiras dorsal, peitoral e caudal ondulam elegantemente na água. É por isso que é conhecida como a Dançarina da Água."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0119",
   nome: "Seaking",
   classe: "pokemon-agua",
@@ -1480,6 +1601,7 @@ const pokemons = [
   descricao: "No outono, seu corpo fica mais gorduroso em preparação para o encontro com um parceiro. Adquire cores belíssimas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0120",
   nome: "Staryu",
   classe: "pokemon-agua",
@@ -1492,6 +1614,7 @@ const pokemons = [
   descricao: "Se você visitar uma praia no final do verão, poderá ver grupos de Staryu se iluminando em um ritmo constante."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0121",
   nome: "Starmie",
   classe: "pokemon-agua",
@@ -1505,6 +1628,7 @@ const pokemons = [
   descricao: "No centro do seu corpo encontra-se um núcleo vermelho que envia misteriosos sinais de rádio para o céu noturno."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0122",
   nome: "Mr. Mime",
   classe: "pokemon-psiquico",
@@ -1518,6 +1642,7 @@ const pokemons = [
   descricao: "É um especialista em pantomima que consegue criar paredes invisíveis, mas sólidas, usando gestos de mímica."
 },
 {
+  geracao: "Primeira Geração",
     numero: "0123",
     nome: "Scyther",
     classe: "pokemon-inseto",
@@ -1531,6 +1656,7 @@ const pokemons = [
     descricao: "Ele adora o néctar das flores e consegue localizar áreas que contenham até mesmo quantidades mínimas, ele corta a grama com suas foices afiadas, movendo-se rápido demais para o olho humano acompanhar."
   },
   {
+    geracao: "Primeira Geração",
   numero: "0124",
   nome: "Jynx",
   classe: "pokemon-psiquico",
@@ -1544,6 +1670,7 @@ const pokemons = [
   descricao: "Em certas partes de Galar, Jynx já foi temida e venerada como a Rainha do Gelo."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0125",
   nome: "Electabuzz",
   classe: "pokemon-eletrico",
@@ -1556,6 +1683,7 @@ const pokemons = [
   descricao: "Seu corpo descarrega eletricidade constantemente. Chegar perto dele fará seus pelos se arrepiarem."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0126",
   nome: "Magmar",
   classe: "pokemon-fogo",
@@ -1568,6 +1696,7 @@ const pokemons = [
   descricao: "Encontrado perto da cratera de um vulcão. A temperatura corporal deste animal que cospe fogo chega a quase 1200 graus Celsius."
 },
 {
+  geracao: "Primeira Geração",
     numero: "0127",
     nome: "Pinsir",
     classe: "pokemon-inseto",
@@ -1580,6 +1709,7 @@ const pokemons = [
     descricao: "Esses Pokémon se avaliam uns aos outros com base em suas pinças. Pinças mais grossas e impressionantes conferem maior popularidade ao sexo oposto."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0128",
   nome: "Tauros",
   classe: "pokemon-normal",
@@ -1592,6 +1722,7 @@ const pokemons = [
   descricao: "Ao atacar um inimigo, ele investe furiosamente enquanto chicoteia o próprio corpo com suas longas caudas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0129",
   nome: "Magikarp",
   classe: "pokemon-agua",
@@ -1604,6 +1735,7 @@ const pokemons = [
   descricao: "Um Pokémon fraco e patético. Pode até pular alto em raras ocasiões, mas nunca mais de dois metros."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0130",
   nome: "Gyarados",
   classe: "pokemon-agua",
@@ -1617,6 +1749,7 @@ const pokemons = [
   descricao: "Assim que aparece, inicia um frenesi. Permanece enfurecido até demolir tudo ao seu redor."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0131",
   nome: "Lapras",
   classe: "pokemon-agua",
@@ -1630,6 +1763,7 @@ const pokemons = [
   descricao: "Ela transporta pessoas através do mar em suas costas. Pode até soltar um canto encantador se estiver de bom humor."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0132",
   nome: "Ditto",
   classe: "pokemon-normal",
@@ -1642,6 +1776,7 @@ const pokemons = [
   descricao: "Sua capacidade de transformação é perfeita. No entanto, se for provocado a rir, não consegue manter o disfarce."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0133",
   nome: "Eevee",
   classe: "pokemon-normal",
@@ -1654,6 +1789,7 @@ const pokemons = [
   descricao: "Sua capacidade de evoluir para diversas formas permite que ela se adapte de maneira suave e perfeita a qualquer ambiente."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0134",
   nome: "Vaporeon",
   classe: "pokemon-agua",
@@ -1666,6 +1802,7 @@ const pokemons = [
   descricao: "Vive perto da água. Sua longa cauda possui uma crista com uma barbatana, que muitas vezes é confundida com a de uma sereia."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0135",
   nome: "Jolteon",
   classe: "pokemon-eletrico",
@@ -1678,6 +1815,7 @@ const pokemons = [
   descricao: "Ele concentra as cargas elétricas fracas emitidas por suas células e lança raios devastadores."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0136",
   nome: "Flareon",
   classe: "pokemon-fogo",
@@ -1690,6 +1828,7 @@ const pokemons = [
   descricao: "O ar inalado é conduzido até o saco de chamas, aquecido e exalado como fogo que atinge mais de 3.000 graus Fahrenheit."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0137",
   nome: "Porygon",
   classe: "pokemon-normal",
@@ -1702,6 +1841,7 @@ const pokemons = [
   descricao: "É um Pokémon artificial. Como não respira, as pessoas estão entusiasmadas com seu potencial para ser útil em qualquer ambiente."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0138",
   nome: "Omanyte",
   classe: "pokemon-rocha",
@@ -1715,6 +1855,7 @@ const pokemons = [
   descricao: "Como alguns omanitas conseguem escapar após serem reintroduzidos ou são libertados na natureza por pessoas, essa espécie está se tornando um problema."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0139",
   nome: "Omastar",
   classe: "pokemon-rocha",
@@ -1728,6 +1869,7 @@ const pokemons = [
   descricao: "Devido ao peso de sua carapaça grande e pesada, o Omastar não conseguia se mover muito rápido. Alguns dizem que ele foi extinto por ser incapaz de caçar."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0140",
   nome: "Kabuto",
   classe: "pokemon-rocha",
@@ -1741,6 +1883,7 @@ const pokemons = [
   descricao: "Essa espécie está praticamente extinta. Os kabutos trocam de carapaça a cada três dias, tornando-as cada vez mais rígidas."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0141",
   nome: "Kabutops",
   classe: "pokemon-rocha",
@@ -1754,6 +1897,7 @@ const pokemons = [
   descricao: "Kabutops retalha sua presa e suga seus fluidos. Os restos mortais se tornam alimento para outros Pokémon."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0142",
   nome: "Aerodactyl",
   classe: "pokemon-rocha",
@@ -1767,6 +1911,7 @@ const pokemons = [
   descricao: "Este é um Pokémon feroz de tempos antigos. Aparentemente, nem mesmo a tecnologia moderna é capaz de produzir um espécime perfeitamente restaurado."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0143",
   nome: "Snorlax",
   classe: "pokemon-normal",
@@ -1779,6 +1924,7 @@ const pokemons = [
   descricao: "Este Pokémon glutão come constantemente, exceto quando está dormindo. Ele devora quase 400 quilos de comida por dia."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0144",
   nome: "Articuno",
   classe: "pokemon-gelo",
@@ -1792,6 +1938,7 @@ const pokemons = [
   descricao: "Este Pokémon pássaro lendário pode criar nevascas congelando a umidade do ar."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0145",
   nome: "Articuno",
   classe: "pokemon-eletrico",
@@ -1805,6 +1952,7 @@ const pokemons = [
   descricao: "Diz-se que este Pokémon lendário vive em nuvens de tempestade. Ele controla livremente os raios."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0146",
   nome: "Moltres",
   classe: "pokemon-fogo",
@@ -1818,6 +1966,7 @@ const pokemons = [
   descricao: "É um dos Pokémon pássaros lendários. Diz-se que seu aparecimento indica a chegada da primavera."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0147",
   nome: "Dratini",
   classe: "pokemon-dragao",
@@ -1830,6 +1979,7 @@ const pokemons = [
   descricao: "À medida que cresce, troca várias camadas de pele. Durante esse processo, é protegida por uma cachoeira de correnteza forte."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0148",
   nome: "Dragonair",
   classe: "pokemon-dragao",
@@ -1842,6 +1992,7 @@ const pokemons = [
   descricao: "Dizem que se emitir uma aura de todo o corpo, o tempo começará a mudar instantaneamente."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0149",
   nome: "Dragonite",
   classe: "pokemon-dragao",
@@ -1855,6 +2006,7 @@ const pokemons = [
   descricao: "Diz-se que vive em algum lugar no mar. Guia navios naufragados até a costa."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0150",
   nome: "Mewtwo",
   classe: "pokemon-psiquico",
@@ -1867,6 +2019,7 @@ const pokemons = [
   descricao: "Seu DNA é quase idêntico ao de Mew. No entanto, seu tamanho e temperamento são muito diferentes."
 },
 {
+  geracao: "Primeira Geração",
   numero: "0151",
   nome: "Mew",
   classe: "pokemon-psiquico",
@@ -1879,8 +2032,23 @@ const pokemons = [
   descricao: "Quando visto ao microscópio, é possível observar os pelos curtos, finos e delicados deste Pokémon"
 },
 
+//=======Segunda Geração
 
 
+{
+  geracao: "Segunda Geração",
+  numero: "0001",
+  nome: "Bulbasaur",
+  classe: "pokemon-planta",
+  dataTipo: "planta venenoso",
+  imagem: "../imagens/pokemons/001-Bulbasauro.png",
+  alt: "Pokémon Bulbasaur",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Por algum tempo após o nascimento, ele usa os nutrientes contidos na semente em suas costas para crescer."
+  },
 
 
 

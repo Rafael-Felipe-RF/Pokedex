@@ -1,30 +1,32 @@
 const pokedex = document.getElementById("pokedex");
 
-function criarTiposHTML(tipos) {
-  return tipos
-    .map(
-      (tipo) =>
-        `<a class="botao-elemento ${tipo.classe}" href="${tipo.link}">${tipo.nome}</a>`
-    )
-    .join("");
+function criarTipos(tipos) {
+  return tipos.map(tipo => {
+    return `
+      <a class="botao-elemento ${tipo.classe}" href="${tipo.link}">
+        ${tipo.nome}
+      </a>
+    `;
+  }).join("");
 }
 
-function criarCardPokemon(pokemon) {
+function criarCard(pokemon) {
   return `
-    <article class="pokemon ${pokemon.classe}" data-numero="${pokemon.numero}" data-tipo="${pokemon.dataTipo}">
+    <article class="pokemon ${pokemon.classe}"
+      data-numero="${pokemon.numero}"
+      data-tipo="${pokemon.dataTipo}">
+      
       <h2 class="titulo-pokemon">
         <span class="numero">${pokemon.numero}</span>
         <span class="nome">${pokemon.nome}</span>
       </h2>
 
-      <img
-        class="imagem-do-pokemon"
+      <img class="imagem-do-pokemon"
         src="${pokemon.imagem}"
-        alt="${pokemon.alt}"
-      >
+        alt="${pokemon.alt}">
 
       <div class="icone-elemento">
-        ${criarTiposHTML(pokemon.tipos)}
+        ${criarTipos(pokemon.tipos)}
       </div>
 
       <p class="texto-pokemon">
@@ -34,4 +36,30 @@ function criarCardPokemon(pokemon) {
   `;
 }
 
-pokedex.innerHTML = pokemons.map(criarCardPokemon).join("");
+function renderizarPokedex(listaPokemons) {
+  pokedex.innerHTML = "";
+
+  let geracaoAtual = "";
+  let containerAtual = null;
+
+  listaPokemons.forEach(pokemon => {
+    if (pokemon.geracao !== geracaoAtual) {
+      geracaoAtual = pokemon.geracao;
+
+      const secao = document.createElement("section");
+      secao.className = "secao-geracao";
+
+      secao.innerHTML = `
+        <h1>${pokemon.geracao}</h1>
+        <div class="primeira-geracao"></div>
+      `;
+
+      pokedex.appendChild(secao);
+      containerAtual = secao.querySelector(".primeira-geracao");
+    }
+
+    containerAtual.innerHTML += criarCard(pokemon);
+  });
+}
+
+renderizarPokedex(pokemons);
