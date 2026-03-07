@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/*Estilização das dores dos botões dos elementos*/
+
+.but-planta{
+    background-color: #9BCC50;
+}
+.but-veneno{
+    background-color: #B97FC9;
+}
+.but-fogo{
+    background-color: #FD7D24;
+}
+.but-agua{
+    background-color: #4592C4;
+}
+.but-inseto{
+    background-color: #729F3F;
+}
+.but-voador{
+    background-color: #914d4d;
+}
+.but-normal{
+    background-color: #A3ABAF;
+}
+.but-eletrico{
+    background-color: #f8d804;
+}
+.but-terra{
+    background-color: #AB9842;
+}
+.but-rocha{
+    background-color: #352d09;
+}
+.but-fada{
+    background-color: #eb0aa7;
+}
+.but-lutador{
+    background-color: #f0bfa0;
+}
+.but-gelo{
+    background-color: #51C4E7;
+}
+.but-fantasma{
+    background-color: #7B62A3;
+}
+.but-dragao{
+    background-color: #F16E57;
+}
+.but-psiquico{
+    background-color: #F366B9;
+}
+.but-steel{
+    background-color: #313131;
+}
+
+@media screen and (min-width: 1000px){ /*Estilização dos fundos das páginas e dos cards, somente em telas grandes*/
+
+/********************************************************
+Estilização página pokémons planta
+*********************************************************/
+
+.planta {  /*Estilização do fundo da página*/ 
+    background-image: url(../imagens/fundos-paginas/fundo\ folha.png);
+    background-color: rgba(178, 233, 178, 0.281);
+}
+
+.pokemon-planta { /*Estilização do fundo do card*/
+    background-color: rgb(216, 235, 211);
+    background-image: url(../imagens/fundo-cartas/planta.png);
+}
+
+/********************************************************
+Estilização página pokémons fogo
+*********************************************************/
+
+.fogo {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-fogo.png);
+    background-color: rgba(155, 160, 125, 0.425);
+}
+
+.pokemon-fogo { /*Estilização do fundo do card*/
+    background-color: rgb(229, 183, 183);
+    background-image: url(../imagens/fundo-cartas/fogo.png);
+}
+
+/*********************************************
+Estilização página água
+********************************************/
+
+.agua {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-agua.png);
+    background-color: rgba(97, 174, 194, 0.486);
+}
+
+.pokemon-agua { /*Estilização do fundo do card*/
+    background-color: rgb(131, 223, 235);
+    background-image: url(../imagens/fundo-cartas/agua1.png);
+}
+
+/*********************************************
+Estilização página inseto
+********************************************/
+
+.inseto {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-inseto.png);
+    background-color: rgb(193, 211, 193);
+}
+
+.pokemon-inseto { /*Estilização do fundo do card*/
+    background-color: rgb(163, 196, 159);
+    background-image: url(../imagens/fundo-cartas/inseto.png);
+}
+
+/*********************************************
+Estilização página normal
+********************************************/
+
+.normal {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-normal.png);
+}
+
+.pokemon-normal {
+    background-color: rgb(203, 211, 212); /*Estilização do fundo do card*/
+    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+}
+
+/*********************************************
+Estilização página venenoso
+********************************************/
+
+.venenoso {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-venenoso.png);
+    background-color: rgb(156, 139, 172);
+}
+
+.pokemon-venenoso { /*Estilização do fundo do card*/
+    background-color: rgb(196, 139, 204);
+    background-image: url(../imagens/fundo-cartas/venenoso.png);
+}
+
+/*********************************************
+Estilização página elétrico
+********************************************/
+
+.eletrico {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-eletrico.png);
+    background-color: rgba(230, 230, 116, 0.082);
+}
+
+.pokemon-eletrico { /*Estilização do fundo do card*/
+    background-color: #a9e6f5;
+    background-image: url(../imagens/fundo-cartas/eletrico.png);
+}
+
+/*********************************************
+Estilização página terra
+********************************************/
+
+.terra {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-terra.png);
+}
+
+.pokemon-terra {
+    background-color: #b4b0af; /*Estilização do fundo do card*/
+    background-image: url(../imagens/fundo-cartas/terrestre.png);
+}
+
+/*********************************************
+Estilização página fada
+********************************************/
+
+.fada {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-fada.png);
+    background-color: #ffcbdb;
+}
+
+.pokemon-fada { /*Estilização do fundo do card*/
+    background-color: rgb(241, 188, 241);
+    background-image: url(../imagens/fundo-cartas/fada.png);
+}
+
+/*********************************************
+Estilização página lutador
+********************************************/
+
+.lutador {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-lutador.png);
+}
+
+.pokemon-lutador {
+    background-color: rgb(121, 121, 122); /*Estilização do fundo do card*/
+    background-image: url(../imagens/fundo-cartas/lutador.png);
+}
+
+/*********************************************
+Estilização página psíquico
+********************************************/
+
+.psiquico {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-psiquico.png);
+}
+
+.pokemon-psiquico {
+    background-color: rgb(177, 126, 236); /*Estilização do fundo do card*/
+    background-image: url(../imagens/fundo-cartas/psiquico.png);
+}
+
+/*********************************************
+Estilização página rocha
+********************************************/
+
+.rocha {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-rocha.png);
+}
+
+.pokemon-rocha {
+    background-color: rgb(164, 211, 219); /*Estilização do fundo do card*/
+    background-image: url(../imagens/fundo-cartas/rocha.png);
+}
+
+/*********************************************
+Estilização página fantasma
+********************************************/
+
+.fantasma {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-fantasma.png);
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.pokemon-fantasma { /*Estilização do fundo do card*/
+    background-color: rgb(115, 77, 219);
+    background-image: url(../imagens/fundo-cartas/fantasm.png);
+}
+
+/*********************************************
+Estilização página gelo
+********************************************/
+
+.gelo {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-gelo.png);
+    background-color: rgb(153, 202, 202);
+}
+
+.pokemon-gelo { /*Estilização do fundo do card*/
+    background-color: rgb(10, 166, 228);
+    background-image: url(../imagens/fundo-cartas/gelo.png);
+}
+
+/*********************************************
+Estilização página dragão
+********************************************/
+
+.dragao {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-dragao.png);
+}
+
+.pokemon-dragao {
+    background-color: rgb(178, 179, 194); /*Estilização do fundo do card*/
+    background-image: url(../imagens/fundo-cartas/dragao.png);
+}
+}
