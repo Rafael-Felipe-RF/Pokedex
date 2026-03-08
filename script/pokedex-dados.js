@@ -2033,22 +2033,3181 @@ const pokemons = [
 },
 
 //=======Segunda Geração
-
-
 {
   geracao: "Segunda Geração",
-  numero: "0001",
-  nome: "Bulbasaur",
+  numero: "0152",
+  nome: "Chikorita",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/152-Chikorita.png",
+  alt: "Pokémon Chikorita",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }    
+  ],
+  descricao: "Adora ficar ao sol. Usa a folha na cabeça para procurar lugares quentes."
+  },
+  {
+  geracao: "Segunda Geração",
+  numero: "0153",
+  nome: "Bayleef",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/153-Bayleef.png",
+  alt: "Pokémon Bayleef",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }    
+  ],
+  descricao: "O aroma picante que emana do pescoço de Bayleef, de alguma forma, faz com que aqueles que o sentem queiram lutar."
+  },
+  {
+  geracao: "Segunda Geração",
+  numero: "0154",
+  nome: "Meganium",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/154-Meganium.png",
+  alt: "Pokémon Meganium",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }    
+  ],
+  descricao: "O aroma que emana de suas pétalas contém uma substância que acalma os sentimentos agressivos."
+  },
+  {
+    geracao: "Segunda Geração",
+    numero: "0155",
+    nome: "Cyndaquil",
+    classe: "pokemon-fogo",
+    dataTipo: "fogo",
+    imagem: "../imagens/pokemons/155-Cyndaquil.png",
+    alt: "Pokémon Cyndaquil",
+    tipos: [
+      { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+    ],
+    descricao: "Geralmente permanece curvado. Se estiver zangado ou surpreso, cospe chamas pelas costas."
+  },
+  {
+    geracao: "Segunda Geração",
+    numero: "0156",
+    nome: "Quilava",
+    classe: "pokemon-fogo",
+    dataTipo: "fogo",
+    imagem: "../imagens/pokemons/156-Quilava.png",
+    alt: "Pokémon Quilava",
+    tipos: [
+      { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+    ],
+    descricao: "Antes da batalha, ele vira as costas para o oponente para demonstrar a ferocidade de suas chamas."
+  },
+  {
+    geracao: "Segunda Geração",
+    numero: "0157",
+    nome: "Quilava",
+    classe: "pokemon-fogo",
+    dataTipo: "fogo",
+    imagem: "../imagens/pokemons/157-Typhlosion.png",
+    alt: "Pokémon Typhlosion",
+    tipos: [
+      { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+    ],
+    descricao: "Possui um movimento secreto e devastador. Esfrega seu pelo em chamas para causar enormes explosões."
+  },
+  {
+    geracao: "Segunda Geração",
+    numero: "0158",
+    nome: "Totodile",
+    classe: "pokemon-agua",
+    dataTipo: "agua",
+    imagem: "../imagens/pokemons/158-Totodile.png",
+    alt: "Pokémon Totodile",
+    tipos: [
+      { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+    ],
+    descricao: "Suas mandíbulas poderosas e bem desenvolvidas são capazes de esmagar qualquer coisa. Até mesmo seu Treinador precisa ter cuidado."
+  },
+  {
+    geracao: "Segunda Geração",
+    numero: "0159",
+    nome: "Croconaw",
+    classe: "pokemon-agua",
+    dataTipo: "agua",
+    imagem: "../imagens/pokemons/159-Croconaw.png",
+    alt: "Pokémon Croconaw",
+    tipos: [
+      { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+    ],
+    descricao: "As pontas de suas presas são inclinadas para trás. Uma vez que essas presas se fecham, a presa não tem esperança de escapar."
+  },
+  {
+    geracao: "Segunda Geração",
+    numero: "0160",
+    nome: "Feraligatr",
+    classe: "pokemon-agua",
+    dataTipo: "agua",
+    imagem: "../imagens/pokemons/160-Feraligatr.png",
+    alt: "Pokémon Feraligatr",
+    tipos: [
+      { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+    ],
+    descricao: "Geralmente se move lentamente, mas atinge uma velocidade estonteante quando ataca e morde a presa."
+  },
+  {
+  geracao: "Segunda Geração",
+  numero: "0161",
+  nome: "Sentret",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/161-Sentret.png",
+  alt: "Pokémon Sentret",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Este Pokémon é extremamente cauteloso. Sua cauda flexível é bem musculosa e firme ao toque."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0162",
+  nome: "Furret",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/162-Furret.png",
+  alt: "Pokémon Furret",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ela cria seus filhotes dentro de um ninho longo e estreito. Quando eles crescem o suficiente, ela os leva para fora do ninho para prepará-los para a independência."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0163",
+  nome: "Hoothoot",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/163-Hoothoot.png",
+  alt: "Pokémon Hoothoot",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "O relógio biológico de Hoothoot é preciso o tempo todo. Ele inclina a cabeça em um ritmo fixo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0164",
+  nome: "Noctowl",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/164-Noctowl.png",
+  alt: "Pokémon Noctowl",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Seus olhos são especialmente adaptados. Eles concentram até mesmo a luz mais fraca e permitem que ele enxergue no escuro."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0165",
+  nome: "Ledyba",
+  classe: "pokemon-normal",
+  dataTipo: "inseto voador",
+  imagem: "../imagens/pokemons/165-Ledyba.png",
+  alt: "Pokémon Ledyba",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Este Pokémon é muito sensível ao frio. No calor de Alola, ele se mostra bastante ativo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0166",
+  nome: "Ledian",
+  classe: "pokemon-normal",
+  dataTipo: "inseto voador",
+  imagem: "../imagens/pokemons/166-Ledian.png",
+  alt: "Pokémon Ledian",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Diz-se que os padrões em suas costas estão relacionados às estrelas do céu noturno, mas os detalhes dessa relação permanecem obscuros."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0167",
+  nome: "Spinarak",
+  classe: "pokemon-normal",
+  dataTipo: "inseto veneno",
+  imagem: "../imagens/pokemons/167-Spinarak.png",
+  alt: "Pokémon Ledian",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Mesmo com presas presas em seu ninho de fios, Spinarak aguardará imóvel até o cair da noite."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0168",
+  nome: "Ariados",
+  classe: "pokemon-normal",
+  dataTipo: "inseto veneno",
+  imagem: "../imagens/pokemons/168-Ariados.png",
+  alt: "Pokémon Ariados",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Um único fio especial é fiado incessantemente a partir de sua parte traseira. O fio leva de volta ao seu ninho."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0169",
+  nome: "Crobat",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno voador",
+  imagem: "../imagens/pokemons/169-Crobat.png",
+  alt: "Pokémon Crobat",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Ambas as pernas se transformaram em asas. Sem fazer barulho, Crobat voa velozmente em direção à sua presa e crava suas presas na nuca do alvo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0170",
+  nome: "Chinchou",
+  classe: "pokemon-agua",
+  dataTipo: "agua eletrico",
+  imagem: "../imagens/pokemons/170-Chinchou.png",
+  alt: "Pokémon Chinchou",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Vive nas profundezas do oceano, fora do alcance da luz solar. Emite luzes em suas antenas para se comunicar com outros de sua espécie."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0171",
+  nome: "Lanturn",
+  classe: "pokemon-agua",
+  dataTipo: "agua eletrico",
+  imagem: "../imagens/pokemons/171-Lanturn.png",
+  alt: "Pokémon Lanturn",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Partes de sua barbatana dorsal sofreram mutação, tornando-se as partes que brilham intensamente para atrair presas."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0172",
+  nome: "Pichu",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/172-Pichu.png",
+  alt: "Pokémon Pichu",
+  tipos: [    
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "É ineficiente no armazenamento de energia elétrica. Qualquer tipo de choque faz com que descarregue energia espontaneamente."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "173",
+  nome: "Cleffa",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/173-Cleffa.png",
+  alt: "Pokémon Cleffa",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Em noites iluminadas por estrelas cadentes, ele olha atentamente para o céu, como se estivesse pensando em seu lar."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0174",
+  nome: "Igglybuff",
+  classe: "pokemon-fada",
+  dataTipo: "fada normal",
+  imagem: "../imagens/pokemons/174-Igglybuff.png",
+  alt: "Pokémon Igglybuff",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu corpo tem um aroma levemente adocicado e é macio e flexível. Se ele quica uma vez, não consegue parar."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "175",
+  nome: "Togepi",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/175-Togepi.png",
+  alt: "Pokémon Togepi",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "A concha parece estar repleta de alegria. Diz-se que ela trará boa sorte se for tratada com gentileza."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "176",
+  nome: "Togetic",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/176-Togetic.png",
+  alt: "Pokémon Togetic",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Dizem que ela aparecerá diante de pessoas bondosas e carinhosas e as cobrirá de felicidade."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "177",
+  nome: "Natu",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico voador",
+  imagem: "../imagens/pokemons/177-Natu.png",
+  alt: "Pokémon Natu",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" } 
+  ],
+  descricao: "É extremamente habilidoso em escalar troncos de árvores e gosta de comer os brotos novos que crescem nas árvores."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "178",
+  nome: "Xatu",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico voador",
+  imagem: "../imagens/pokemons/178-Xatu.png",
+  alt: "Pokémon Xatu",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" } 
+  ],
+  descricao: "Dizem que permanece imóvel e silencioso porque está vendo o passado e o futuro ao mesmo tempo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0179",
+  nome: "Mareep",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/179-Mareep.png",
+  alt: "Pokémon Mareep",
+  tipos: [    
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Se a eletricidade estática se acumular em seu corpo, sua lã dobrará de volume. Tocá-la lhe dará um choque."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0180",
+  nome: "Flaaffy",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/180-Flaaffy.png",
+  alt: "Pokémon Flaaffy",
+  tipos: [    
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Como resultado do armazenamento excessivo de eletricidade, desenvolveram-se manchas onde nem mesmo a lã macia consegue crescer."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "0181",
+  nome: "Ampharos",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/181-Ampharos.png",
+  alt: "Pokémon Ampharos",
+  tipos: [    
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "A luz brilhante em sua cauda pode ser vista de longe. Ela é valorizada desde os tempos antigos como um farol."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "182",
+  nome: "Bellossom",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/182-Bellossom.png",
+  alt: "Pokémon Bellossom",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Quando se banha sob o sol, gira de forma alegre. Dizem que sua dança ajuda as flores ao redor a florescer."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "183",
+  nome: "Marill",
+  classe: "pokemon-agua",
+  dataTipo: "agua fada",
+  imagem: "../imagens/pokemons/183-Marill.png",
+  alt: "Pokémon Marill",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "A ponta de sua cauda funciona como um flutuador, ajudando-o a se manter na superfície da água sem esforço."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "184",
+  nome: "Azumarill",
+  classe: "pokemon-agua",
+  dataTipo: "agua fada",
+  imagem: "../imagens/pokemons/184-Azumarill.png",
+  alt: "Pokémon Azumarill",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Suas longas orelhas permitem ouvir sons distantes, até mesmo quando está à beira de rios com correnteza forte."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "185",
+  nome: "Sudowoodo",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha",
+  imagem: "../imagens/pokemons/185-Sudowoodo.png",
+  alt: "Pokémon Sudowoodo",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Finge ser uma árvore para evitar ataques, mas sua verdadeira natureza aparece assim que alguém tenta regá-lo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "186",
+  nome: "Politoed",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/186-Politoed.png",
+  alt: "Pokémon Politoed",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Seu canto poderoso ecoa longe. Quando vários se reúnem e coaxam juntos, os Poliwag e Poliwhirl obedecem."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "187",
+  nome: "Hoppip",
+  classe: "pokemon-planta",
+  dataTipo: "planta voador",
+  imagem: "../imagens/pokemons/187-Hoppip.png",
+  alt: "Pokémon Hoppip",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Seu corpo é tão leve que o vento pode carregá-lo para longe. Por isso, às vezes ele se agarra ao solo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "188",
+  nome: "Skiploom",
+  classe: "pokemon-planta",
+  dataTipo: "planta voador",
+  imagem: "../imagens/pokemons/188-Skiploom.png",
+  alt: "Pokémon Skiploom",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Assim que a temperatura sobe e a primavera chega, ele floresce e passa a flutuar suavemente pelo ar."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "189",
+  nome: "Jumpluff",
+  classe: "pokemon-planta",
+  dataTipo: "planta voador",
+  imagem: "../imagens/pokemons/189-Jumpluff.png",
+  alt: "Pokémon Jumpluff",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Ele se deixa levar pelos ventos do mundo inteiro. Quando encontra um lugar adequado, espalha suas sementes."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "190",
+  nome: "Aipom",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/190-Aipom.png",
+  alt: "Pokémon Aipom",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Usa a cauda com tanta habilidade quanto as mãos. Ela serve para se pendurar e também para pegar objetos."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "191",
+  nome: "Sunkern",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/191-Sunkern.png",
+  alt: "Pokémon Sunkern",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Ele tenta se mover o mínimo possível para guardar nutrientes. Vive à espera do momento de evoluir."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "192",
+  nome: "Sunflora",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/192-Sunflora.png",
+  alt: "Pokémon Sunflora",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Transforma a luz do sol em energia com grande eficiência. Durante o dia, seu corpo fica repleto de vitalidade."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "193",
+  nome: "Yanma",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto voador",
+  imagem: "../imagens/pokemons/193-Yanma.png",
+  alt: "Pokémon Yanma",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Consegue mudar de direção rapidamente enquanto voa. Usa esse talento para perseguir insetos em pleno ar."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "194",
+  nome: "Wooper",
+  classe: "pokemon-agua",
+  dataTipo: "agua terra",
+  imagem: "../imagens/pokemons/194-Wooper.png",
+  alt: "Pokémon Wooper",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Costuma viver em águas frias. À noite, sai para a terra firme em busca de alimento."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "195",
+  nome: "Quagsire",
+  classe: "pokemon-agua",
+  dataTipo: "agua terra",
+  imagem: "../imagens/pokemons/195-Quagsire.png",
+  alt: "Pokémon Quagsire",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "É tão tranquilo que às vezes bate a cabeça no fundo do rio sem nem perceber o que aconteceu."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "196",
+  nome: "Espeon",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/196-Espeon.png",
+  alt: "Pokémon Espeon",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu pelo fino sente mudanças no ar, permitindo prever o movimento do inimigo antes mesmo do ataque."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "197",
+  nome: "Umbreon",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio",
+  imagem: "../imagens/pokemons/197-Umbreon.png",
+  alt: "Pokémon Umbreon",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Quando a lua brilha, os anéis em seu corpo se iluminam. Ele então espreita silenciosamente na escuridão."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "198",
+  nome: "Murkrow",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio voador",
+  imagem: "../imagens/pokemons/198-Murkrow.png",
+  alt: "Pokémon Murkrow",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "É temido por muitos por surgir à noite. Seu grito repentino costuma assustar quem anda sozinho."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "199",
+  nome: "Slowking",
+  classe: "pokemon-agua",
+  dataTipo: "agua psiquico",
+  imagem: "../imagens/pokemons/199-Slowking.png",
+  alt: "Pokémon Slowking",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Depois de receber a mordida de Shellder, sua inteligência cresceu muito, tornando-o incrivelmente sábio."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "200",
+  nome: "Misdreavus",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/200-Misdreavus.png",
+  alt: "Pokémon Misdreavus",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Adora assustar as pessoas com choros e gritos inesperados, absorvendo a energia do medo que provoca."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "201",
+  nome: "Unown",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/201-Unown.png",
+  alt: "Pokémon Unown",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu formato lembra antigas letras. Ainda se estuda se esses símbolos escondem algum poder misterioso."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "202",
+  nome: "Wobbuffet",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/202-Wobbuffet.png",
+  alt: "Pokémon Wobbuffet",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Ele prefere não atacar por conta própria. Aguarda pacientemente até que o adversário golpeie primeiro."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "203",
+  nome: "Girafarig",
+  classe: "pokemon-normal",
+  dataTipo: "normal psiquico",
+  imagem: "../imagens/pokemons/203-Girafarig.png",
+  alt: "Pokémon Girafarig",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "A cabeça da cauda possui um pequeno cérebro próprio. Por isso, fica alerta mesmo quando ele dorme."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "204",
+  nome: "Pineco",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/204-Pineco.png",
+  alt: "Pokémon Pineco",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Ele se pendura nos galhos e permanece imóvel. Se algo o incomoda, pode explodir sem aviso."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "205",
+  nome: "Forretress",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto steel",
+  imagem: "../imagens/pokemons/205-Forretress.png",
+  alt: "Pokémon Forretress",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" }
+  ],
+  descricao: "Seu interior continua sendo um mistério, pois a grossa carapaça de aço o protege por completo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "206",
+  nome: "Dunsparce",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/206-Dunsparce.png",
+  alt: "Pokémon Dunsparce",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ele cava com a cauda e se esconde no subsolo. É raro aparecer em lugares abertos."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "207",
+  nome: "Gligar",
+  classe: "pokemon-terra",
+  dataTipo: "terra voador",
+  imagem: "../imagens/pokemons/207-Gligar.png",
+  alt: "Pokémon Gligar",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Ele abre as asas e desliza pelo ar. Ao se aproximar do alvo, ataca usando as garras traseiras."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "208",
+  nome: "Steelix",
+  classe: "pokemon-steel",
+  dataTipo: "aco terra",
+  imagem: "../imagens/pokemons/208-Steelix.png",
+  alt: "Pokémon Steelix",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Seu corpo foi comprimido e endurecido ao longo de muitos anos sob a terra, tornando-se resistente como aço."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "209",
+  nome: "Snubbull",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/209-Snubbull.png",
+  alt: "Pokémon Snubbull",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Apesar da aparência intimidadora, é carinhoso e brincalhão, o que faz muita gente se apegar a ele."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "210",
+  nome: "Granbull",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/210-Granbull.png",
+  alt: "Pokémon Granbull",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Sua mandíbula é muito poderosa, mas ele costuma preferir resolver tudo com pouca agressividade."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "211",
+  nome: "Qwilfish",
+  classe: "pokemon-agua",
+  dataTipo: "agua venenoso",
+  imagem: "../imagens/pokemons/211-Qwilfish.png",
+  alt: "Pokémon Qwilfish",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Ao engolir água rapidamente, seu corpo incha e os espinhos venenosos ficam ainda mais perigosos."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "212",
+  nome: "Scizor",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto steel",
+  imagem: "../imagens/pokemons/212-Scizor.png",
+  alt: "Pokémon Scizor",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" }
+  ],
+  descricao: "Suas pinças parecem pesadas e ameaçadoras, mas servem também para intimidar o adversário antes do combate."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "213",
+  nome: "Shuckle",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto rocha",
+  imagem: "../imagens/pokemons/213-Shuckle.png",
+  alt: "Pokémon Shuckle",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Ele guarda frutas dentro da carapaça e, com o tempo, transforma o líquido em algo parecido com suco."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "214",
+  nome: "Heracross",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto lutador",
+  imagem: "../imagens/pokemons/214-Heracross.png",
+  alt: "Pokémon Heracross",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Usa sua força impressionante para arremessar oponentes maiores que ele, aproveitando o chifre para golpear."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "215",
+  nome: "Sneasel",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio gelo",
+  imagem: "../imagens/pokemons/215-Sneasel.png",
+  alt: "Pokémon Sneasel",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "É ágil e sorrateiro. Ataca de surpresa usando as garras afiadas antes que o inimigo perceba."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "216",
+  nome: "Teddiursa",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/216-Teddiursa.png",
+  alt: "Pokémon Teddiursa",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ele adora mel e costuma lamber as patas cheias de doçura, guardando um aroma agradável no corpo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "217",
+  nome: "Ursaring",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/217-Ursaring.png",
+  alt: "Pokémon Ursaring",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Apesar de feroz, é excelente em encontrar comida na floresta, especialmente frutas e mel."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "218",
+  nome: "Slugma",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/218-Slugma.png",
+  alt: "Pokémon Slugma",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Seu corpo é composto de magma. Se partes dele se soltam, voltam a se recompor pouco depois."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "219",
+  nome: "Magcargo",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo rocha",
+  imagem: "../imagens/pokemons/219-Magcargo.png",
+  alt: "Pokémon Magcargo",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "A carapaça dura em suas costas se formou a partir do resfriamento de sua pele flamejante."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "220",
+  nome: "Swinub",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo terra",
+  imagem: "../imagens/pokemons/220-Swinub.png",
+  alt: "Pokémon Swinub",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Ele esfrega o focinho no chão para encontrar comida escondida sob a neve e o gelo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "221",
+  nome: "Piloswine",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo terra",
+  imagem: "../imagens/pokemons/221-Piloswine.png",
+  alt: "Pokémon Piloswine",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "O pelo espesso o protege do frio extremo, e suas presas são fortes o bastante para escavar superfícies congeladas."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "222",
+  nome: "Corsola",
+  classe: "pokemon-agua",
+  dataTipo: "agua rocha",
+  imagem: "../imagens/pokemons/222-Corsola.png",
+  alt: "Pokémon Corsola",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Os galhos em sua cabeça crescem e se renovam continuamente, dando forma ao belo coral rosa."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "223",
+  nome: "Remoraid",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/223-Remoraid.png",
+  alt: "Pokémon Remoraid",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Ele mira com precisão impressionante e dispara jatos d'água como se estivesse lançando projéteis."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "224",
+  nome: "Octillery",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/224-Octillery.png",
+  alt: "Pokémon Octillery",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Consegue prender o inimigo com os tentáculos e então atacar à curta distância sem dar chance de fuga."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "225",
+  nome: "Delibird",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo voador",
+  imagem: "../imagens/pokemons/225-Delibird.png",
+  alt: "Pokémon Delibird",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Ele carrega comida na cauda enrolada e a distribui em regiões frias e montanhosas."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "226",
+  nome: "Mantine",
+  classe: "pokemon-agua",
+  dataTipo: "agua voador",
+  imagem: "../imagens/pokemons/226-Mantine.png",
+  alt: "Pokémon Mantine",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Nada de forma elegante pelo oceano, às vezes acompanhado por Remoraid presos em seu corpo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "227",
+  nome: "Skarmory",
+  classe: "pokemon-steel",
+  dataTipo: "aco voador",
+  imagem: "../imagens/pokemons/227-Skarmory.png",
+  alt: "Pokémon Skarmory",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Seu corpo metálico é resistente, e as asas cortantes podem ferir o adversário como lâminas."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "228",
+  nome: "Houndour",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio fogo",
+  imagem: "../imagens/pokemons/228-Houndour.png",
+  alt: "Pokémon Houndour",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Ele trabalha em grupo para caçar. Seus uivos em conjunto criam um som assustador durante a noite."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "229",
+  nome: "Houndoom",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio fogo",
+  imagem: "../imagens/pokemons/229-Houndoom.png",
+  alt: "Pokémon Houndoom",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Seu hálito flamejante pode causar dor duradoura. Dizem que a marca da queimadura nunca desaparece."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "230",
+  nome: "Kingdra",
+  classe: "pokemon-agua",
+  dataTipo: "agua dragao",
+  imagem: "../imagens/pokemons/230-Kingdra.png",
+  alt: "Pokémon Kingdra",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Vive em regiões oceânicas profundas. Quando boceja, pode formar redemoinhos ao redor do corpo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "231",
+  nome: "Phanpy",
+  classe: "pokemon-terra",
+  dataTipo: "terra",
+  imagem: "../imagens/pokemons/231-Phanpy.png",
+  alt: "Pokémon Phanpy",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "É pequeno, mas surpreendentemente forte. Gosta de brincar usando a tromba para erguer coisas."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "232",
+  nome: "Donphan",
+  classe: "pokemon-terra",
+  dataTipo: "terra",
+  imagem: "../imagens/pokemons/232-Donphan.png",
+  alt: "Pokémon Donphan",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Quando enrola o corpo para atacar, sua investida é tão poderosa que pode derrubar grandes obstáculos."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "233",
+  nome: "Porygon2",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/233-Porygon2.png",
+  alt: "Pokémon Porygon2",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ele foi desenvolvido por meio de melhorias tecnológicas, tornando-se mais avançado que seu modelo anterior."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "234",
+  nome: "Stantler",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/234-Stantler.png",
+  alt: "Pokémon Stantler",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Os chifres curvos criam uma sensação estranha em quem os observa por muito tempo, quase como hipnose."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "235",
+  nome: "Smeargle",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/235-Smeargle.png",
+  alt: "Pokémon Smeargle",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ele marca seu território com a tinta liberada pela ponta da cauda, sempre criando padrões únicos."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "236",
+  nome: "Tyrogue",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/236-Tyrogue.png",
+  alt: "Pokémon Tyrogue",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Ele desafia qualquer um para treinar. Quanto mais luta, mais rápido fortalece seu corpo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "237",
+  nome: "Hitmontop",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/237-Hitmontop.png",
+  alt: "Pokémon Hitmontop",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Ele gira velozmente sobre a cabeça e ataca com chutes capazes de perfurar o solo."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "238",
+  nome: "Smoochum",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo psiquico",
+  imagem: "../imagens/pokemons/238-Smoochum.png",
+  alt: "Pokémon Smoochum",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Ela testa tudo com os lábios sensíveis, sempre tentando descobrir novas sensações ao seu redor."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "239",
+  nome: "Elekid",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/239-Elekid.png",
+  alt: "Pokémon Elekid",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Quando gira os braços, produz eletricidade. Durante tempestades, fica especialmente cheio de energia."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "240",
+  nome: "Magby",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/240-Magby.png",
+  alt: "Pokémon Magby",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Sua temperatura corporal é muito alta. A fumaça que sai da cabeça mostra o quanto está aquecido."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "241",
+  nome: "Miltank",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/241-Miltank.png",
+  alt: "Pokémon Miltank",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Seu leite é extremamente nutritivo. Por isso, é muito apreciado tanto por crianças quanto por adultos."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "242",
+  nome: "Blissey",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/242-Blissey.png",
+  alt: "Pokémon Blissey",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ela sente quando alguém está triste ou ferido e corre até essa pessoa para oferecer ajuda."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "243",
+  nome: "Raikou",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/243-Raikou.png",
+  alt: "Pokémon Raikou",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Ele carrega a velocidade do raio. O rugido que emite lembra o som de trovões ecoando pelo céu."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "244",
+  nome: "Entei",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/244-Entei.png",
+  alt: "Pokémon Entei",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Dizem que ele nasce quando um vulcão entra em erupção e carrega a força ardente do magma."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "245",
+  nome: "Suicune",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/245-Suicune.png",
+  alt: "Pokémon Suicune",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Ele percorre o mundo purificando águas poluídas, movendo-se com uma elegância quase impossível."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "246",
+  nome: "Larvitar",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha terra",
+  imagem: "../imagens/pokemons/246-Larvitar.png",
+  alt: "Pokémon Larvitar",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Ele nasce nas profundezas da terra e precisa comer muito solo antes de sair para a superfície."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "247",
+  nome: "Pupitar",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha terra",
+  imagem: "../imagens/pokemons/247-Pupitar.png",
+  alt: "Pokémon Pupitar",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Seu corpo rígido esconde um poder crescente. Ele se move com violência para liberar energia acumulada."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "248",
+  nome: "Tyranitar",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha sombrio",
+  imagem: "../imagens/pokemons/248-Tyranitar.png",
+  alt: "Pokémon Tyranitar",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Quando entra em fúria, derruba montanhas e transforma o terreno ao redor com sua força absurda."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "249",
+  nome: "Lugia",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico voador",
+  imagem: "../imagens/pokemons/249-Lugia.png",
+  alt: "Pokémon Lugia",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Seu poder é tão grande que ele prefere viver isolado nas profundezas do mar para evitar destruição."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "250",
+  nome: "Ho-Oh",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo voador",
+  imagem: "../imagens/pokemons/250-Ho-Oh.png",
+  alt: "Pokémon Ho-Oh",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Suas penas brilham em várias cores conforme a luz. Dizem que sua aparição traz felicidade."
+},
+{
+  geracao: "Segunda Geração",
+  numero: "251",
+  nome: "Celebi",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico planta",
+  imagem: "../imagens/pokemons/251-Celebi.png",
+  alt: "Pokémon Celebi",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Celebi atravessa o tempo e aparece em florestas cheias de vida. Sua presença é sinal de tempos prósperos."
+},
+
+//Terceira Geração
+{
+  geracao: "Terceira Geração",
+  numero: "252",
+  nome: "Treecko",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/252-Treecko.png",
+  alt: "Pokémon Treecko",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Calmo e ágil, ele escala paredes com facilidade e usa a cauda para manter o equilíbrio."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "253",
+  nome: "Grovyle",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/253-Grovyle.png",
+  alt: "Pokémon Grovyle",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Movimenta-se velozmente entre as árvores e surpreende os inimigos com ataques vindos do alto."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "254",
+  nome: "Sceptile",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/254-Sceptile.png",
+  alt: "Pokémon Sceptile",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "As sementes em suas costas parecem cheias de vida, e ele domina as florestas com grande agilidade."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "255",
+  nome: "Torchic",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/255-Torchic.png",
+  alt: "Pokémon Torchic",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Seu corpo é quente por dentro, e ele segue seu treinador com passos curtos e alegres."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "256",
+  nome: "Combusken",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo lutador",
+  imagem: "../imagens/pokemons/256-Combusken.png",
+  alt: "Pokémon Combusken",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Ele fortalece as pernas correndo por campos e montanhas, desferindo chutes muito rápidos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "257",
+  nome: "Blaziken",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo lutador",
+  imagem: "../imagens/pokemons/257-Blaziken.png",
+  alt: "Pokémon Blaziken",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Quando enfrenta um adversário forte, as chamas em seus punhos se intensificam ainda mais."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "258",
+  nome: "Mudkip",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/258-Mudkip.png",
+  alt: "Pokémon Mudkip",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Usa a nadadeira na cabeça para sentir movimentos na água e manter-se atento ao redor."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "259",
+  nome: "Marshtomp",
+  classe: "pokemon-agua",
+  dataTipo: "agua terra",
+  imagem: "../imagens/pokemons/259-Marshtomp.png",
+  alt: "Pokémon Marshtomp",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Vive tanto na água quanto na terra e usa as pernas fortes para atravessar áreas lamacentas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "260",
+  nome: "Swampert",
+  classe: "pokemon-agua",
+  dataTipo: "agua terra",
+  imagem: "../imagens/pokemons/260-Swampert.png",
+  alt: "Pokémon Swampert",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "É muito forte e consegue arrastar grandes pedras. Também prevê tempestades com sensibilidade apurada."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "261",
+  nome: "Poochyena",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio",
+  imagem: "../imagens/pokemons/261-Poochyena.png",
+  alt: "Pokémon Poochyena",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Tem um olfato excelente e nunca desiste de seguir o rastro de algo que deseja encontrar."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "262",
+  nome: "Mightyena",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio",
+  imagem: "../imagens/pokemons/262-Mightyena.png",
+  alt: "Pokémon Mightyena",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Move-se em grupo e costuma obedecer a um líder, coordenando ataques de maneira eficiente."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "263",
+  nome: "Zigzagoon",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/263-Zigzagoon.png",
+  alt: "Pokémon Zigzagoon",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Anda em zigue-zague o tempo inteiro, sempre curioso para investigar qualquer coisa pelo caminho."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "264",
+  nome: "Linoone",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/264-Linoone.png",
+  alt: "Pokémon Linoone",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Corre em linha reta com grande velocidade, mas tem dificuldade para fazer curvas fechadas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "265",
+  nome: "Wurmple",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/265-Wurmple.png",
+  alt: "Pokémon Wurmple",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Usa os espinhos na parte traseira para se defender e se prende em galhos com muita firmeza."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "266",
+  nome: "Silcoon",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/266-Silcoon.png",
+  alt: "Pokémon Silcoon",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Permanece quase imóvel enquanto guarda energia para a evolução dentro do casulo."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "267",
+  nome: "Beautifly",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto voador",
+  imagem: "../imagens/pokemons/267-Beautifly.png",
+  alt: "Pokémon Beautifly",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Ele voa de flor em flor em busca de pólen, movendo-se com elegância pelo ar."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "268",
+  nome: "Cascoon",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/268-Cascoon.png",
+  alt: "Pokémon Cascoon",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Seu corpo endurecido protege a evolução, e ele aguenta ataques sem se mover muito."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "269",
+  nome: "Dustox",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto venenoso",
+  imagem: "../imagens/pokemons/269-Dustox.png",
+  alt: "Pokémon Dustox",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "É atraído por luzes fortes à noite e espalha um pó fino das asas para se defender."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "270",
+  nome: "Lotad",
+  classe: "pokemon-agua",
+  dataTipo: "agua planta",
+  imagem: "../imagens/pokemons/270-Lotad.png",
+  alt: "Pokémon Lotad",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "A folha em sua cabeça funciona como apoio para flutuar tranquilamente na superfície da água."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "271",
+  nome: "Lombre",
+  classe: "pokemon-agua",
+  dataTipo: "agua planta",
+  imagem: "../imagens/pokemons/271-Lombre.png",
+  alt: "Pokémon Lombre",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "É travesso e costuma se divertir perto da água, aparecendo de repente para assustar pessoas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "272",
+  nome: "Ludicolo",
+  classe: "pokemon-agua",
+  dataTipo: "agua planta",
+  imagem: "../imagens/pokemons/272-Ludicolo.png",
+  alt: "Pokémon Ludicolo",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Quando escuta música animada, seu corpo reage na hora e ele começa a dançar sem parar."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "273",
+  nome: "Seedot",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/273-Seedot.png",
+  alt: "Pokémon Seedot",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Fica pendurado nos galhos e balança com o vento, parecendo parte natural da árvore."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "274",
+  nome: "Nuzleaf",
+  classe: "pokemon-planta",
+  dataTipo: "planta sombrio",
+  imagem: "../imagens/pokemons/274-Nuzleaf.png",
+  alt: "Pokémon Nuzleaf",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Ele vive em florestas profundas e prega peças usando o som assustador da folha em sua cabeça."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "275",
+  nome: "Shiftry",
+  classe: "pokemon-planta",
+  dataTipo: "planta sombrio",
+  imagem: "../imagens/pokemons/275-Shiftry.png",
+  alt: "Pokémon Shiftry",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "É capaz de invocar ventos fortes e desaparecer entre as árvores antes que alguém o perceba."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "276",
+  nome: "Taillow",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/276-Taillow.png",
+  alt: "Pokémon Taillow",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Mesmo pequeno, é corajoso e enfrenta adversários maiores quando protege seu território."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "277",
+  nome: "Swellow",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/277-Swellow.png",
+  alt: "Pokémon Swellow",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Voa em alta velocidade e faz curvas rápidas no céu para capturar presas com precisão."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "278",
+  nome: "Wingull",
+  classe: "pokemon-agua",
+  dataTipo: "agua voador",
+  imagem: "../imagens/pokemons/278-Wingull.png",
+  alt: "Pokémon Wingull",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Aproveita as correntes de ar para planar longas distâncias quase sem mover as asas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "279",
+  nome: "Pelipper",
+  classe: "pokemon-agua",
+  dataTipo: "agua voador",
+  imagem: "../imagens/pokemons/279-Pelipper.png",
+  alt: "Pokémon Pelipper",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Carrega objetos e até pequenos Pokémon no enorme bico enquanto sobrevoa o oceano."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "280",
+  nome: "Ralts",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico fada",
+  imagem: "../imagens/pokemons/280-Ralts.png",
+  alt: "Pokémon Ralts",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Percebe emoções intensas das pessoas e se aproxima com delicadeza de quem tem bom coração."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "281",
+  nome: "Kirlia",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico fada",
+  imagem: "../imagens/pokemons/281-Kirlia.png",
+  alt: "Pokémon Kirlia",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu poder psíquico aumenta quando está feliz, e ele costuma dançar girando com graça."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "282",
+  nome: "Gardevoir",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico fada",
+  imagem: "../imagens/pokemons/282-Gardevoir.png",
+  alt: "Pokémon Gardevoir",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "É extremamente leal e usa todo o seu poder para proteger quem considera importante."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "283",
+  nome: "Surskit",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto agua",
+  imagem: "../imagens/pokemons/283-Surskit.png",
+  alt: "Pokémon Surskit",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Desliza pela superfície da água usando as patas, como se estivesse patinando."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "284",
+  nome: "Masquerain",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto voador",
+  imagem: "../imagens/pokemons/284-Masquerain.png",
+  alt: "Pokémon Masquerain",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "As marcas em suas antenas lembram olhos e ajudam a intimidar inimigos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "285",
+  nome: "Shroomish",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/285-Shroomish.png",
+  alt: "Pokémon Shroomish",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Prefere lugares úmidos e escuros, onde libera esporos ao se sentir ameaçado."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "286",
+  nome: "Breloom",
+  classe: "pokemon-planta",
+  dataTipo: "planta lutador",
+  imagem: "../imagens/pokemons/286-Breloom.png",
+  alt: "Pokémon Breloom",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Estica os braços com rapidez surpreendente e combina isso com golpes muito fortes."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "287",
+  nome: "Slakoth",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/287-Slakoth.png",
+  alt: "Pokémon Slakoth",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Passa boa parte do dia parado, economizando energia ao máximo para quase tudo."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "288",
+  nome: "Vigoroth",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/288-Vigoroth.png",
+  alt: "Pokémon Vigoroth",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Não consegue ficar quieto e vive em movimento, correndo e pulando o tempo inteiro."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "289",
+  nome: "Slaking",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/289-Slaking.png",
+  alt: "Pokémon Slaking",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Mesmo deitado, possui uma força imensa e pode resolver tudo com um único movimento."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "290",
+  nome: "Nincada",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto terra",
+  imagem: "../imagens/pokemons/290-Nincada.png",
+  alt: "Pokémon Nincada",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Vive debaixo da terra por anos, alimentando-se de raízes enquanto se prepara para evoluir."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "291",
+  nome: "Ninjask",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto voador",
+  imagem: "../imagens/pokemons/291-Ninjask.png",
+  alt: "Pokémon Ninjask",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Seu voo é tão rápido que fica difícil enxergá-lo claramente enquanto se move."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "292",
+  nome: "Shedinja",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto fantasma",
+  imagem: "../imagens/pokemons/292-Shedinja.png",
+  alt: "Pokémon Shedinja",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Seu corpo vazio e misterioso desperta curiosidade, e ele permanece imóvel de forma inquietante."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "293",
+  nome: "Whismur",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/293-Whismur.png",
+  alt: "Pokémon Whismur",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Normalmente é tímido, mas quando se assusta pode soltar um grito muito alto."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "294",
+  nome: "Loudred",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/294-Loudred.png",
+  alt: "Pokémon Loudred",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Produz berros poderosos usando os pulmões e as orelhas, espalhando ondas sonoras intensas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "295",
+  nome: "Exploud",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/295-Exploud.png",
+  alt: "Pokémon Exploud",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Seu rugido é devastador e pode ser ouvido a grandes distâncias quando libera toda a força."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "296",
+  nome: "Makuhita",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/296-Makuhita.png",
+  alt: "Pokémon Makuhita",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Treina o corpo todos os dias e valoriza muito a resistência e a disciplina."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "297",
+  nome: "Hariyama",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/297-Hariyama.png",
+  alt: "Pokémon Hariyama",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Seus golpes de palma são fortes o bastante para lançar longe adversários enormes."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "298",
+  nome: "Azurill",
+  classe: "pokemon-normal",
+  dataTipo: "normal fada",
+  imagem: "../imagens/pokemons/298-Azurill.png",
+  alt: "Pokémon Azurill",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Usa a grande cauda cheia de ar para se equilibrar e brincar com leves saltos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "299",
+  nome: "Nosepass",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha",
+  imagem: "../imagens/pokemons/299-Nosepass.png",
+  alt: "Pokémon Nosepass",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Seu nariz magnético sempre aponta para a mesma direção, mesmo quando ele está dormindo."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "300",
+  nome: "Skitty",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/300-Skitty.png",
+  alt: "Pokémon Skitty",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "É brincalhão e costuma perseguir qualquer coisa que se mova, como se tudo fosse um brinquedo."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "301",
+  nome: "Delcatty",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/301-Delcatty.png",
+  alt: "Pokémon Delcatty",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Vive no seu próprio ritmo e prefere lugares confortáveis para descansar sem preocupação."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "302",
+  nome: "Sableye",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio fantasma",
+  imagem: "../imagens/pokemons/302-Sableye.png",
+  alt: "Pokémon Sableye",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Ele vive em cavernas e adora se alimentar de gemas e minerais brilhantes."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "303",
+  nome: "Mawile",
+  classe: "pokemon-steel",
+  dataTipo: "steel fada",
+  imagem: "../imagens/pokemons/303-Mawile.png",
+  alt: "Pokémon Mawile",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Engana o inimigo com o rosto dócil e depois usa a enorme mandíbula traseira para atacar."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "304",
+  nome: "Aron",
+  classe: "pokemon-steel",
+  dataTipo: "steel rocha",
+  imagem: "../imagens/pokemons/304-Aron.png",
+  alt: "Pokémon Aron",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Seu corpo de aço é resistente, e ele costuma se alimentar de minério de ferro."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "305",
+  nome: "Lairon",
+  classe: "pokemon-steel",
+  dataTipo: "steel rocha",
+  imagem: "../imagens/pokemons/305-Lairon.png",
+  alt: "Pokémon Lairon",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Ele percorre montanhas devorando pedras e deixando marcas evidentes por onde passa."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "306",
+  nome: "Aggron",
+  classe: "pokemon-steel",
+  dataTipo: "steel rocha",
+  imagem: "../imagens/pokemons/306-Aggron.png",
+  alt: "Pokémon Aggron",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Protege o território com grande rigor e reconstrói áreas danificadas de montanhas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "307",
+  nome: "Meditite",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador psiquico",
+  imagem: "../imagens/pokemons/307-Meditite.png",
+  alt: "Pokémon Meditite",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Treina mente e corpo por meio da meditação, aumentando seu foco e sua energia."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "308",
+  nome: "Medicham",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador psiquico",
+  imagem: "../imagens/pokemons/308-Medicham.png",
+  alt: "Pokémon Medicham",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Após duro treinamento, combina golpes físicos com grande concentração psíquica."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "309",
+  nome: "Electrike",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/309-Electrike.png",
+  alt: "Pokémon Electrike",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Armazena eletricidade no corpo e fica mais animado quando o clima muda."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "310",
+  nome: "Manectric",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/310-Manectric.png",
+  alt: "Pokémon Manectric",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Dizem que ele aparece durante tempestades, correndo junto com raios pelo céu."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "311",
+  nome: "Plusle",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/311-Plusle.png",
+  alt: "Pokémon Plusle",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Ele adora incentivar parceiros e costuma celebrar com pequenas faíscas elétricas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "312",
+  nome: "Minun",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/312-Minun.png",
+  alt: "Pokémon Minun",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Apoia seus companheiros com entusiasmo, soltando eletricidade de forma alegre e vibrante."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "313",
+  nome: "Volbeat",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/313-Volbeat.png",
+  alt: "Pokémon Volbeat",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Usa a luz da cauda para criar sinais luminosos e se comunicar durante a noite."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "314",
+  nome: "Illumise",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/314-Illumise.png",
+  alt: "Pokémon Illumise",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Costuma orientar grupos de Volbeat em belos desenhos de luz pelo céu noturno."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "315",
+  nome: "Roselia",
   classe: "pokemon-planta",
   dataTipo: "planta venenoso",
-  imagem: "../imagens/pokemons/001-Bulbasauro.png",
-  alt: "Pokémon Bulbasaur",
+  imagem: "../imagens/pokemons/315-Roselia.png",
+  alt: "Pokémon Roselia",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
     { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
   ],
-  descricao: "Por algum tempo após o nascimento, ele usa os nutrientes contidos na semente em suas costas para crescer."
-  },
+  descricao: "As flores em suas mãos exalam fragrâncias delicadas, mas também podem conter espinhos perigosos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "316",
+  nome: "Gulpin",
+  classe: "pokemon-venenoso",
+  dataTipo: "venenoso",
+  imagem: "../imagens/pokemons/316-Gulpin.png",
+  alt: "Pokémon Gulpin",
+  tipos: [
+    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Seu estômago é tão forte que consegue digerir quase qualquer coisa que engole."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "317",
+  nome: "Swalot",
+  classe: "pokemon-venenoso",
+  dataTipo: "venenoso",
+  imagem: "../imagens/pokemons/317-Swalot.png",
+  alt: "Pokémon Swalot",
+  tipos: [
+    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Ele envolve a presa com o corpo e a dissolve usando fluidos digestivos extremamente potentes."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "318",
+  nome: "Carvanha",
+  classe: "pokemon-agua",
+  dataTipo: "agua sombrio",
+  imagem: "../imagens/pokemons/318-Carvanha.png",
+  alt: "Pokémon Carvanha",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Age em grupo e avança ferozmente sobre presas quando sente cheiro de alimento na água."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "319",
+  nome: "Sharpedo",
+  classe: "pokemon-agua",
+  dataTipo: "agua sombrio",
+  imagem: "../imagens/pokemons/319-Sharpedo.png",
+  alt: "Pokémon Sharpedo",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Nada em alta velocidade e usa os dentes afiados para abrir caminho com agressividade."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "320",
+  nome: "Wailmer",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/320-Wailmer.png",
+  alt: "Pokémon Wailmer",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Seu corpo enorme acumula muita água, que ele pode liberar em jatos fortes."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "321",
+  nome: "Wailord",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/321-Wailord.png",
+  alt: "Pokémon Wailord",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "É gigantesco e se move pelo oceano com calma, apesar do tamanho impressionante."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "322",
+  nome: "Numel",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo terra",
+  imagem: "../imagens/pokemons/322-Numel.png",
+  alt: "Pokémon Numel",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Guarda magma em seu corpo e suporta calor intenso sem se incomodar quase nada."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "323",
+  nome: "Camerupt",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo terra",
+  imagem: "../imagens/pokemons/323-Camerupt.png",
+  alt: "Pokémon Camerupt",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Os vulcões em suas costas podem entrar em atividade quando ele se irrita muito."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "324",
+  nome: "Torkoal",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/324-Torkoal.png",
+  alt: "Pokémon Torkoal",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Produz carvão dentro do casco e solta fumaça pelas narinas com bastante força."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "325",
+  nome: "Spoink",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/325-Spoink.png",
+  alt: "Pokémon Spoink",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Ele precisa saltar sem parar, pois o movimento ajuda a manter seu corpo ativo."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "326",
+  nome: "Grumpig",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/326-Grumpig.png",
+  alt: "Pokémon Grumpig",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Usa as pérolas negras do corpo para reforçar seus poderes mentais e controlar movimentos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "327",
+  nome: "Spinda",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/327-Spinda.png",
+  alt: "Pokémon Spinda",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Seu andar cambaleante confunde quem observa, já que parece perder o equilíbrio a todo momento."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "328",
+  nome: "Trapinch",
+  classe: "pokemon-terra",
+  dataTipo: "terra",
+  imagem: "../imagens/pokemons/328-Trapinch.png",
+  alt: "Pokémon Trapinch",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Cava grandes buracos na areia e espera pacientemente até algo cair em sua armadilha."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "329",
+  nome: "Vibrava",
+  classe: "pokemon-terra",
+  dataTipo: "terra dragao",
+  imagem: "../imagens/pokemons/329-Vibrava.png",
+  alt: "Pokémon Vibrava",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "O bater de suas asas gera vibrações e sons estranhos que confundem os oponentes."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "330",
+  nome: "Flygon",
+  classe: "pokemon-terra",
+  dataTipo: "terra dragao",
+  imagem: "../imagens/pokemons/330-Flygon.png",
+  alt: "Pokémon Flygon",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Ao voar no deserto, levanta nuvens de areia e desaparece como se fosse uma miragem."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "331",
+  nome: "Cacnea",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/331-Cacnea.png",
+  alt: "Pokémon Cacnea",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Sobrevive em desertos graças à água que guarda no corpo e usa os espinhos para se proteger."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "332",
+  nome: "Cacturne",
+  classe: "pokemon-planta",
+  dataTipo: "planta sombrio",
+  imagem: "../imagens/pokemons/332-Cacturne.png",
+  alt: "Pokémon Cacturne",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Prefere caminhar à noite pelo deserto, seguindo silenciosamente presas exaustas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "333",
+  nome: "Swablu",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/333-Swablu.png",
+  alt: "Pokémon Swablu",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Suas asas parecem nuvens macias, e ele gosta de limpar objetos e lugares com cuidado."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "334",
+  nome: "Altaria",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao voador",
+  imagem: "../imagens/pokemons/334-Altaria.png",
+  alt: "Pokémon Altaria",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Voa entre as nuvens e canta com uma voz melodiosa que acalma quem a escuta."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "335",
+  nome: "Zangoose",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/335-Zangoose.png",
+  alt: "Pokémon Zangoose",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "É veloz e combativo, sendo famoso pela rivalidade intensa que possui com Seviper."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "336",
+  nome: "Seviper",
+  classe: "pokemon-venenoso",
+  dataTipo: "venenoso",
+  imagem: "../imagens/pokemons/336-Seviper.png",
+  alt: "Pokémon Seviper",
+  tipos: [
+    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Afia a lâmina da cauda contra pedras e não esquece facilmente antigos confrontos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "337",
+  nome: "Lunatone",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha psiquico",
+  imagem: "../imagens/pokemons/337-Lunatone.png",
+  alt: "Pokémon Lunatone",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Sua energia parece aumentar conforme as fases da lua e o brilho noturno."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "338",
+  nome: "Solrock",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha psiquico",
+  imagem: "../imagens/pokemons/338-Solrock.png",
+  alt: "Pokémon Solrock",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Absorve energia solar durante o dia e libera esse poder em batalha."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "339",
+  nome: "Barboach",
+  classe: "pokemon-agua",
+  dataTipo: "agua terra",
+  imagem: "../imagens/pokemons/339-Barboach.png",
+  alt: "Pokémon Barboach",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Vive em águas barrentas e usa os longos bigodes para sentir o terreno ao redor."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "340",
+  nome: "Whiscash",
+  classe: "pokemon-agua",
+  dataTipo: "agua terra",
+  imagem: "../imagens/pokemons/340-Whiscash.png",
+  alt: "Pokémon Whiscash",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Seus bigodes percebem vibrações com grande precisão, mesmo em águas muito turvas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "341",
+  nome: "Corphish",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/341-Corphish.png",
+  alt: "Pokémon Corphish",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "É resistente e se adapta bem a vários ambientes, sempre pronto para uma disputa."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "342",
+  nome: "Crawdaunt",
+  classe: "pokemon-agua",
+  dataTipo: "agua sombrio",
+  imagem: "../imagens/pokemons/342-Crawdaunt.png",
+  alt: "Pokémon Crawdaunt",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "É agressivo e territorial, usando as grandes pinças para dominar disputas rapidamente."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "343",
+  nome: "Baltoy",
+  classe: "pokemon-terra",
+  dataTipo: "terra psiquico",
+  imagem: "../imagens/pokemons/343-Baltoy.png",
+  alt: "Pokémon Baltoy",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Ele gira sem parar enquanto se move, lembrando uma antiga figura de barro viva."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "344",
+  nome: "Claydol",
+  classe: "pokemon-terra",
+  dataTipo: "terra psiquico",
+  imagem: "../imagens/pokemons/344-Claydol.png",
+  alt: "Pokémon Claydol",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu corpo misterioso parece ligado a civilizações antigas e a poderes enigmáticos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "345",
+  nome: "Lileep",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha planta",
+  imagem: "../imagens/pokemons/345-Lileep.png",
+  alt: "Pokémon Lileep",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Ele vive preso a rochas e estende os tentáculos para capturar presas que passam perto."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "346",
+  nome: "Cradily",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha planta",
+  imagem: "../imagens/pokemons/346-Cradily.png",
+  alt: "Pokémon Cradily",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Usa os tentáculos flexíveis para prender a presa antes que ela consiga escapar."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "347",
+  nome: "Anorith",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha inseto",
+  imagem: "../imagens/pokemons/347-Anorith.png",
+  alt: "Pokémon Anorith",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Nada com rapidez usando as garras e parece preservar traços de eras muito antigas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "348",
+  nome: "Armaldo",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha inseto",
+  imagem: "../imagens/pokemons/348-Armaldo.png",
+  alt: "Pokémon Armaldo",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Suas garras robustas são muito eficazes para rasgar e dominar o alvo."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "349",
+  nome: "Feebas",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/349-Feebas.png",
+  alt: "Pokémon Feebas",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Tem aparência simples e vive em águas modestas, mas guarda um potencial surpreendente."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "350",
+  nome: "Milotic",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/350-Milotic.png",
+  alt: "Pokémon Milotic",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Sua beleza é admirada por muitos, e sua presença transmite calma em momentos de tensão."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "351",
+  nome: "Castform",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/351-Castform.png",
+  alt: "Pokémon Castform",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Seu corpo reage ao clima, mudando de forma conforme o tempo ao redor."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "352",
+  nome: "Kecleon",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/352-Kecleon.png",
+  alt: "Pokémon Kecleon",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ele muda de cor para se camuflar, tornando-se difícil de perceber no ambiente."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "353",
+  nome: "Shuppet",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/353-Shuppet.png",
+  alt: "Pokémon Shuppet",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "É atraído por sentimentos escuros e costuma aparecer onde há inveja ou rancor."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "354",
+  nome: "Banette",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/354-Banette.png",
+  alt: "Pokémon Banette",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Seu corpo lembra um boneco antigo, e sua energia estranha passa uma sensação inquietante."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "355",
+  nome: "Duskull",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/355-Duskull.png",
+  alt: "Pokémon Duskull",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Ele vagueia no escuro e observa em silêncio, com um olhar que chama atenção."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "356",
+  nome: "Dusclops",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/356-Dusclops.png",
+  alt: "Pokémon Dusclops",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Seu corpo oco parece esconder um mistério profundo, e ele resiste muito bem aos ataques."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "357",
+  nome: "Tropius",
+  classe: "pokemon-planta",
+  dataTipo: "planta voador",
+  imagem: "../imagens/pokemons/357-Tropius.png",
+  alt: "Pokémon Tropius",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "As frutas que crescem em seu pescoço amadurecem com regularidade e são bastante apreciadas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "358",
+  nome: "Chimecho",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/358-Chimecho.png",
+  alt: "Pokémon Chimecho",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Quando o vento sopra, ele emite sons delicados que lembram pequenos sinos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "359",
+  nome: "Absol",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio",
+  imagem: "../imagens/pokemons/359-Absol.png",
+  alt: "Pokémon Absol",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "É sensível a mudanças no ambiente e costuma ser associado à percepção de desastres."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "360",
+  nome: "Wynaut",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/360-Wynaut.png",
+  alt: "Pokémon Wynaut",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Vive em grupo e aprende a se fortalecer observando o comportamento dos outros."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "361",
+  nome: "Snorunt",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/361-Snorunt.png",
+  alt: "Pokémon Snorunt",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Ele prefere regiões frias e alegra o ambiente com sua presença leve e agitada."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "362",
+  nome: "Glalie",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/362-Glalie.png",
+  alt: "Pokémon Glalie",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Seu corpo congelado é duro como pedra, e ele pode liberar ar gelado com intensidade."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "363",
+  nome: "Spheal",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo agua",
+  imagem: "../imagens/pokemons/363-Spheal.png",
+  alt: "Pokémon Spheal",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Seu corpo arredondado o ajuda a rolar com facilidade por superfícies geladas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "364",
+  nome: "Sealeo",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo agua",
+  imagem: "../imagens/pokemons/364-Sealeo.png",
+  alt: "Pokémon Sealeo",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "É brincalhão e adora equilibrar objetos na ponta do nariz enquanto descansa."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "365",
+  nome: "Walrein",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo agua",
+  imagem: "../imagens/pokemons/365-Walrein.png",
+  alt: "Pokémon Walrein",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "As presas grossas quebram gelo com facilidade, ajudando-o a abrir caminho em mares frios."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "366",
+  nome: "Clamperl",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/366-Clamperl.png",
+  alt: "Pokémon Clamperl",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Protege a pérola que carrega com muito cuidado dentro da concha resistente."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "367",
+  nome: "Huntail",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/367-Huntail.png",
+  alt: "Pokémon Huntail",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Vive em regiões profundas e atrai presas com a luz brilhante na ponta da cauda."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "368",
+  nome: "Gorebyss",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/368-Gorebyss.png",
+  alt: "Pokémon Gorebyss",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Nada com graça em águas profundas e tem aparência delicada apesar do modo de ataque."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "369",
+  nome: "Relicanth",
+  classe: "pokemon-agua",
+  dataTipo: "agua rocha",
+  imagem: "../imagens/pokemons/369-Relicanth.png",
+  alt: "Pokémon Relicanth",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Seu aspecto antigo chama atenção, e ele parece pouco mudado ao longo de muito tempo."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "370",
+  nome: "Luvdisc",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/370-Luvdisc.png",
+  alt: "Pokémon Luvdisc",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "É conhecido pelo formato em coração e por aparecer em águas claras e quentes."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "371",
+  nome: "Bagon",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao",
+  imagem: "../imagens/pokemons/371-Bagon.png",
+  alt: "Pokémon Bagon",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Ele sonha em voar e treina com obstinação, mesmo antes de conseguir asas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "372",
+  nome: "Shelgon",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao",
+  imagem: "../imagens/pokemons/372-Shelgon.png",
+  alt: "Pokémon Shelgon",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu corpo fica envolto por uma carapaça dura enquanto acumula energia para evoluir."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "373",
+  nome: "Salamence",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao voador",
+  imagem: "../imagens/pokemons/373-Salamence.png",
+  alt: "Pokémon Salamence",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Depois de evoluir, realiza seu antigo sonho de voar livremente pelos céus."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "374",
+  nome: "Beldum",
+  classe: "pokemon-steel",
+  dataTipo: "steel psiquico",
+  imagem: "../imagens/pokemons/374-Beldum.png",
+  alt: "Pokémon Beldum",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu corpo metálico é sustentado por magnetismo, que também ajuda nos movimentos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "375",
+  nome: "Metang",
+  classe: "pokemon-steel",
+  dataTipo: "steel psiquico",
+  imagem: "../imagens/pokemons/375-Metang.png",
+  alt: "Pokémon Metang",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Dois cérebros trabalham juntos em perfeita sintonia para coordenar seus movimentos."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "376",
+  nome: "Metagross",
+  classe: "pokemon-steel",
+  dataTipo: "steel psiquico",
+  imagem: "../imagens/pokemons/376-Metagross.png",
+  alt: "Pokémon Metagross",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Possui inteligência impressionante e combina força física com cálculo extremamente rápido."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "377",
+  nome: "Regirock",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha",
+  imagem: "../imagens/pokemons/377-Regirock.png",
+  alt: "Pokémon Regirock",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Seu corpo é formado por pedras resistentes, e partes danificadas podem ser recompostas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "378",
+  nome: "Regice",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/378-Regice.png",
+  alt: "Pokémon Regice",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Seu corpo gelado mantém temperaturas extremamente baixas e quase não derrete."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "379",
+  nome: "Registeel",
+  classe: "pokemon-steel",
+  dataTipo: "steel",
+  imagem: "../imagens/pokemons/379-Registeel.png",
+  alt: "Pokémon Registeel",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" }
+  ],
+  descricao: "Sua estrutura metálica é incrivelmente resistente e difícil de ser danificada."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "380",
+  nome: "Latias",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao psiquico",
+  imagem: "../imagens/pokemons/380-Latias.png",
+  alt: "Pokémon Latias",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "É inteligente e sensível, demonstrando afeição por pessoas em quem confia."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "381",
+  nome: "Latios",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao psiquico",
+  imagem: "../imagens/pokemons/381-Latios.png",
+  alt: "Pokémon Latios",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Ele voa em alta velocidade e protege o que considera importante com grande determinação."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "382",
+  nome: "Kyogre",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/382-Kyogre.png",
+  alt: "Pokémon Kyogre",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Seu poder está ligado ao mar, e sua presença é associada à expansão das águas."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "383",
+  nome: "Groudon",
+  classe: "pokemon-terra",
+  dataTipo: "terra",
+  imagem: "../imagens/pokemons/383-Groudon.png",
+  alt: "Pokémon Groudon",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "É associado à terra firme e ao calor intenso, irradiando poder imponente."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "384",
+  nome: "Rayquaza",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao voador",
+  imagem: "../imagens/pokemons/384-Rayquaza.png",
+  alt: "Pokémon Rayquaza",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Vive nas camadas mais altas do céu e cruza os ares com velocidade impressionante."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "385",
+  nome: "Jirachi",
+  classe: "pokemon-steel",
+  dataTipo: "steel psiquico",
+  imagem: "../imagens/pokemons/385-Jirachi.png",
+  alt: "Pokémon Jirachi",
+  tipos: [
+    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu despertar é envolto em mistério, e sua presença costuma ser vista como algo raro e especial."
+},
+{
+  geracao: "Terceira Geração",
+  numero: "386",
+  nome: "Deoxys",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/386-Deoxys.png",
+  alt: "Pokémon Deoxys",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu corpo tem origem incomum e ele pode mudar de forma para se adaptar ao combate."
+}
+
+
+
 
 
 

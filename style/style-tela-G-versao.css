@@ -152,7 +152,9 @@ h1 {
 .rocha,
 .fantasma,
 .gelo,
-.dragao {
+.dragao,
+.steel,
+.noturno {
     background-attachment: fixed;
 }
 
@@ -170,7 +172,8 @@ h1 {
 .pagina-rocha,
 .pagina-fantasma,
 .pagina-gelo,
-.pagina-dragao {
+.pagina-dragao
+ {
     display: flex;
     width: 98vw;
     min-height: 98vh;
@@ -193,7 +196,9 @@ h1 {
 .pokemon-rocha,
 .pokemon-fantasma,
 .pokemon-gelo,
-.pokemon-dragao {
+.pokemon-dragao,
+.pokemon-steel,
+.pokemon-noturno {
     border: 8px solid rgb(235, 193, 8);
     border-radius: 10px;
     width: 300px;

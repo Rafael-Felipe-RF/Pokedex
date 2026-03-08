@@ -168,7 +168,7 @@
       mostramos 2 cards por linha.
     */
     .pokemon {
-        width: 48%;
+        width: 30%;
     }
 
     /*
@@ -203,7 +203,7 @@
       cada card ocupa 100% da largura.
     */
     .pokemon {
-        width: 100%;
+        width: 30%;
     }
 
     /*

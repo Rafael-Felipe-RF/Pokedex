@@ -53,6 +53,9 @@
 .but-steel{
     background-color: #313131;
 }
+.but-sombrio{
+    background-color: #080202;
+}
 
 @media screen and (min-width: 1000px){ /*Estilização dos fundos das páginas e dos cards, somente em telas grandes*/
 
@@ -145,11 +148,11 @@ Estilização página elétrico
 
 .eletrico {  /*Estilização do fundo da página*/
     background-image: url(../imagens/fundos-paginas/fundo-eletrico.png);
-    background-color: rgba(230, 230, 116, 0.082);
+    background-color: rgba(201, 201, 9, 0.082);
 }
 
 .pokemon-eletrico { /*Estilização do fundo do card*/
-    background-color: #a9e6f5;
+    background-color: #f5f102;
     background-image: url(../imagens/fundo-cartas/eletrico.png);
 }
 
@@ -259,4 +262,32 @@ Estilização página dragão
     background-color: rgb(178, 179, 194); /*Estilização do fundo do card*/
     background-image: url(../imagens/fundo-cartas/dragao.png);
 }
+
+/********************************************
+Estilização página AÇO
+*********************************************/
+
+.steel {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-dragao.png);
 }
+
+.pokemon-steel {
+    background-color: rgba(138, 138, 143, 0.63); /*Estilização do fundo do card*/
+    background-image: url(../imagens/fundo-cartas/dragao.png);
+}
+
+/********************************************
+Estilização página Noturno
+*********************************************/
+
+.noturno {  /*Estilização do fundo da página*/
+    background-image: url(../imagens/fundos-paginas/fundo-dragao.png);
+}
+
+.pokemon-noturno {
+    background-color: rgba(16, 1, 44, 0.63); /*Estilização do fundo do card*/
+    background-image: url(../imagens/fundo-cartas/dragao.png);
+}
+}
+
+
