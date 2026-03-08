@@ -1,84 +1,215 @@
 @charset "utf-8";
 
+/*
+  =====================================================
+  CSS RESPONSIVO PARA TABLETS E CELULARES
+  =====================================================
+  Este arquivo foi feito para telas menores.
+  Ele organiza os cards da Pokédex para tablet e celular.
+*/
+
+/*
+  Importa fontes do Google Fonts.
+  Você pode usar essas fontes no seu projeto com font-family.
+*/
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Darumadrop+One&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Playpen+Sans:wght@100..800&family=Playwrite+HU:wght@100..400&family=Playwrite+VN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*
+  =====================================================
+  TABLETS E TELAS MENORES
+  =====================================================
+  Esta regra vale para telas de até 999px.
+  Aqui entram tablets e também celulares.
+*/
+@media screen and (max-width: 999px) {
 
+    /*
+      Remove margens e espaçamentos padrão de todos os elementos.
+      Também faz width e height considerarem padding e borda.
+    */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
+    /*
+      Container que segura todos os cards.
+      display: flex -> coloca os cards em linha.
+      flex-wrap: wrap -> permite quebrar para a linha de baixo.
+      gap -> cria espaço entre os cards.
+    */
+    .primeira-geracao {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
 
-@media screen and (max-width: 999px){
+    /*
+      Título principal da página.
+      text-align: center -> centraliza o texto.
+      margin -> cria espaço ao redor do título.
+    */
+    h1 {
+        text-align: center;
+        margin: 25px;
+    }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+    /*
+      Esconde o texto de descrição do Pokémon
+      para deixar os cards menores em telas menores.
+    */
+    .texto-pokemon {
+        display: none;
+    }
+
+    /*
+      Card individual do Pokémon.
+      width: 32% -> tenta mostrar 3 cards por linha em tablets.
+      padding -> espaço interno.
+      border-radius -> cantos arredondados.
+      background -> cor de fundo.
+      flex-direction: column -> itens ficam um embaixo do outro.
+      align-items: center -> centraliza o conteúdo na horizontal.
+    */
+    .pokemon {
+        width: 32%;
+        padding: 10px;
+        border-radius: 10px;
+        background: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*
+      Área do topo do card.
+      Aqui ficam o número e o nome do Pokémon.
+    */
+    .titulo-pokemon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+
+    /*
+      Número do Pokémon.
+      Fonte menor e cor mais suave.
+    */
+    .numero {
+        font-size: 12px;
+        color: #777;
+    }
+
+    /*
+      Nome do Pokémon.
+      Fonte maior e em negrito.
+    */
+    .nome {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /*
+      Imagem do Pokémon.
+      width: 100% -> ocupa toda a largura disponível do card.
+      height: auto -> mantém a proporção correta da imagem.
+    */
+    .imagem-do-pokemon {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    /*
+      Área dos botões de tipo.
+      justify-content: center -> centraliza os botões.
+      gap -> espaço entre eles.
+      flex-wrap: wrap -> quando não couber, quebra a linha.
+    */
+    .icone-elemento {
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+    }
+
+    /*
+      Estilo dos links que viram botões de tipo.
+      text-decoration: none -> tira o sublinhado.
+      color -> deixa o texto branco.
+      padding -> aumenta a área do botão.
+      border-radius -> arredonda dois cantos.
+    */
+    .icone-elemento a {
+        text-decoration: none;
+        color: white;
+        padding: 3px 6px;
+        border-radius: 8px 0;
+        font-size: 12px;
+        line-height: 1.2;
+        text-align: center;
+    }
 }
-.primeira-geracao{
-    display:flex;
-    flex-wrap:wrap;
-    gap:5px;
+
+/*
+  =====================================================
+  CELULARES
+  =====================================================
+  Esta regra vale para telas de até 600px.
+  Aqui os cards ficam maiores para caber melhor na tela.
+*/
+@media screen and (max-width: 600px) {
+
+    /*
+      Em celulares, em vez de 3 cards por linha,
+      mostramos 2 cards por linha.
+    */
+    .pokemon {
+        width: 48%;
+    }
+
+    /*
+      Reduz um pouco o tamanho do nome
+      para evitar quebra exagerada.
+    */
+    .nome {
+        font-size: 16px;
+    }
+
+    /*
+      Reduz um pouco os botões dos tipos
+      para eles caberem melhor em telas pequenas.
+    */
+    .icone-elemento a {
+        font-size: 11px;
+        padding: 2px 5px;
+    }
 }
 
-h1{
-    text-align: center;
-    margin: 25px;
-}
+/*
+  =====================================================
+  CELULARES MUITO PEQUENOS
+  =====================================================
+  Esta regra vale para telas de até 400px.
+  Aqui cada card ocupa a linha quase toda.
+*/
+@media screen and (max-width: 400px) {
 
-.texto-pokemon{
-    display: none;
-}
-.pokemon {
-    width: 32%;
-    padding: 10px;
-    border-radius: 10px;
-    background: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    /*
+      Em telas muito pequenas,
+      cada card ocupa 100% da largura.
+    */
+    .pokemon {
+        width: 100%;
+    }
 
-/* topo do card */
-.titulo-pokemon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 8px;
-}
-
-.numero {
-    font-size: 12px;
-    color: #777;
-}
-
-.nome {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-/* imagem */
-.imagem-do-pokemon {
-    width: 100%;
-    height: auto;
-    margin: 10px 0;
-}
-
-/* botões de tipo */
-.icone-elemento {
-    display: flex;
-    gap: 6px;
-    margin-bottom: 8px;
-    
-}
-
-
-/*Estilização dos botões de elementos*/
-.icone-elemento a{
-    text-decoration: none;
-    color: white;
-    padding: 3px;
-    border-radius: 8px 0;
-
-}
-
-
-
+    /*
+      Mantém os botões bem legíveis mesmo em telas pequenas.
+    */
+    .icone-elemento a {
+        font-size: 12px;
+    }
 }

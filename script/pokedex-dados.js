@@ -416,7 +416,7 @@ const pokemons = [
     { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
     { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
   ],
-  descricao: "O chifre em sua cabeça atrofiou. Acredita-se que isso aconteça para que os filhotes de Nidorina não sejam espetados enquanto a mãe os alimenta."
+  descricao: "Nidoqueen é melhor na defesa do que no ataque. Com escamas que funcionam como uma armadura, este Pokémon protege seus filhotes de qualquer tipo de ataque."
 },
 {
   geracao: "Primeira Geração",
@@ -1636,8 +1636,8 @@ const pokemons = [
   imagem: "../imagens/pokemons/122-Mr-Mime.png",
   alt: "Pokémon Mr-Mime",
   tipos: [
-    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
-    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }    
   ],
   descricao: "É um especialista em pantomima que consegue criar paredes invisíveis, mas sólidas, usando gestos de mímica."
 },
@@ -1660,7 +1660,7 @@ const pokemons = [
   numero: "0124",
   nome: "Jynx",
   classe: "pokemon-psiquico",
-  dataTipo: "psiquico fada",
+  dataTipo: "gelo psiquico",
   imagem: "../imagens/pokemons/124-Jinx.png",
   alt: "Pokémon Jynx",
   tipos: [
@@ -1940,7 +1940,7 @@ const pokemons = [
 {
   geracao: "Primeira Geração",
   numero: "0145",
-  nome: "Articuno",
+  nome: "Zapdos",
   classe: "pokemon-eletrico",
   dataTipo: "eletrico voador",
   imagem: "../imagens/pokemons/145-Zapdos.png",
@@ -2010,11 +2010,11 @@ const pokemons = [
   numero: "0150",
   nome: "Mewtwo",
   classe: "pokemon-psiquico",
-  dataTipo: "pasiquico",
+  dataTipo: "psiquico",
   imagem: "../imagens/pokemons/150-Mewtwo.png",
   alt: "Pokémon Mewtwo",
   tipos: [
-    { nome: "Psiquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },  
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },  
   ],
   descricao: "Seu DNA é quase idêntico ao de Mew. No entanto, seu tamanho e temperamento são muito diferentes."
 },
@@ -2023,13 +2023,13 @@ const pokemons = [
   numero: "0151",
   nome: "Mew",
   classe: "pokemon-psiquico",
-  dataTipo: "pasiquico",
+  dataTipo: "psiquico",
   imagem: "../imagens/pokemons/151-Mew.png",
   alt: "Pokémon Mew",
   tipos: [
-    { nome: "Psiquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },  
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },  
   ],
-  descricao: "Quando visto ao microscópio, é possível observar os pelos curtos, finos e delicados deste Pokémon"
+  descricao: "Quando visto ao microscópio, é possível observar os pelos curtos, finos e delicados deste Pokémon."
 },
 
 //=======Segunda Geração
