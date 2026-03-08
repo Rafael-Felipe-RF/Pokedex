@@ -1974,7 +1974,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/147-Dratini.png",
   alt: "Pokémon Dratini",
   tipos: [
-    { nome: "Dragao", classe: "but-dragao", link: "../pokemons/dragao.html" },  
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },  
   ],
   descricao: "À medida que cresce, troca várias camadas de pele. Durante esse processo, é protegida por uma cachoeira de correnteza forte."
 },
@@ -1987,7 +1987,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/148-Dragonair.png",
   alt: "Pokémon Dragonair",
   tipos: [
-    { nome: "Dragao", classe: "but-dragao", link: "../pokemons/dragao.html" },  
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },  
   ],
   descricao: "Dizem que se emitir uma aura de todo o corpo, o tempo começará a mudar instantaneamente."
 },
@@ -2000,7 +2000,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/149-Dragonite.png",
   alt: "Pokémon Dragonite",
   tipos: [
-    { nome: "Dragao", classe: "but-dragao", link: "../pokemons/dragao.html" }, 
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }, 
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" } 
   ],
   descricao: "Diz-se que vive em algum lugar no mar. Guia navios naufragados até a costa."
