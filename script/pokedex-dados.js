@@ -2756,7 +2756,7 @@ const pokemons = [
   alt: "Pokémon Forretress",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu interior continua sendo um mistério, pois a grossa carapaça de aço o protege por completo."
 },
@@ -2851,7 +2851,7 @@ const pokemons = [
   alt: "Pokémon Scizor",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Suas pinças parecem pesadas e ameaçadoras, mas servem também para intimidar o adversário antes do combate."
 },
@@ -4082,7 +4082,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/303-Mawile.png",
   alt: "Pokémon Mawile",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
   ],
   descricao: "Engana o inimigo com o rosto dócil e depois usa a enorme mandíbula traseira para atacar."
@@ -4096,7 +4096,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/304-Aron.png",
   alt: "Pokémon Aron",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Seu corpo de aço é resistente, e ele costuma se alimentar de minério de ferro."
@@ -4110,7 +4110,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/305-Lairon.png",
   alt: "Pokémon Lairon",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Ele percorre montanhas devorando pedras e deixando marcas evidentes por onde passa."
@@ -4124,7 +4124,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/306-Aggron.png",
   alt: "Pokémon Aggron",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Protege o território com grande rigor e reconstrói áreas danificadas de montanhas."
@@ -5038,7 +5038,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/374-Beldum.png",
   alt: "Pokémon Beldum",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
   descricao: "Seu corpo metálico é sustentado por magnetismo, que também ajuda nos movimentos."
@@ -5052,7 +5052,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/375-Metang.png",
   alt: "Pokémon Metang",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
   descricao: "Dois cérebros trabalham juntos em perfeita sintonia para coordenar seus movimentos."
@@ -5066,7 +5066,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/376-Metagross.png",
   alt: "Pokémon Metagross",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
   descricao: "Possui inteligência impressionante e combina força física com cálculo extremamente rápido."
@@ -5106,7 +5106,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/379-Registeel.png",
   alt: "Pokémon Registeel",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Sua estrutura metálica é incrivelmente resistente e difícil de ser danificada."
 },
@@ -5187,7 +5187,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/385-Jirachi.png",
   alt: "Pokémon Jirachi",
   tipos: [
-    { nome: "Steel", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
   descricao: "Seu despertar é envolto em mistério, e sua presença costuma ser vista como algo raro e especial."
