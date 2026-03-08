@@ -2024,7 +2024,7 @@ const pokemons = [
   nome: "Mew",
   classe: "pokemon-psiquico",
   dataTipo: "psiquico",
-  imagem: "../imagens/pokemons/151-Mew.png",
+  imagem: "../imagens/pokemons/151-mew.png",
   alt: "Pokémon Mew",
   tipos: [
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },  
