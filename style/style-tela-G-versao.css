@@ -198,7 +198,8 @@ h1 {
 .pokemon-gelo,
 .pokemon-dragao,
 .pokemon-steel,
-.pokemon-noturno {
+.pokemon-noturno,
+.pokemon-voador {
     border: 8px solid rgb(235, 193, 8);
     border-radius: 10px;
     width: 300px;
