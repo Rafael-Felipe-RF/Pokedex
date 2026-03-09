@@ -2389,7 +2389,7 @@ const pokemons = [
   nome: "Xatu",
   classe: "pokemon-psiquico",
   dataTipo: "psiquico voador",
-  imagem: "../imagens/pokemons/178-Xatu.png",
+  imagem: "../imagens/pokemons/178-xatu.png",
   alt: "Pokémon Xatu",
   tipos: [
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
