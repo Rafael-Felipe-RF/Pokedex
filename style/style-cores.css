@@ -83,7 +83,7 @@ Estilização página pokémons fogo
 }
 
 .pokemon-fogo { /*Estilização do fundo do card*/
-    background-color: rgb(229, 183, 183);
+    background-color: rgb(219, 92, 7);
     background-image: url(../imagens/fundo-cartas/fogo.png);
 }
 
@@ -125,7 +125,7 @@ Estilização página normal
 
 .pokemon-normal {
     background-color: rgb(203, 211, 212); /*Estilização do fundo do card*/
-    background-image: url(../imagens/fundos-paginas/fundo-div.png);
+    background-image: url(../imagens/fundo-cartas/normal.png);
 }
 
 /*********************************************
