@@ -12583,12 +12583,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "932",
   nome: "Nacli",
-  classe: "pokemon-pedra",
+  classe: "pokemon-rocha",
   dataTipo: "pedra",
   imagem: "../imagens/pokemons/932-Nacli.png",
   alt: "Pokémon Nacli",
   tipos: [
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Nacli é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -12596,12 +12596,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "933",
   nome: "Naclstack",
-  classe: "pokemon-pedra",
-  dataTipo: "pedra",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha",
   imagem: "../imagens/pokemons/933-Naclstack.png",
   alt: "Pokémon Naclstack",
   tipos: [
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Naclstack é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -12609,8 +12609,8 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "934",
   nome: "Garganacl",
-  classe: "pokemon-pedra",
-  dataTipo: "pedra",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha",
   imagem: "../imagens/pokemons/934-Garganacl.png",
   alt: "Pokémon Garganacl",
   tipos: [
@@ -12717,7 +12717,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "942",
   nome: "Maschiff",
-  classe: "pokemon-sombrio",
+  classe: "pokemon-noturno",
   dataTipo: "sombrio",
   imagem: "../imagens/pokemons/942-Maschiff.png",
   alt: "Pokémon Maschiff",
@@ -12730,7 +12730,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "943",
   nome: "Mabosstiff",
-  classe: "pokemon-sombrio",
+  classe: "pokemon-noturno",
   dataTipo: "sombrio",
   imagem: "../imagens/pokemons/943-Mabosstiff.png",
   alt: "Pokémon Mabosstiff",
@@ -12743,7 +12743,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "944",
   nome: "Shroodle",
-  classe: "pokemon-veneno",
+  classe: "pokemon-venenoso",
   dataTipo: "veneno normal",
   imagem: "../imagens/pokemons/944-Shroodle.png",
   alt: "Pokémon Shroodle",
@@ -12757,7 +12757,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "945",
   nome: "Grafaiai",
-  classe: "pokemon-veneno",
+  classe: "pokemon-venenoso",
   dataTipo: "veneno normal",
   imagem: "../imagens/pokemons/945-Grafaiai.png",
   alt: "Pokémon Grafaiai",
@@ -12827,12 +12827,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "950",
   nome: "Klawf",
-  classe: "pokemon-pedra",
-  dataTipo: "pedra",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha",
   imagem: "../imagens/pokemons/950-Klawf.png",
   alt: "Pokémon Klawf",
   tipos: [
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Klawf é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13028,12 +13028,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "965",
   nome: "Varoom",
-  classe: "pokemon-aco",
+  classe: "pokemon-steel",
   dataTipo: "aco veneno",
   imagem: "../imagens/pokemons/965-Varoom.png",
   alt: "Pokémon Varoom",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
   ],
   descricao: "Varoom é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13042,12 +13042,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "966",
   nome: "Revavroom",
-  classe: "pokemon-aco",
+  classe: "pokemon-steel",
   dataTipo: "aco veneno",
   imagem: "../imagens/pokemons/966-Revavroom.png",
   alt: "Pokémon Revavroom",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
   ],
   descricao: "Revavroom é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13070,12 +13070,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "968",
   nome: "Orthworm",
-  classe: "pokemon-aco",
+  classe: "pokemon-steel",
   dataTipo: "aco",
   imagem: "../imagens/pokemons/968-Orthworm.png",
   alt: "Pokémon Orthworm",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "Orthworm é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13083,8 +13083,8 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "969",
   nome: "Glimmet",
-  classe: "pokemon-pedra",
-  dataTipo: "pedra veneno",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha veneno",
   imagem: "../imagens/pokemons/969-Glimmet.png",
   alt: "Pokémon Glimmet",
   tipos: [
@@ -13097,8 +13097,8 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "970",
   nome: "Glimmora",
-  classe: "pokemon-pedra",
-  dataTipo: "pedra veneno",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha veneno",
   imagem: "../imagens/pokemons/970-Glimmora.png",
   alt: "Pokémon Glimmora",
   tipos: [
@@ -13232,7 +13232,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "980",
   nome: "Clodsire",
-  classe: "pokemon-veneno",
+  classe: "pokemon-venenoso",
   dataTipo: "veneno terra",
   imagem: "../imagens/pokemons/980-Clodsire.png",
   alt: "Pokémon Clodsire",
@@ -13273,7 +13273,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "983",
   nome: "Kingambit",
-  classe: "pokemon-sombrio",
+  classe: "pokemon-noturno",
   dataTipo: "sombrio aco",
   imagem: "../imagens/pokemons/983-Kingambit.png",
   alt: "Pokémon Kingambit",
@@ -13413,7 +13413,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "993",
   nome: "IronJugulis",
-  classe: "pokemon-sombrio",
+  classe: "pokemon-noturno",
   dataTipo: "sombrio voador",
   imagem: "../imagens/pokemons/993-IronJugulis.png",
   alt: "Pokémon IronJugulis",
@@ -13441,8 +13441,8 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "995",
   nome: "IronThorns",
-  classe: "pokemon-pedra",
-  dataTipo: "pedra eletrico",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha eletrico",
   imagem: "../imagens/pokemons/995-IronThorns.png",
   alt: "Pokémon IronThorns",
   tipos: [
@@ -13510,12 +13510,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1000",
   nome: "Gholdengo",
-  classe: "pokemon-aco",
+  classe: "pokemon-steel",
   dataTipo: "aco fantasma",
   imagem: "../imagens/pokemons/1000-Gholdengo.png",
   alt: "Pokémon Gholdengo",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "Gholdengo é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13524,7 +13524,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1001",
   nome: "WoChien",
-  classe: "pokemon-sombrio",
+  classe: "pokemon-noturno",
   dataTipo: "sombrio planta",
   imagem: "../imagens/pokemons/1001-WoChien.png",
   alt: "Pokémon WoChien",
@@ -13538,7 +13538,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1002",
   nome: "ChienPao",
-  classe: "pokemon-sombrio",
+  classe: "pokemon-noturno",
   dataTipo: "sombrio gelo",
   imagem: "../imagens/pokemons/1002-ChienPao.png",
   alt: "Pokémon ChienPao",
@@ -13552,7 +13552,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1003",
   nome: "TingLu",
-  classe: "pokemon-sombrio",
+  classe: "pokemon-noturno",
   dataTipo: "sombrio terra",
   imagem: "../imagens/pokemons/1003-TingLu.png",
   alt: "Pokémon TingLu",
@@ -13566,7 +13566,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1004",
   nome: "ChiYu",
-  classe: "pokemon-sombrio",
+  classe: "pokemon-noturno",
   dataTipo: "sombrio fogo",
   imagem: "../imagens/pokemons/1004-ChiYu.png",
   alt: "Pokémon ChiYu",
@@ -13664,7 +13664,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1011",
   nome: "Okidogi",
-  classe: "pokemon-veneno",
+  classe: "pokemon-venenoso",
   dataTipo: "veneno lutador",
   imagem: "../imagens/pokemons/1011-Okidogi.png",
   alt: "Pokémon Okidogi",
@@ -13678,7 +13678,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1012",
   nome: "Munkidori",
-  classe: "pokemon-veneno",
+  classe: "pokemon-venenoso",
   dataTipo: "veneno psiquico",
   imagem: "../imagens/pokemons/1012-Munkidori.png",
   alt: "Pokémon Munkidori",
@@ -13692,7 +13692,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1013",
   nome: "Fezandipiti",
-  classe: "pokemon-veneno",
+  classe: "pokemon-venenoso",
   dataTipo: "veneno fada",
   imagem: "../imagens/pokemons/1013-Fezandipiti.png",
   alt: "Pokémon Fezandipiti",
@@ -13719,12 +13719,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1015",
   nome: "Archaludon",
-  classe: "pokemon-aco",
+  classe: "pokemon-steel",
   dataTipo: "aco dragao",
   imagem: "../imagens/pokemons/1015-Archaludon.png",
   alt: "Pokémon Archaludon",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
   descricao: "Archaludon é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13775,8 +13775,8 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1019",
   nome: "IronBoulder",
-  classe: "pokemon-pedra",
-  dataTipo: "pedra psiquico",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha psiquico",
   imagem: "../imagens/pokemons/1019-IronBoulder.png",
   alt: "Pokémon IronBoulder",
   tipos: [
@@ -13789,12 +13789,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1020",
   nome: "IronCrown",
-  classe: "pokemon-aco",
+  classe: "pokemon-steel",
   dataTipo: "aco psiquico",
   imagem: "../imagens/pokemons/1020-IronCrown.png",
   alt: "Pokémon IronCrown",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
   descricao: "IronCrown é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13816,7 +13816,7 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1022",
   nome: "Pecharunt",
-  classe: "pokemon-veneno",
+  classe: "pokemon-venenoso",
   dataTipo: "veneno fantasma",
   imagem: "../imagens/pokemons/1022-Pecharunt.png",
   alt: "Pokémon Pecharunt",
@@ -13825,6 +13825,47 @@ const pokemons = [
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "Pecharunt é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1023",
+  nome: "Iron Crown",
+  classe: "pokemon-steel",
+  dataTipo: "veneno fantasma",
+  imagem: "../imagens/pokemons/1023-Iron-Crown.png",
+  alt: "Pokémon Iron Crown",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
+    { nome: "Psiquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Parece um objeto misterioso apresentado em uma revista paranormal como uma arma de ponta com o formato de um Cobalion."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1024",
+  nome: "Terapagos",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/1024-Terapagos.png",
+  alt: "Pokémon Terapagos",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Terapagos se protege usando seu poder de transformar energia em cristais sólidos. Este Pokémon é a fonte do fenômeno Terastal."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1025",
+  nome: "Pecharunt",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno fantasma",
+  imagem: "../imagens/pokemons/1025-Pecharunt.png",
+  alt: "Pokémon Pecharunt",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Ela alimenta outros com mochi tóxico que desperta desejos e capacidades. Aqueles que comem o mochi ficam sob o controle de Pecharunt, acorrentados à sua vontade."
 },
 ]
 
