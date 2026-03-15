@@ -6,12 +6,12 @@ const pokemons = [
     numero: "0001",
     nome: "Bulbasaur",
     classe: "pokemon-planta",
-    dataTipo: "planta venenoso",
+    dataTipo: "planta veneno",
     imagem: "../imagens/pokemons/001-Bulbasauro.png",
     alt: "Pokémon Bulbasaur",
     tipos: [
       { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-      { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
     ],
     descricao: "Por algum tempo após o nascimento, ele usa os nutrientes contidos na semente em suas costas para crescer."
   },
@@ -20,12 +20,12 @@ const pokemons = [
     numero: "0002",
     nome: "Ivysaur",
     classe: "pokemon-planta",
-    dataTipo: "planta venenoso",
+    dataTipo: "planta veneno",
     imagem: "../imagens/pokemons/002-Ivissauro.png",
     alt: "Pokémon Ivysaur",
     tipos: [
       { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-      { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
     ],
     descricao: "Quanto mais luz solar Ivysaur recebe, mais força surge dentro dele, permitindo que o broto em suas costas cresça."
   },
@@ -34,12 +34,12 @@ const pokemons = [
     numero: "0003",
     nome: "Venusaur",
     classe: "pokemon-planta",
-    dataTipo: "planta venenoso",
+    dataTipo: "planta veneno",
     imagem: "../imagens/pokemons/003-Venassauro.png",
     alt: "Pokémon Venusaur",
     tipos: [
       { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-      { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
     ],
     descricao: "Enquanto se banha ao sol, consegue converter a luz em energia. Consequentemente, é mais potente no verão."
   },
@@ -172,7 +172,7 @@ const pokemons = [
     alt: "Pokémon Weedle",
     tipos: [
       { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
     ],
     descricao: "Cuidado com o ferrão afiado em sua cabeça. Ele se esconde na grama e nos arbustos, onde se alimenta de folhas."
   },
@@ -186,7 +186,7 @@ const pokemons = [
     alt: "Pokémon Kakuna",
     tipos: [
       { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
     ],
     descricao: "Capaz de se mover apenas ligeiramente. Quando ameaçado, pode estender seu ferrão e envenenar seu inimigo."
   },
@@ -200,7 +200,7 @@ const pokemons = [
     alt: "Pokémon Beedrill",
     tipos: [
       { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+      { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
     ],
     descricao: "Possui três ferrões venenosos nas patas dianteiras e na cauda. São usados para golpear repetidamente o inimigo."
   },
@@ -304,12 +304,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0023",
   nome: "Ekans",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/023-Ekans.png",
   alt: "Pokémon Ekans",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Ela consegue destacar livremente a mandíbula para engolir presas grandes inteiras. No entanto, pode ficar pesada demais para se mover."
 },
@@ -317,12 +317,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0024",
   nome: "Arbok",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/024-Arbok.png",
   alt: "Pokémon Arbok",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "O padrão em sua barriga parece ser um rosto assustador. Inimigos fracos fugirão só de ver o padrão."
 },
@@ -382,12 +382,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0029",
   nome: "Nidoran♀",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/029-Nidoran.png",
-  alt: "Pokémon Nidoran",
+  alt: "Pokémon Nidoran♀",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "As fêmeas são mais sensíveis aos odores do que os machos. Ao procurar alimento, elas usam seus bigodes para verificar a direção do vento e se manter a favor do vento, evitando predadores."
 },
@@ -395,12 +395,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0030",
   nome: "Nidorina",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/030-Nidorina.png",
   alt: "Pokémon Nidorina",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "O chifre em sua cabeça atrofiou. Acredita-se que isso aconteça para que os filhotes de Nidorina não sejam espetados enquanto a mãe os alimenta."
 },
@@ -408,12 +408,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0031",
   nome: "Nidoqueen",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno terra",
   imagem: "../imagens/pokemons/031-Nidoqueen.png",
-  alt: "Pokémon Nidorina",
+  alt: "Pokémon Nidoqueen",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
   ],
   descricao: "Nidoqueen é melhor na defesa do que no ataque. Com escamas que funcionam como uma armadura, este Pokémon protege seus filhotes de qualquer tipo de ataque."
@@ -421,13 +421,13 @@ const pokemons = [
 {
   geracao: "Primeira Geração",
   numero: "0032",
-  nome: "Nidoran♂",
-  classe: "pokemon-venenoso",
+  nome: "Nidoran ♂",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/032-Nidoran.png",
-  alt: "Pokémon Nidoran",
+  alt: "Pokémon Nidoran ♂",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "O chifre na testa de um Nidoran macho contém um veneno poderoso. Este é um Pokémon muito cauteloso, sempre atento às suas grandes orelhas."
 },
@@ -435,12 +435,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0033",
   nome: "Nidorino",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/033-Nidorino.png",
   alt: "Pokémon Nidorino",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Com um chifre mais duro que diamante, este Pokémon anda por aí quebrando pedregulhos em busca de uma pedra da lua."
 },
@@ -448,12 +448,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0034",
   nome: "Nidoking",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno terra",
   imagem: "../imagens/pokemons/034-Nidoking.png",
   alt: "Pokémon Nidoking",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
   ],
   descricao: "Quando entra em fúria, é impossível controlá-lo. Mas na presença de uma Nidoqueen com quem convive há muito tempo, Nidoking se acalma."
@@ -542,12 +542,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0041",
   nome: "Zubat",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno voador",
   imagem: "../imagens/pokemons/041-Zubat.png",
   alt: "Pokémon Zubat",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
   ],
   descricao: "Ele emite ondas ultrassônicas pela boca para verificar o ambiente ao redor. Mesmo em cavernas apertadas, Zubat voa com destreza."
@@ -556,12 +556,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0042",
   nome: "Golbat",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno voador",
   imagem: "../imagens/pokemons/042-Golbat.png",
   alt: "Pokémon Golbat",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
   ],
   descricao: "Adora beber o sangue de outras criaturas. Diz-se que, se encontra outros da sua espécie com fome, por vezes partilha o sangue que recolheu."
@@ -576,7 +576,7 @@ const pokemons = [
   alt: "Pokémon Oddish",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Seu nome científico é Oddium wanderus. Diz-se que, ao cair da noite, ela consegue percorrer distâncias de até 300 metros, caminhando sobre suas duas raízes."
 },
@@ -590,7 +590,7 @@ const pokemons = [
   alt: "Pokémon Gloom",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "O fluido que escorre de sua boca não é baba. É um néctar usado para atrair presas."
 },
@@ -604,7 +604,7 @@ const pokemons = [
   alt: "Pokémon Vileplume",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "O botão desabrocha com um estrondo. Em seguida, começa a espalhar pólen alergênico e venenoso."
 },
@@ -617,8 +617,8 @@ const pokemons = [
   imagem: "../imagens/pokemons/046-Paras.png",
   alt: "Pokémon Paras",
   tipos: [
-    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }    
   ],
   descricao: "Escava tocas no solo para roer as raízes das árvores. Os cogumelos em suas costas absorvem a maior parte dos nutrientes."
 },
@@ -631,8 +631,8 @@ const pokemons = [
   imagem: "../imagens/pokemons/047-Parasect.png",
   alt: "Pokémon Parasect",
   tipos: [
-    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" } 
   ],
   descricao: "O inseto hospedeiro tem sua energia drenada pelo cogumelo em suas costas. O cogumelo parece ser o responsável por todo o processo mental."
 },
@@ -646,7 +646,7 @@ const pokemons = [
   alt: "Pokémon Venonat",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "O veneno escorre por todo o seu corpo. Ele captura pequenos Pokémon insetos à noite, atraídos pela luz."
 },
@@ -660,7 +660,7 @@ const pokemons = [
   alt: "Pokémon Venomoth",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "As asas são cobertas por escamas semelhantes a poeira. Cada vez que bate as asas, libera uma poeira altamente tóxica."
 },
@@ -922,7 +922,7 @@ const pokemons = [
   alt: "Pokémon Bellsprout",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Independentemente do que Bellsprout esteja fazendo, se detectar movimento por perto, reagirá imediatamente estendendo seus finos cipós."
 },
@@ -936,7 +936,7 @@ const pokemons = [
   alt: "Pokémon Weepinbell",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Embora esteja cheio de ácido, não derrete porque também exala um fluido protetor."
 },
@@ -950,7 +950,7 @@ const pokemons = [
   alt: "Pokémon Victreebel",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Uma vez dentro do corpo de Victreebel, até mesmo o objeto mais duro será derretido pelo ácido do Pokémon."
 },
@@ -964,7 +964,7 @@ const pokemons = [
   alt: "Pokémon Tentacool",
   tipos: [
     { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Quando a maré baixa, exemplares de Tentacool desidratados podem ser encontrados na costa."
 },
@@ -978,7 +978,7 @@ const pokemons = [
   alt: "Pokémon Tentacruel",
   tipos: [
     { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Nas raras ocasiões em que ocorrem grandes surtos de Tentacruel, todos os Pokémon peixes desaparecem do mar circundante."
 },
@@ -1179,12 +1179,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0088",
   nome: "Grimer",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/088-Grimer.png",
   alt: "Pokémon Grimer",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Nascidos da lama, esses Pokémon agora se reúnem em locais poluídos e aumentam a quantidade de bactérias em seus corpos."
 },
@@ -1192,12 +1192,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0089",
   nome: "Muk",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/089-Muk.png",
   alt: "Pokémon Muk",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Está densamente coberto por uma lama imunda e repugnante. É tão tóxico que até suas pegadas contêm veneno."
 },
@@ -1238,7 +1238,7 @@ const pokemons = [
   alt: "Pokémon Gastly",
   tipos: [
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Envolve o oponente em seu corpo semelhante a gás, enfraquecendo lentamente a presa ao envenená-la através da pele."
 },
@@ -1252,7 +1252,7 @@ const pokemons = [
   alt: "Pokémon Haunter",
   tipos: [
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Gosta de espreitar na escuridão e tocar nos ombros com uma mão gasosa. Seu toque causa tremores intermináveis."
 },
@@ -1266,7 +1266,7 @@ const pokemons = [
   alt: "Pokémon Gengar",
   tipos: [
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Para roubar a vida de sua presa, ele se esgueira para as sombras da vítima e aguarda silenciosamente uma oportunidade."
 },
@@ -1459,12 +1459,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0109",
   nome: "Koffing",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/109-Koffing.png",
   alt: "Pokémon Koffing",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "O gás tóxico fica retido dentro de seu corpo fino em forma de balão, podendo causar explosões de grandes proporções."
 },
@@ -1472,12 +1472,12 @@ const pokemons = [
   geracao: "Primeira Geração",
   numero: "0110",
   nome: "Weezing",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/110-Weezing.png",
   alt: "Pokémon Weezing",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Perfumes de alta qualidade são feitos utilizando os gases tóxicos presentes em seu interior, diluindo-os ao máximo."
 },
@@ -1634,7 +1634,7 @@ const pokemons = [
   classe: "pokemon-psiquico",
   dataTipo: "psiquico fada",
   imagem: "../imagens/pokemons/122-Mr-Mime.png",
-  alt: "Pokémon Mr-Mime",
+  alt: "Pokémon Mr. Mime",
   tipos: [
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }    
@@ -1659,7 +1659,7 @@ const pokemons = [
     geracao: "Primeira Geração",
   numero: "0124",
   nome: "Jynx",
-  classe: "pokemon-psiquico",
+  classe: "pokemon-gelo",
   dataTipo: "gelo psiquico",
   imagem: "../imagens/pokemons/124-Jinx.png",
   alt: "Pokémon Jynx",
@@ -1903,7 +1903,7 @@ const pokemons = [
   classe: "pokemon-rocha",
   dataTipo: "rocha voador",
   imagem: "../imagens/pokemons/142-Aerodactyl.png",
-  alt: "Pokémon Kabutops",
+  alt: "Pokémon Aerodactyl",
   tipos: [
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
@@ -1917,7 +1917,7 @@ const pokemons = [
   classe: "pokemon-normal",
   dataTipo: "normal",
   imagem: "../imagens/pokemons/143-Snorlax.png",
-  alt: "Pokémon Ditto",
+  alt: "Pokémon Snorlax",
   tipos: [
     { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
   ],
@@ -2101,7 +2101,7 @@ const pokemons = [
   {
     geracao: "Segunda Geração",
     numero: "0157",
-    nome: "Quilava",
+    nome: "Typhlosion",
     classe: "pokemon-fogo",
     dataTipo: "fogo",
     imagem: "../imagens/pokemons/157-Typhlosion.png",
@@ -2239,10 +2239,10 @@ const pokemons = [
   classe: "pokemon-normal",
   dataTipo: "inseto veneno",
   imagem: "../imagens/pokemons/167-Spinarak.png",
-  alt: "Pokémon Ledian",
+  alt: "Pokémon Spinarak",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Mesmo com presas presas em seu ninho de fios, Spinarak aguardará imóvel até o cair da noite."
 },
@@ -2256,7 +2256,7 @@ const pokemons = [
   alt: "Pokémon Ariados",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Um único fio especial é fiado incessantemente a partir de sua parte traseira. O fio leva de volta ao seu ninho."
 },
@@ -2264,12 +2264,12 @@ const pokemons = [
   geracao: "Segunda Geração",
   numero: "0169",
   nome: "Crobat",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno voador",
   imagem: "../imagens/pokemons/169-Crobat.png",
   alt: "Pokémon Crobat",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
   ],
   descricao: "Ambas as pernas se transformaram em asas. Sem fazer barulho, Crobat voa velozmente em direção à sua presa e crava suas presas na nuca do alvo."
@@ -2832,12 +2832,12 @@ const pokemons = [
   numero: "211",
   nome: "Qwilfish",
   classe: "pokemon-agua",
-  dataTipo: "agua venenoso",
+  dataTipo: "agua veneno",
   imagem: "../imagens/pokemons/211-Qwilfish.png",
   alt: "Pokémon Qwilfish",
   tipos: [
     { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
-    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Ao engolir água rapidamente, seu corpo incha e os espinhos venenosos ficam ainda mais perigosos."
 },
@@ -3615,12 +3615,12 @@ const pokemons = [
   numero: "269",
   nome: "Dustox",
   classe: "pokemon-inseto",
-  dataTipo: "inseto venenoso",
+  dataTipo: "inseto veneno",
   imagem: "../imagens/pokemons/269-Dustox.png",
   alt: "Pokémon Dustox",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "É atraído por luzes fortes à noite e espalha um pó fino das asas para se defender."
 },
@@ -4240,12 +4240,12 @@ const pokemons = [
   numero: "315",
   nome: "Roselia",
   classe: "pokemon-planta",
-  dataTipo: "planta venenoso",
+  dataTipo: "planta veneno",
   imagem: "../imagens/pokemons/315-Roselia.png",
   alt: "Pokémon Roselia",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "As flores em suas mãos exalam fragrâncias delicadas, mas também podem conter espinhos perigosos."
 },
@@ -4253,12 +4253,12 @@ const pokemons = [
   geracao: "Terceira Geração",
   numero: "316",
   nome: "Gulpin",
-  classe: "pokemon-venenoso",
-  dataTipo: "venenoso",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno",
   imagem: "../imagens/pokemons/316-Gulpin.png",
   alt: "Pokémon Gulpin",
   tipos: [
-    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Seu estômago é tão forte que consegue digerir quase qualquer coisa que engole."
 },
@@ -4266,12 +4266,12 @@ const pokemons = [
   geracao: "Terceira Geração",
   numero: "317",
   nome: "Swalot",
-  classe: "pokemon-venenoso",
-  dataTipo: "venenoso",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno",
   imagem: "../imagens/pokemons/317-Swalot.png",
   alt: "Pokémon Swalot",
   tipos: [
-    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Ele envolve a presa com o corpo e a dissolve usando fluidos digestivos extremamente potentes."
 },
@@ -4522,12 +4522,12 @@ const pokemons = [
   geracao: "Terceira Geração",
   numero: "336",
   nome: "Seviper",
-  classe: "pokemon-venenoso",
-  dataTipo: "venenoso",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno",
   imagem: "../imagens/pokemons/336-Seviper.png",
   alt: "Pokémon Seviper",
   tipos: [
-    { nome: "Venenoso", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Afia a lâmina da cauda contra pedras e não esquece facilmente antigos confrontos."
 },
@@ -5842,12 +5842,12 @@ const pokemons = [
   geracao: "Quarta Geração",
   numero: "434",
   nome: "Stunky",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno sombrio",
   imagem: "../imagens/pokemons/434-Stunky.png",
   alt: "Pokémon Stunky",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
   ],
   descricao: "Ele ergue a cauda para espalhar um cheiro muito desagradável."
@@ -5856,12 +5856,12 @@ const pokemons = [
   geracao: "Quarta Geração",
   numero: "435",
   nome: "Skuntank",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno sombrio",
   imagem: "../imagens/pokemons/435-Skuntank.png",
   alt: "Pokémon Skuntank",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
   ],
   descricao: "Seu odor é tão intenso que pode afastar inimigos em um instante."
@@ -6074,12 +6074,12 @@ const pokemons = [
   geracao: "Quarta Geração",
   numero: "451",
   nome: "Skorupi",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno inseto",
   imagem: "../imagens/pokemons/451-Skorupi.png",
   alt: "Pokémon Skorupi",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
   ],
   descricao: "Ele se enterra na areia e espera pacientemente por sua presa."
@@ -6088,12 +6088,12 @@ const pokemons = [
   geracao: "Quarta Geração",
   numero: "452",
   nome: "Drapion",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno sombrio",
   imagem: "../imagens/pokemons/452-Drapion.png",
   alt: "Pokémon Drapion",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
   ],
   descricao: "Suas pinças têm força suficiente para esmagar até materiais muito duros."
@@ -6102,12 +6102,12 @@ const pokemons = [
   geracao: "Quarta Geração",
   numero: "453",
   nome: "Croagunk",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno lutador",
   imagem: "../imagens/pokemons/453-Croagunk.png",
   alt: "Pokémon Croagunk",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
   ],
   descricao: "Ele infla as bolsas em seu rosto antes de desferir golpes venenosos."
@@ -6116,12 +6116,12 @@ const pokemons = [
   geracao: "Quarta Geração",
   numero: "454",
   nome: "Toxicroak",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno lutador",
   imagem: "../imagens/pokemons/454-Toxicroak.png",
   alt: "Pokémon Toxicroak",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
   ],
   descricao: "Suas garras liberam toxinas perigosas que podem paralisar a vítima."
@@ -7314,7 +7314,7 @@ const pokemons = [
   alt: "Pokémon Venipede",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Seu corpo venenoso afasta inimigos que chegam perto demais."
 },
@@ -7328,7 +7328,7 @@ const pokemons = [
   alt: "Pokémon Whirlipede",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Ele gira o corpo para atacar e se defender ao mesmo tempo."
 },
@@ -7342,7 +7342,7 @@ const pokemons = [
   alt: "Pokémon Scolipede",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Corre com velocidade espantosa mesmo sendo grande e pesado."
 },
@@ -7650,12 +7650,12 @@ const pokemons = [
   geracao: "Quinta Geração",
   numero: "568",
   nome: "Trubbish",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/568-Trubbish.png",
   alt: "Pokémon Trubbish",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Ele surgiu do lixo acumulado e do descarte sem cuidado."
 },
@@ -7663,12 +7663,12 @@ const pokemons = [
   geracao: "Quinta Geração",
   numero: "569",
   nome: "Garbodor",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/569-Garbodor.png",
   alt: "Pokémon Garbodor",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Seu corpo libera toxinas e odores extremamente desagradáveis."
 },
@@ -7948,7 +7948,7 @@ const pokemons = [
   alt: "Pokémon Foongus",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Sua aparência engana muitos Pokémon e também treinadores distraídos."
 },
@@ -7962,7 +7962,7 @@ const pokemons = [
   alt: "Pokémon Amoonguss",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Ele atrai oponentes fingindo ser algo inofensivo."
 },
@@ -9154,7 +9154,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/679-Honedge.png",
   alt: "Pokémon Honedge",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "Sua lâmina carrega uma presença estranha que inspira cautela."
@@ -9168,7 +9168,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/680-Doublade.png",
   alt: "Pokémon Doublade",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "As duas espadas atacam juntas em perfeita coordenação."
@@ -9182,7 +9182,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/681-Aegislash.png",
   alt: "Pokémon Aegislash",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "Alterna entre defesa e ataque com grande habilidade estratégica."
@@ -9299,12 +9299,12 @@ const pokemons = [
   geracao: "Sexta Geração",
   numero: "690",
   nome: "Skrelp",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno agua",
   imagem: "../imagens/pokemons/690-Skrelp.png",
   alt: "Pokémon Skrelp",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
   ],
   descricao: "Sua aparência discreta o ajuda a se esconder em algas e recifes."
@@ -9313,12 +9313,12 @@ const pokemons = [
   geracao: "Sexta Geração",
   numero: "691",
   nome: "Dragalge",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno dragao",
   imagem: "../imagens/pokemons/691-Dragalge.png",
   alt: "Pokémon Dragalge",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
   descricao: "Ele libera veneno poderoso e domina seu território no mar."
@@ -9536,7 +9536,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/707-Klefki.png",
   alt: "Pokémon Klefki",
   tipos: [
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
   ],
   descricao: "Adora colecionar chaves e carregá-las como se fossem tesouros."
@@ -10079,12 +10079,12 @@ const pokemons = [
   geracao: "Sétima Geração",
   numero: "747",
   nome: "Mareanie",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno agua",
   imagem: "../imagens/pokemons/747-Mareanie.png",
   alt: "Pokémon Mareanie",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
   ],
   descricao: "Seus espinhos venenosos afastam qualquer predador descuidado."
@@ -10093,12 +10093,12 @@ const pokemons = [
   geracao: "Sétima Geração",
   numero: "748",
   nome: "Toxapex",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno agua",
   imagem: "../imagens/pokemons/748-Toxapex.png",
   alt: "Pokémon Toxapex",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
   ],
   descricao: "Seu corpo é altamente defensivo, coberto por espinhos cheios de veneno."
@@ -10215,12 +10215,12 @@ const pokemons = [
   geracao: "Sétima Geração",
   numero: "757",
   nome: "Salandit",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno fogo",
   imagem: "../imagens/pokemons/757-Salandit.png",
   alt: "Pokémon Salandit",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
   ],
   descricao: "Ele espalha gás tóxico e chama quente para atacar sem ser tocado."
@@ -10229,12 +10229,12 @@ const pokemons = [
   geracao: "Sétima Geração",
   numero: "758",
   nome: "Salazzle",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno fogo",
   imagem: "../imagens/pokemons/758-Salazzle.png",
   alt: "Pokémon Salazzle",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
   ],
   descricao: "Seu veneno perfumado pode deixar o inimigo tonto e sem reação."
@@ -10492,7 +10492,7 @@ const pokemons = [
   alt: "Pokémon Togedemaru",
   tipos: [
     { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "Ergue os espinhos do corpo para armazenar e descarregar eletricidade."
 },
@@ -10713,7 +10713,7 @@ const pokemons = [
   alt: "Pokémon Nihilego",
   tipos: [
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Seu corpo estranho e translúcido faz dele uma presença inquietante."
 },
@@ -10782,7 +10782,7 @@ const pokemons = [
   alt: "Pokémon Kartana",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "Seu corpo fino e afiado corta com precisão impressionante."
 },
@@ -10845,12 +10845,12 @@ const pokemons = [
   geracao: "Sétima Geração",
   numero: "803",
   nome: "Poipole",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno",
   imagem: "../imagens/pokemons/803-Poipole.png",
   alt: "Pokémon Poipole",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Curioso e imprevisível, dispara veneno pela cabeça em combate."
 },
@@ -10858,12 +10858,12 @@ const pokemons = [
   geracao: "Sétima Geração",
   numero: "804",
   nome: "Naganadel",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno dragao",
   imagem: "../imagens/pokemons/804-Naganadel.png",
   alt: "Pokémon Naganadel",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
   descricao: "Seu veneno é disparado com precisão e extrema velocidade."
@@ -11116,7 +11116,7 @@ const pokemons = [
   alt: "Pokémon Corviknight",
   tipos: [
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "Seu corpo resistente e voo estável o tornam dominante nos céus."
 },
@@ -11451,7 +11451,7 @@ const pokemons = [
   alt: "Pokémon Toxel",
   tipos: [
     { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Acumula toxinas e eletricidade no corpo, mesmo sendo ainda um bebê."
 },
@@ -11465,7 +11465,7 @@ const pokemons = [
   alt: "Pokémon Toxtricity",
   tipos: [
     { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Transforma eletricidade em música agressiva e ataques cheios de atitude."
 },
@@ -12014,12 +12014,12 @@ const pokemons = [
   geracao: "Oitava Geração",
   numero: "890",
   nome: "Eternatus",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno dragao",
   imagem: "../imagens/pokemons/890-Eternatus.png",
   alt: "Pokémon Eternatus",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
   descricao: "Seu poder colossal ameaça envolver tudo com energia tóxica."
@@ -12197,7 +12197,7 @@ const pokemons = [
   alt: "Pokémon Sneasler",
   tipos: [
     { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Escala penhascos com agilidade e usa garras cheias de veneno."
 },
@@ -12211,7 +12211,7 @@ const pokemons = [
   alt: "Pokémon Overqwil",
   tipos: [
     { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Espinhos venenosos cobrem seu corpo, tornando-o muito perigoso."
 },
@@ -12743,12 +12743,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "944",
   nome: "Shroodle",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno normal",
   imagem: "../imagens/pokemons/944-Shroodle.png",
   alt: "Pokémon Shroodle",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
   ],
   descricao: "Shroodle é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -12757,12 +12757,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "945",
   nome: "Grafaiai",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno normal",
   imagem: "../imagens/pokemons/945-Grafaiai.png",
   alt: "Pokémon Grafaiai",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
   ],
   descricao: "Grafaiai é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -12926,7 +12926,7 @@ const pokemons = [
   alt: "Pokémon Tinkatink",
   tipos: [
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "Tinkatink é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -12940,7 +12940,7 @@ const pokemons = [
   alt: "Pokémon Tinkatuff",
   tipos: [
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "Tinkatuff é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -12954,7 +12954,7 @@ const pokemons = [
   alt: "Pokémon Tinkaton",
   tipos: [
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "Tinkaton é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13034,7 +13034,7 @@ const pokemons = [
   alt: "Pokémon Varoom",
   tipos: [
     { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Varoom é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13048,7 +13048,7 @@ const pokemons = [
   alt: "Pokémon Revavroom",
   tipos: [
     { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Revavroom é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13089,7 +13089,7 @@ const pokemons = [
   alt: "Pokémon Glimmet",
   tipos: [
     { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Glimmet é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13103,7 +13103,7 @@ const pokemons = [
   alt: "Pokémon Glimmora",
   tipos: [
     { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Glimmora é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13232,12 +13232,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "980",
   nome: "Clodsire",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno terra",
   imagem: "../imagens/pokemons/980-Clodsire.png",
   alt: "Pokémon Clodsire",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
   ],
   descricao: "Clodsire é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13279,7 +13279,7 @@ const pokemons = [
   alt: "Pokémon Kingambit",
   tipos: [
     { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "Kingambit é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13377,7 +13377,7 @@ const pokemons = [
   alt: "Pokémon IronTreads",
   tipos: [
     { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
   ],
   descricao: "IronTreads é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13433,7 +13433,7 @@ const pokemons = [
   alt: "Pokémon IronMoth",
   tipos: [
     { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "IronMoth é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13663,168 +13663,169 @@ const pokemons = [
 {
   geracao: "Nona Geração",
   numero: "1011",
-  nome: "Okidogi",
-  classe: "pokemon-venenoso",
-  dataTipo: "veneno lutador",
-  imagem: "../imagens/pokemons/1011-Okidogi.png",
-  alt: "Pokémon Okidogi",
+  nome: "Dipplin",
+  classe: "pokemon-planta",
+  dataTipo: "planta dragao",
+  imagem: "../imagens/pokemons/1011-Dipplin.png",
+  alt: "Pokémon Dipplin",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
-    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
-  descricao: "Okidogi é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Dipplin é dois seres em um só Pokémon. Sua evolução foi desencadeada por uma maçã especial que cresce apenas em um lugar."
 },
 {
   geracao: "Nona Geração",
   numero: "1012",
-  nome: "Munkidori",
-  classe: "pokemon-venenoso",
-  dataTipo: "veneno psiquico",
-  imagem: "../imagens/pokemons/1012-Munkidori.png",
-  alt: "Pokémon Munkidori",
+  nome: "Poltchageist",
+  classe: "pokemon-planta",
+  dataTipo: "planta fantasma",
+  imagem: "../imagens/pokemons/1012-Poltchageist.png",
+  alt: "Pokémon Poltchageist",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
-    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fantasma", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
-  descricao: "Munkidori é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Dizem que os arrependimentos de um mestre da cerimônia do chá que morreu antes de aperfeiçoar sua arte permaneceram em um pouco de matcha e se transformaram em um Pokémon."
 },
 {
   geracao: "Nona Geração",
   numero: "1013",
-  nome: "Fezandipiti",
-  classe: "pokemon-venenoso",
-  dataTipo: "veneno fada",
-  imagem: "../imagens/pokemons/1013-Fezandipiti.png",
-  alt: "Pokémon Fezandipiti",
+  nome: "Sinistcha",
+  classe: "pokemon-planta",
+  dataTipo: "planta fantasma",
+  imagem: "../imagens/pokemons/1013-Sinistcha.png",
+  alt: "Pokémon Sinistcha",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
-    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fantasma", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
-  descricao: "Fezandipiti é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Ela finge ser chá, tentando enganar as pessoas para que o bebam e, assim, drenem sua energia vital. Seu truque geralmente não funciona."
 },
 {
   geracao: "Nona Geração",
   numero: "1014",
-  nome: "Ogerpon",
-  classe: "pokemon-planta",
-  dataTipo: "planta",
-  imagem: "../imagens/pokemons/1014-Ogerpon.png",
-  alt: "Pokémon Ogerpon",
+  nome: "Okidogi",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno luta",
+  imagem: "../imagens/pokemons/1014-Okidogi.png",
+  alt: "Pokémon Okidogi",
   tipos: [
-    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
   ],
-  descricao: "Ogerpon é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Após todos os seus músculos serem estimulados pela corrente tóxica em volta do pescoço, Okidogi se transformou e adquiriu um físico poderoso."
 },
 {
   geracao: "Nona Geração",
   numero: "1015",
+  nome: "Munkidori",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno psiquico",
+  imagem: "../imagens/pokemons/1015-Munkidori.png",
+  alt: "Pokémon Munkidori",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "A corrente é feita de toxinas que potencializam as capacidades. Ela estimulou o cérebro de Munkidori e fez com que os poderes psíquicos do Pokémon florescessem."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1016",
+  nome: "Fezandipiti",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno fada",
+  imagem: "../imagens/pokemons/1016-Fezandipiti.png",
+  alt: "Pokémon Fezandipiti",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
+    { nome: "fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Fezandipiti deve sua bela aparência e voz encantadora aos estimulantes tóxicos emanados da corrente que envolve seu corpo."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1017",
+  nome: "Ogerpon",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/1017-Ogerpon.png",
+  alt: "Pokémon Ogerpon",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },    
+  ],
+  descricao: "O tipo deste Pokémon muda de acordo com a máscara que ele está usando. Ele confunde seus inimigos com movimentos ágeis e chutes."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1018",
   nome: "Archaludon",
   classe: "pokemon-steel",
   dataTipo: "aco dragao",
-  imagem: "../imagens/pokemons/1015-Archaludon.png",
+  imagem: "../imagens/pokemons/1018-Archaludon.png",
   alt: "Pokémon Archaludon",
   tipos: [
     { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
-  descricao: "Archaludon é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Ela coleta eletricidade estática do ambiente ao seu redor. Os feixes que emite quando está de quatro são extremamente poderosos."
 },
 {
   geracao: "Nona Geração",
-  numero: "1016",
+  numero: "1019",
   nome: "Hydrapple",
   classe: "pokemon-planta",
   dataTipo: "planta dragao",
-  imagem: "../imagens/pokemons/1016-Hydrapple.png",
+  imagem: "../imagens/pokemons/1019-Hydrapple.png",
   alt: "Pokémon Hydrapple",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
-  descricao: "Hydrapple é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
-},
-{
-  geracao: "Nona Geração",
-  numero: "1017",
-  nome: "GougingFire",
-  classe: "pokemon-fogo",
-  dataTipo: "fogo dragao",
-  imagem: "../imagens/pokemons/1017-GougingFire.png",
-  alt: "Pokémon GougingFire",
-  tipos: [
-    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
-    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
-  ],
-  descricao: "GougingFire é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
-},
-{
-  geracao: "Nona Geração",
-  numero: "1018",
-  nome: "RagingBolt",
-  classe: "pokemon-eletrico",
-  dataTipo: "eletrico dragao",
-  imagem: "../imagens/pokemons/1018-RagingBolt.png",
-  alt: "Pokémon RagingBolt",
-  tipos: [
-    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
-    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
-  ],
-  descricao: "RagingBolt é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
-},
-{
-  geracao: "Nona Geração",
-  numero: "1019",
-  nome: "IronBoulder",
-  classe: "pokemon-rocha",
-  dataTipo: "rocha psiquico",
-  imagem: "../imagens/pokemons/1019-IronBoulder.png",
-  alt: "Pokémon IronBoulder",
-  tipos: [
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
-    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
-  ],
-  descricao: "IronBoulder é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Sete serpentes vivem dentro de uma maçã feita de xarope. A serpente no centro é a comandante."
 },
 {
   geracao: "Nona Geração",
   numero: "1020",
-  nome: "IronCrown",
-  classe: "pokemon-steel",
-  dataTipo: "aco psiquico",
-  imagem: "../imagens/pokemons/1020-IronCrown.png",
-  alt: "Pokémon IronCrown",
+  nome: "Gouging Fire",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo dragao",
+  imagem: "../imagens/pokemons/1020-Gouging-Fire.png",
+  alt: "Pokémon Gouging Fire",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
-    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
-  descricao: "IronCrown é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Existem poucos relatos de avistamentos dessa criatura. Um vídeo curto mostra-a em fúria, expelindo colunas de chamas."
 },
 {
   geracao: "Nona Geração",
   numero: "1021",
-  nome: "Terapagos",
-  classe: "pokemon-normal",
-  dataTipo: "normal",
-  imagem: "../imagens/pokemons/1021-Terapagos.png",
-  alt: "Pokémon Terapagos",
+  nome: "Raging Bolt",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico dragao",
+  imagem: "../imagens/pokemons/1021-Raging-Bolt.png",
+  alt: "Pokémon Raging Bolt",
   tipos: [
-    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
-  descricao: "Terapagos é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Dizem que incinera tudo ao seu redor com raios lançados de sua pelagem. Muito pouco se sabe sobre essa criatura."
 },
 {
   geracao: "Nona Geração",
   numero: "1022",
-  nome: "Pecharunt",
-  classe: "pokemon-venenoso",
-  dataTipo: "veneno fantasma",
-  imagem: "../imagens/pokemons/1022-Pecharunt.png",
+  nome: "Iron Boulder",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha psiquico",
+  imagem: "../imagens/pokemons/1022-Iron-Boulder.png",
   alt: "Pokémon Pecharunt",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
-    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
-  descricao: "Pecharunt é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+  descricao: "Ele se assemelha a um Pokémon descrito em uma revista duvidosa como um Terrakion que teria sido modificado por uma organização maligna."
 },
 {
   geracao: "Nona Geração",
@@ -13857,12 +13858,12 @@ const pokemons = [
   geracao: "Nona Geração",
   numero: "1025",
   nome: "Pecharunt",
-  classe: "pokemon-venenoso",
+  classe: "pokemon-veneno",
   dataTipo: "veneno fantasma",
   imagem: "../imagens/pokemons/1025-Pecharunt.png",
   alt: "Pokémon Pecharunt",
   tipos: [
-    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "Ela alimenta outros com mochi tóxico que desperta desejos e capacidades. Aqueles que comem o mochi ficam sob o controle de Pecharunt, acorrentados à sua vontade."

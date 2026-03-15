@@ -52,7 +52,7 @@ Imagens dos pokémons na tela inicial
 #agua { background-image: url(../imagens/tela-inicial/agua.png); }
 #inseto { background-image: url(../imagens/tela-inicial/inseto.png); }
 #normal { background-image: url(../imagens/tela-inicial/normal.png); }
-#venenoso { background-image: url(../imagens/tela-inicial/venenoso.png); }
+#veneno { background-image: url(../imagens/tela-inicial/venenoso.png); }
 #eletrico { background-image: url(../imagens/tela-inicial/eletrico.png); }
 #terra { background-image: url(../imagens/tela-inicial/terra.png); }
 #fada { background-image: url(../imagens/tela-inicial/fada.png); }
@@ -143,7 +143,7 @@ h1 {
 .agua,
 .inseto,
 .normal,
-.venenoso,
+.veneno,
 .eletrico,
 .terra,
 .fada,
@@ -163,7 +163,7 @@ h1 {
 .pagina-agua,
 .pagina-inseto,
 .pagina-normal,
-.pagina-venenoso,
+.pagina-veneno,
 .pagina-eletrico,
 .pagina-terra,
 .pagina-fada,
@@ -187,7 +187,7 @@ h1 {
 .pokemon-agua,
 .pokemon-inseto,
 .pokemon-normal,
-.pokemon-venenoso,
+.pokemon-veneno,
 .pokemon-eletrico,
 .pokemon-terra,
 .pokemon-fada,
