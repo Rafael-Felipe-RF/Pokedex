@@ -519,9 +519,9 @@ const pokemons = [
   imagem: "../imagens/pokemons/039-Jigglypuff.png",
   alt: "Pokémon Jigglypuff",
   tipos: [
-    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
-    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
-  ],
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+    ],
   descricao: "Quando seus enormes olhos vacilam, ela canta uma melodia misteriosamente suave que embala seus inimigos para dormir."
 },
 {
@@ -533,8 +533,8 @@ const pokemons = [
   imagem: "../imagens/pokemons/040-Wigglytuff.png",
   alt: "Pokémon Wigglytuff",
   tipos: [
-    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
-    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
   ],
   descricao: "Possui uma pelagem muito fina. Tome cuidado para não irritá-lo, ou ele pode inflar constantemente e desferir um golpe de corpo."
 },
@@ -2208,7 +2208,7 @@ const pokemons = [
   geracao: "Segunda Geração",
   numero: "0165",
   nome: "Ledyba",
-  classe: "pokemon-normal",
+  classe: "pokemon-inseto",
   dataTipo: "inseto voador",
   imagem: "../imagens/pokemons/165-Ledyba.png",
   alt: "Pokémon Ledyba",
@@ -2222,7 +2222,7 @@ const pokemons = [
   geracao: "Segunda Geração",
   numero: "0166",
   nome: "Ledian",
-  classe: "pokemon-normal",
+  classe: "pokemon-inseto",
   dataTipo: "inseto voador",
   imagem: "../imagens/pokemons/166-Ledian.png",
   alt: "Pokémon Ledian",
@@ -2236,7 +2236,7 @@ const pokemons = [
   geracao: "Segunda Geração",
   numero: "0167",
   nome: "Spinarak",
-  classe: "pokemon-normal",
+  classe: "pokemon-inseto",
   dataTipo: "inseto veneno",
   imagem: "../imagens/pokemons/167-Spinarak.png",
   alt: "Pokémon Spinarak",
@@ -2250,7 +2250,7 @@ const pokemons = [
   geracao: "Segunda Geração",
   numero: "0168",
   nome: "Ariados",
-  classe: "pokemon-normal",
+  classe: "pokemon-inseto",
   dataTipo: "inseto veneno",
   imagem: "../imagens/pokemons/168-Ariados.png",
   alt: "Pokémon Ariados",
@@ -2336,9 +2336,9 @@ const pokemons = [
   dataTipo: "fada normal",
   imagem: "../imagens/pokemons/174-Igglybuff.png",
   alt: "Pokémon Igglybuff",
-  tipos: [
-    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
-    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  tipos: [    
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
   ],
   descricao: "Seu corpo tem um aroma levemente adocicado e é macio e flexível. Se ele quica uma vez, não consegue parar."
 },
@@ -2360,7 +2360,7 @@ const pokemons = [
   numero: "176",
   nome: "Togetic",
   classe: "pokemon-fada",
-  dataTipo: "fada",
+  dataTipo: "fada voador",
   imagem: "../imagens/pokemons/176-Togetic.png",
   alt: "Pokémon Togetic",
   tipos: [
@@ -10041,7 +10041,7 @@ const pokemons = [
   numero: "744",
   nome: "Rockruff",
   classe: "pokemon-rocha",
-  dataTipo: "pedra",
+  dataTipo: "rocha",
   imagem: "../imagens/pokemons/744-Rockruff.png",
   alt: "Pokémon Rockruff",
   tipos: [
@@ -10054,7 +10054,7 @@ const pokemons = [
   numero: "745",
   nome: "Lycanroc",
   classe: "pokemon-rocha",
-  dataTipo: "pedra",
+  dataTipo: "rocha",
   imagem: "../imagens/pokemons/745-Lycanroc.png",
   alt: "Pokémon Lycanroc",
   tipos: [
@@ -10446,7 +10446,7 @@ const pokemons = [
   numero: "774",
   nome: "Minior",
   classe: "pokemon-rocha",
-  dataTipo: "pedra voador",
+  dataTipo: "rocha voador",
   imagem: "../imagens/pokemons/774-Minior.png",
   alt: "Pokémon Minior",
   tipos: [
@@ -10708,7 +10708,7 @@ const pokemons = [
   numero: "793",
   nome: "Nihilego",
   classe: "pokemon-rocha",
-  dataTipo: "pedra veneno",
+  dataTipo: "rocha veneno",
   imagem: "../imagens/pokemons/793-Nihilego.png",
   alt: "Pokémon Nihilego",
   tipos: [
@@ -10873,7 +10873,7 @@ const pokemons = [
   numero: "805",
   nome: "Stakataka",
   classe: "pokemon-rocha",
-  dataTipo: "pedra aco",
+  dataTipo: "rocha aco",
   imagem: "../imagens/pokemons/805-Stakataka.png",
   alt: "Pokémon Stakataka",
   tipos: [
@@ -11257,12 +11257,12 @@ const pokemons = [
   numero: "834",
   nome: "Drednaw",
   classe: "pokemon-agua",
-  dataTipo: "agua pedra",
+  dataTipo: "agua rocha",
   imagem: "../imagens/pokemons/834-Drednaw.png",
   alt: "Pokémon Drednaw",
   tipos: [
     { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Sua mandíbula poderosa consegue quebrar até rochas resistentes."
 },
@@ -11297,7 +11297,7 @@ const pokemons = [
   numero: "837",
   nome: "Rolycoly",
   classe: "pokemon-rocha",
-  dataTipo: "pedra",
+  dataTipo: "rocha",
   imagem: "../imagens/pokemons/837-Rolycoly.png",
   alt: "Pokémon Rolycoly",
   tipos: [
@@ -11310,7 +11310,7 @@ const pokemons = [
   numero: "838",
   nome: "Carkol",
   classe: "pokemon-rocha",
-  dataTipo: "pedra fogo",
+  dataTipo: "rocha fogo",
   imagem: "../imagens/pokemons/838-Carkol.png",
   alt: "Pokémon Carkol",
   tipos: [
@@ -11324,7 +11324,7 @@ const pokemons = [
   numero: "839",
   nome: "Coalossal",
   classe: "pokemon-rocha",
-  dataTipo: "pedra fogo",
+  dataTipo: "rocha fogo",
   imagem: "../imagens/pokemons/839-Coalossal.png",
   alt: "Pokémon Coalossal",
   tipos: [
@@ -11797,7 +11797,7 @@ const pokemons = [
   numero: "874",
   nome: "Stonjourner",
   classe: "pokemon-rocha",
-  dataTipo: "pedra",
+  dataTipo: "rocha",
   imagem: "../imagens/pokemons/874-Stonjourner.png",
   alt: "Pokémon Stonjourner",
   tipos: [
@@ -12150,12 +12150,12 @@ const pokemons = [
   numero: "900",
   nome: "Kleavor",
   classe: "pokemon-inseto",
-  dataTipo: "inseto pedra",
+  dataTipo: "inseto rocha",
   imagem: "../imagens/pokemons/900-Kleavor.png",
   alt: "Pokémon Kleavor",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Suas lâminas de pedra podem cortar troncos inteiros de uma só vez."
 },
@@ -12584,7 +12584,7 @@ const pokemons = [
   numero: "932",
   nome: "Nacli",
   classe: "pokemon-rocha",
-  dataTipo: "pedra",
+  dataTipo: "rocha",
   imagem: "../imagens/pokemons/932-Nacli.png",
   alt: "Pokémon Nacli",
   tipos: [
@@ -12614,7 +12614,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/934-Garganacl.png",
   alt: "Pokémon Garganacl",
   tipos: [
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
   ],
   descricao: "Garganacl é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13088,7 +13088,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/969-Glimmet.png",
   alt: "Pokémon Glimmet",
   tipos: [
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
     { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Glimmet é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13102,7 +13102,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/970-Glimmora.png",
   alt: "Pokémon Glimmora",
   tipos: [
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
     { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Glimmora é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13446,7 +13446,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/995-IronThorns.png",
   alt: "Pokémon IronThorns",
   tipos: [
-    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
     { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
   ],
   descricao: "IronThorns é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
