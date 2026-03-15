@@ -2032,7 +2032,7 @@ const pokemons = [
   descricao: "Quando visto ao microscópio, é possível observar os pelos curtos, finos e delicados deste Pokémon."
 },
 
-//=======Segunda Geração
+//Segunda Geração
 {
   geracao: "Segunda Geração",
   numero: "0152",
@@ -5207,7 +5207,6 @@ const pokemons = [
 },
 
 //Qarta Geração
-
 {
   geracao: "Quarta Geração",
   numero: "387",
@@ -6654,7 +6653,6 @@ const pokemons = [
 },
 
 //Quinta Geração
-
 {
   geracao: "Quinta Geração",
   numero: "494",
@@ -8758,6 +8756,5077 @@ const pokemons = [
   descricao: "Um antigo Pokémon que foi modificado e recebeu um canhão nas costas."
 },
 
+//Sexta Geração
+{
+  geracao: "Sexta Geração",
+  numero: "650",
+  nome: "Chespin",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/650-Chespin.png",
+  alt: "Pokémon Chespin",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Ele protege a cabeça com sua carapaça dura e pode enfrentar ataques de frente."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "651",
+  nome: "Quilladin",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/651-Quilladin.png",
+  alt: "Pokémon Quilladin",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Seu corpo robusto o ajuda a lançar investidas fortes contra os adversários."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "652",
+  nome: "Chesnaught",
+  classe: "pokemon-planta",
+  dataTipo: "planta lutador",
+  imagem: "../imagens/pokemons/652-Chesnaught.png",
+  alt: "Pokémon Chesnaught",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Quando assume posição defensiva, sua força e resistência se tornam impressionantes."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "653",
+  nome: "Fennekin",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/653-Fennekin.png",
+  alt: "Pokémon Fennekin",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "O calor que sai de suas orelhas revela a energia ardente que possui."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "654",
+  nome: "Braixen",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/654-Braixen.png",
+  alt: "Pokémon Braixen",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Ele usa o galho que carrega para canalizar suas chamas em combate."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "655",
+  nome: "Delphox",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo psiquico",
+  imagem: "../imagens/pokemons/655-Delphox.png",
+  alt: "Pokémon Delphox",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Encarando a chama de seu bastão, ele prevê movimentos e ataca com precisão."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "656",
+  nome: "Froakie",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/656-Froakie.png",
+  alt: "Pokémon Froakie",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "As bolhas ao redor do seu corpo ajudam a amortecer golpes e proteger a pele."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "657",
+  nome: "Frogadier",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/657-Frogadier.png",
+  alt: "Pokémon Frogadier",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "É rápido e ágil, atacando o inimigo antes que ele perceba o perigo."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "658",
+  nome: "Greninja",
+  classe: "pokemon-agua",
+  dataTipo: "agua sombrio",
+  imagem: "../imagens/pokemons/658-Greninja.png",
+  alt: "Pokémon Greninja",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Move-se como uma sombra e derrota seus inimigos com velocidade impressionante."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "659",
+  nome: "Bunnelby",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/659-Bunnelby.png",
+  alt: "Pokémon Bunnelby",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Suas orelhas fortes servem para cavar o solo com enorme facilidade."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "660",
+  nome: "Diggersby",
+  classe: "pokemon-normal",
+  dataTipo: "normal terra",
+  imagem: "../imagens/pokemons/660-Diggersby.png",
+  alt: "Pokémon Diggersby",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Usa as grandes orelhas como se fossem braços capazes de erguer pedras pesadas."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "661",
+  nome: "Fletchling",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/661-Fletchling.png",
+  alt: "Pokémon Fletchling",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Mesmo pequeno, é corajoso e ataca com bicadas muito rápidas."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "662",
+  nome: "Fletchinder",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo voador",
+  imagem: "../imagens/pokemons/662-Fletchinder.png",
+  alt: "Pokémon Fletchinder",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Quanto mais luta, mais quente fica o fogo em seu interior."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "663",
+  nome: "Talonflame",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo voador",
+  imagem: "../imagens/pokemons/663-Talonflame.png",
+  alt: "Pokémon Talonflame",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Ele investe sobre a presa em alta velocidade envolto em chamas."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "664",
+  nome: "Scatterbug",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/664-Scatterbug.png",
+  alt: "Pokémon Scatterbug",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Sua defesa é fraca, então usa pó e fios para se proteger."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "665",
+  nome: "Spewpa",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/665-Spewpa.png",
+  alt: "Pokémon Spewpa",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Fica escondido dentro da própria pelagem enquanto se prepara para evoluir."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "666",
+  nome: "Vivillon",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto voador",
+  imagem: "../imagens/pokemons/666-Vivillon.png",
+  alt: "Pokémon Vivillon",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "As asas exibem padrões belíssimos que variam conforme a região onde vive."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "667",
+  nome: "Litleo",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo normal",
+  imagem: "../imagens/pokemons/667-Litleo.png",
+  alt: "Pokémon Litleo",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "É jovem e valente, enfrentando desafios para provar sua coragem."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "668",
+  nome: "Pyroar",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo normal",
+  imagem: "../imagens/pokemons/668-Pyroar.png",
+  alt: "Pokémon Pyroar",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Seu rugido poderoso ecoa longe e demonstra sua imponência."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "669",
+  nome: "Flabébé",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/669-Flabébé.png",
+  alt: "Pokémon Flabébé",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Desde cedo escolhe uma flor e passa a vida inteira cuidando dela."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "670",
+  nome: "Floette",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/670-Floette.png",
+  alt: "Pokémon Floette",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Voa ao lado da flor que escolheu e protege esse laço com carinho."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "671",
+  nome: "Florges",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/671-Florges.png",
+  alt: "Pokémon Florges",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Ela faz jardins florescerem com o poder delicado que possui."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "672",
+  nome: "Skiddo",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/672-Skiddo.png",
+  alt: "Pokémon Skiddo",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "É calmo e costuma sentir as emoções de quem monta em suas costas."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "673",
+  nome: "Gogoat",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/673-Gogoat.png",
+  alt: "Pokémon Gogoat",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Consegue correr por terrenos montanhosos sem perder o equilíbrio."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "674",
+  nome: "Pancham",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/674-Pancham.png",
+  alt: "Pokémon Pancham",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Tenta parecer assustador, mas ainda tem um jeito juvenil e teimoso."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "675",
+  nome: "Pangoro",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador sombrio",
+  imagem: "../imagens/pokemons/675-Pangoro.png",
+  alt: "Pokémon Pangoro",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "É severo com os inimigos, mas protege os fracos com firmeza."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "676",
+  nome: "Furfrou",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/676-Furfrou.png",
+  alt: "Pokémon Furfrou",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Sua pelagem pode ser modelada em vários estilos diferentes."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "677",
+  nome: "Espurr",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/677-Espurr.png",
+  alt: "Pokémon Espurr",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Guarda um poder psíquico intenso, mas tenta controlá-lo com cuidado."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "678",
+  nome: "Meowstic",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/678-Meowstic.png",
+  alt: "Pokémon Meowstic",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seus poderes mentais ficam mais perigosos quando ele perde o controle."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "679",
+  nome: "Honedge",
+  classe: "pokemon-steel",
+  dataTipo: "aco fantasma",
+  imagem: "../imagens/pokemons/679-Honedge.png",
+  alt: "Pokémon Honedge",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Sua lâmina carrega uma presença estranha que inspira cautela."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "680",
+  nome: "Doublade",
+  classe: "pokemon-steel",
+  dataTipo: "aco fantasma",
+  imagem: "../imagens/pokemons/680-Doublade.png",
+  alt: "Pokémon Doublade",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "As duas espadas atacam juntas em perfeita coordenação."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "681",
+  nome: "Aegislash",
+  classe: "pokemon-steel",
+  dataTipo: "aco fantasma",
+  imagem: "../imagens/pokemons/681-Aegislash.png",
+  alt: "Pokémon Aegislash",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Alterna entre defesa e ataque com grande habilidade estratégica."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "682",
+  nome: "Spritzee",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/682-Spritzee.png",
+  alt: "Pokémon Spritzee",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu aroma adocicado se espalha pelo ambiente onde passa."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "683",
+  nome: "Aromatisse",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/683-Aromatisse.png",
+  alt: "Pokémon Aromatisse",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Libera fragrâncias marcantes que mudam conforme seu humor."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "684",
+  nome: "Swirlix",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/684-Swirlix.png",
+  alt: "Pokémon Swirlix",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu corpo tem textura leve e aroma que lembra doces."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "685",
+  nome: "Slurpuff",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/685-Slurpuff.png",
+  alt: "Pokémon Slurpuff",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu olfato refinado identifica até cheiros muito delicados."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "686",
+  nome: "Inkay",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio psiquico",
+  imagem: "../imagens/pokemons/686-Inkay.png",
+  alt: "Pokémon Inkay",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Ele usa movimentos estranhos para confundir quem o observa."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "687",
+  nome: "Malamar",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio psiquico",
+  imagem: "../imagens/pokemons/687-Malamar.png",
+  alt: "Pokémon Malamar",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu poder hipnótico é perigoso e pode manipular o oponente."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "688",
+  nome: "Binacle",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha agua",
+  imagem: "../imagens/pokemons/688-Binacle.png",
+  alt: "Pokémon Binacle",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Vive agarrado às pedras e coordena bem suas duas mãos."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "689",
+  nome: "Barbaracle",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha agua",
+  imagem: "../imagens/pokemons/689-Barbaracle.png",
+  alt: "Pokémon Barbaracle",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Seu corpo funciona como uma equipe de membros que atacam juntos."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "690",
+  nome: "Skrelp",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno agua",
+  imagem: "../imagens/pokemons/690-Skrelp.png",
+  alt: "Pokémon Skrelp",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Sua aparência discreta o ajuda a se esconder em algas e recifes."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "691",
+  nome: "Dragalge",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno dragao",
+  imagem: "../imagens/pokemons/691-Dragalge.png",
+  alt: "Pokémon Dragalge",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Ele libera veneno poderoso e domina seu território no mar."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "692",
+  nome: "Clauncher",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/692-Clauncher.png",
+  alt: "Pokémon Clauncher",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Sua grande pinça dispara jatos d'água com enorme pressão."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "693",
+  nome: "Clawitzer",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/693-Clawitzer.png",
+  alt: "Pokémon Clawitzer",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "A pinça evoluída funciona como um canhão de água devastador."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "694",
+  nome: "Helioptile",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico normal",
+  imagem: "../imagens/pokemons/694-Helioptile.png",
+  alt: "Pokémon Helioptile",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Absorve luz solar para gerar energia elétrica."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "695",
+  nome: "Heliolisk",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico normal",
+  imagem: "../imagens/pokemons/695-Heliolisk.png",
+  alt: "Pokémon Heliolisk",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Quando abre sua gola, aproveita a luz para alimentar seu corpo."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "696",
+  nome: "Tyrunt",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha dragao",
+  imagem: "../imagens/pokemons/696-Tyrunt.png",
+  alt: "Pokémon Tyrunt",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu maxilar forte era suficiente para dominar presas resistentes."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "697",
+  nome: "Tyrantrum",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha dragao",
+  imagem: "../imagens/pokemons/697-Tyrantrum.png",
+  alt: "Pokémon Tyrantrum",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Com mordidas brutais, ele demonstra toda a força de um predador antigo."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "698",
+  nome: "Amaura",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha gelo",
+  imagem: "../imagens/pokemons/698-Amaura.png",
+  alt: "Pokémon Amaura",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Seu corpo frio e delicado lembra eras muito antigas."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "699",
+  nome: "Aurorus",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha gelo",
+  imagem: "../imagens/pokemons/699-Aurorus.png",
+  alt: "Pokémon Aurorus",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Ele cria cortinas brilhantes de gelo com uma beleza impressionante."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "700",
+  nome: "Sylveon",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/700-Sylveon.png",
+  alt: "Pokémon Sylveon",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Usa seus laços delicados para demonstrar afeto e acalmar conflitos."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "701",
+  nome: "Hawlucha",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador voador",
+  imagem: "../imagens/pokemons/701-Hawlucha.png",
+  alt: "Pokémon Hawlucha",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Luta com estilo e combina golpes aéreos com grande agilidade."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "702",
+  nome: "Dedenne",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico fada",
+  imagem: "../imagens/pokemons/702-Dedenne.png",
+  alt: "Pokémon Dedenne",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Armazena eletricidade e a distribui por meio de seus longos bigodes."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "703",
+  nome: "Carbink",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha fada",
+  imagem: "../imagens/pokemons/703-Carbink.png",
+  alt: "Pokémon Carbink",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu corpo cristalino reluz como uma joia resistente."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "704",
+  nome: "Goomy",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao",
+  imagem: "../imagens/pokemons/704-Goomy.png",
+  alt: "Pokémon Goomy",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "É pequeno e frágil, mas possui grande potencial escondido."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "705",
+  nome: "Sliggoo",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao",
+  imagem: "../imagens/pokemons/705-Sliggoo.png",
+  alt: "Pokémon Sliggoo",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu corpo viscoso o ajuda a se mover e resistir a ataques."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "706",
+  nome: "Goodra",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao",
+  imagem: "../imagens/pokemons/706-Goodra.png",
+  alt: "Pokémon Goodra",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Apesar da força imensa, costuma ser amigável e muito afetuoso."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "707",
+  nome: "Klefki",
+  classe: "pokemon-steel",
+  dataTipo: "aco fada",
+  imagem: "../imagens/pokemons/707-Klefki.png",
+  alt: "Pokémon Klefki",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Adora colecionar chaves e carregá-las como se fossem tesouros."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "708",
+  nome: "Phantump",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma planta",
+  imagem: "../imagens/pokemons/708-Phantump.png",
+  alt: "Pokémon Phantump",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Seu corpo lembra um toco assombrado que vive em florestas."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "709",
+  nome: "Trevenant",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma planta",
+  imagem: "../imagens/pokemons/709-Trevenant.png",
+  alt: "Pokémon Trevenant",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Protege as árvores da floresta e pune quem as destrói."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "710",
+  nome: "Pumpkaboo",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma planta",
+  imagem: "../imagens/pokemons/710-Pumpkaboo.png",
+  alt: "Pokémon Pumpkaboo",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Seu brilho misterioso chama atenção em noites escuras."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "711",
+  nome: "Gourgeist",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma planta",
+  imagem: "../imagens/pokemons/711-Gourgeist.png",
+  alt: "Pokémon Gourgeist",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Ele canta de maneira arrepiante enquanto vagueia sob a lua."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "712",
+  nome: "Bergmite",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/712-Bergmite.png",
+  alt: "Pokémon Bergmite",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Seu corpo de gelo o protege em regiões muito frias."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "713",
+  nome: "Avalugg",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/713-Avalugg.png",
+  alt: "Pokémon Avalugg",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Sua couraça congelada é dura como uma enorme placa de gelo."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "714",
+  nome: "Noibat",
+  classe: "pokemon-voador",
+  dataTipo: "voador dragao",
+  imagem: "../imagens/pokemons/714-Noibat.png",
+  alt: "Pokémon Noibat",
+  tipos: [
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Usa ultrassom para perceber o ambiente e localizar alimento."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "715",
+  nome: "Noivern",
+  classe: "pokemon-voador",
+  dataTipo: "voador dragao",
+  imagem: "../imagens/pokemons/715-Noivern.png",
+  alt: "Pokémon Noivern",
+  tipos: [
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu voo veloz é acompanhado por ondas sonoras destrutivas."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "716",
+  nome: "Xerneas",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/716-Xerneas.png",
+  alt: "Pokémon Xerneas",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Sua aura está ligada à vida e à energia da natureza."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "717",
+  nome: "Yveltal",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio voador",
+  imagem: "../imagens/pokemons/717-Yveltal.png",
+  alt: "Pokémon Yveltal",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Seu poder sombrio é associado ao fim e à destruição."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "718",
+  nome: "Zygarde",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao terra",
+  imagem: "../imagens/pokemons/718-Zygarde.png",
+  alt: "Pokémon Zygarde",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Ele observa o equilíbrio do mundo e age quando algo o ameaça."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "719",
+  nome: "Diancie",
+  classe: "pokemon-rocha",
+  dataTipo: "rocha fada",
+  imagem: "../imagens/pokemons/719-Diancie.png",
+  alt: "Pokémon Diancie",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu corpo cintilante tem o brilho belo de gemas raríssimas."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "720",
+  nome: "Hoopa",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico fantasma",
+  imagem: "../imagens/pokemons/720-Hoopa.png",
+  alt: "Pokémon Hoopa",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Usa seus anéis misteriosos para mover coisas e atravessar distâncias."
+},
+{
+  geracao: "Sexta Geração",
+  numero: "721",
+  nome: "Volcanion",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo agua",
+  imagem: "../imagens/pokemons/721-Volcanion.png",
+  alt: "Pokémon Volcanion",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Ele combina vapor e chamas em ataques de poder assustador."
+},
+
+//Sétima Geração
+{
+  geracao: "Sétima Geração",
+  numero: "722",
+  nome: "Rowlet",
+  classe: "pokemon-planta",
+  dataTipo: "planta voador",
+  imagem: "../imagens/pokemons/722-Rowlet.png",
+  alt: "Pokémon Rowlet",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Ele pode girar a cabeça quase completamente e atacar usando penas afiadas como lâminas."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "723",
+  nome: "Dartrix",
+  classe: "pokemon-planta",
+  dataTipo: "planta voador",
+  imagem: "../imagens/pokemons/723-Dartrix.png",
+  alt: "Pokémon Dartrix",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Cuida muito bem da própria aparência e lança penas cortantes com grande precisão."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "724",
+  nome: "Decidueye",
+  classe: "pokemon-planta",
+  dataTipo: "planta fantasma",
+  imagem: "../imagens/pokemons/724-Decidueye.png",
+  alt: "Pokémon Decidueye",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Ataca sem fazer barulho, disparando penas como flechas e desaparecendo logo em seguida."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "725",
+  nome: "Litten",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/725-Litten.png",
+  alt: "Pokémon Litten",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Seu pelo é cheio de óleo inflamável, que ele usa para criar ataques de fogo poderosos."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "726",
+  nome: "Torracat",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/726-Torracat.png",
+  alt: "Pokémon Torracat",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "O sino de fogo em seu pescoço esquenta conforme sua vontade de lutar aumenta."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "727",
+  nome: "Incineroar",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo sombrio",
+  imagem: "../imagens/pokemons/727-Incineroar.png",
+  alt: "Pokémon Incineroar",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Luta como um grande vilão dos ringues e usa seu cinturão de chamas para intimidar o rival."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "728",
+  nome: "Popplio",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/728-Popplio.png",
+  alt: "Pokémon Popplio",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Ele controla bolhas de água com habilidade e as usa tanto para brincar quanto para atacar."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "729",
+  nome: "Brionne",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/729-Brionne.png",
+  alt: "Pokémon Brionne",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Aprende suas danças observando outros e cria bolhas ritmadas em suas apresentações."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "730",
+  nome: "Primarina",
+  classe: "pokemon-agua",
+  dataTipo: "agua fada",
+  imagem: "../imagens/pokemons/730-Primarina.png",
+  alt: "Pokémon Primarina",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Sua voz comanda bolhas especiais que explodem com força impressionante."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "731",
+  nome: "Pikipek",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/731-Pikipek.png",
+  alt: "Pokémon Pikipek",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Golpeia árvores em alta velocidade com o bico para procurar alimento."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "732",
+  nome: "Trumbeak",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/732-Trumbeak.png",
+  alt: "Pokémon Trumbeak",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Armazena sementes no bico e as dispara com excelente mira."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "733",
+  nome: "Toucannon",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/733-Toucannon.png",
+  alt: "Pokémon Toucannon",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Seu enorme bico aquece muito e pode lançar sementes como projéteis."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "734",
+  nome: "Yungoos",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/734-Yungoos.png",
+  alt: "Pokémon Yungoos",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Está sempre faminto e patrulha o território sem descansar muito."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "735",
+  nome: "Gumshoos",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/735-Gumshoos.png",
+  alt: "Pokémon Gumshoos",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "É persistente e nunca desiste de seguir a trilha de sua presa."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "736",
+  nome: "Grubbin",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/736-Grubbin.png",
+  alt: "Pokémon Grubbin",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Usa suas mandíbulas fortes para cavar e arrancar raízes do solo."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "737",
+  nome: "Charjabug",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto eletrico",
+  imagem: "../imagens/pokemons/737-Charjabug.png",
+  alt: "Pokémon Charjabug",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Armazena eletricidade no corpo e a libera quando necessário."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "738",
+  nome: "Vikavolt",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto eletrico",
+  imagem: "../imagens/pokemons/738-Vikavolt.png",
+  alt: "Pokémon Vikavolt",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Voa rapidamente e dispara raios usando suas grandes mandíbulas."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "739",
+  nome: "Crabrawler",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/739-Crabrawler.png",
+  alt: "Pokémon Crabrawler",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Adora testar sua força dando socos em tudo o que encontra."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "740",
+  nome: "Crabominable",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador gelo",
+  imagem: "../imagens/pokemons/740-Crabominable.png",
+  alt: "Pokémon Crabominable",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Suas pinças geladas são capazes de nocautear adversários em um único golpe."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "741",
+  nome: "Oricorio",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo voador",
+  imagem: "../imagens/pokemons/741-Oricorio.png",
+  alt: "Pokémon Oricorio",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Ele muda de estilo conforme o néctar que bebe e dança de forma encantadora."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "742",
+  nome: "Cutiefly",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto fada",
+  imagem: "../imagens/pokemons/742-Cutiefly.png",
+  alt: "Pokémon Cutiefly",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Recolhe néctar e pólen enquanto espalha um brilho delicado ao voar."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "743",
+  nome: "Ribombee",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto fada",
+  imagem: "../imagens/pokemons/743-Ribombee.png",
+  alt: "Pokémon Ribombee",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Consegue transformar pólen e néctar em pequenas esferas cheias de energia."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "744",
+  nome: "Rockruff",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra",
+  imagem: "../imagens/pokemons/744-Rockruff.png",
+  alt: "Pokémon Rockruff",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "É leal e valente, mas ainda tem um lado brincalhão e agitado."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "745",
+  nome: "Lycanroc",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra",
+  imagem: "../imagens/pokemons/745-Lycanroc.png",
+  alt: "Pokémon Lycanroc",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Seus ataques ficam mais perigosos quando ele entra em frenesi."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "746",
+  nome: "Wishiwashi",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/746-Wishiwashi.png",
+  alt: "Pokémon Wishiwashi",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Quando está ameaçado, chama outros da sua espécie para formar um grande cardume."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "747",
+  nome: "Mareanie",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno agua",
+  imagem: "../imagens/pokemons/747-Mareanie.png",
+  alt: "Pokémon Mareanie",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Seus espinhos venenosos afastam qualquer predador descuidado."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "748",
+  nome: "Toxapex",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno agua",
+  imagem: "../imagens/pokemons/748-Toxapex.png",
+  alt: "Pokémon Toxapex",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Seu corpo é altamente defensivo, coberto por espinhos cheios de veneno."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "749",
+  nome: "Mudbray",
+  classe: "pokemon-terra",
+  dataTipo: "terra",
+  imagem: "../imagens/pokemons/749-Mudbray.png",
+  alt: "Pokémon Mudbray",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "É muito forte e consegue carregar cargas pesadas sem perder o ritmo."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "750",
+  nome: "Mudsdale",
+  classe: "pokemon-terra",
+  dataTipo: "terra",
+  imagem: "../imagens/pokemons/750-Mudsdale.png",
+  alt: "Pokémon Mudsdale",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Sua força física e estabilidade fazem dele um parceiro confiável em terreno difícil."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "751",
+  nome: "Dewpider",
+  classe: "pokemon-agua",
+  dataTipo: "agua inseto",
+  imagem: "../imagens/pokemons/751-Dewpider.png",
+  alt: "Pokémon Dewpider",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Carrega uma bolha de água na cabeça para respirar e se proteger."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "752",
+  nome: "Araquanid",
+  classe: "pokemon-agua",
+  dataTipo: "agua inseto",
+  imagem: "../imagens/pokemons/752-Araquanid.png",
+  alt: "Pokémon Araquanid",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "A bolha resistente em sua cabeça funciona tanto como arma quanto como escudo."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "753",
+  nome: "Fomantis",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/753-Fomantis.png",
+  alt: "Pokémon Fomantis",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Aproveita a luz do sol para crescer e prefere permanecer em lugares tranquilos."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "754",
+  nome: "Lurantis",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/754-Lurantis.png",
+  alt: "Pokémon Lurantis",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Sua aparência elegante esconde movimentos rápidos e golpes surpreendentes."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "755",
+  nome: "Morelull",
+  classe: "pokemon-planta",
+  dataTipo: "planta fada",
+  imagem: "../imagens/pokemons/755-Morelull.png",
+  alt: "Pokémon Morelull",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Espalha esporos brilhantes durante a noite para chamar atenção."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "756",
+  nome: "Shiinotic",
+  classe: "pokemon-planta",
+  dataTipo: "planta fada",
+  imagem: "../imagens/pokemons/756-Shiinotic.png",
+  alt: "Pokémon Shiinotic",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Usa suas luzes misteriosas para atrair e confundir quem passa por perto."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "757",
+  nome: "Salandit",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno fogo",
+  imagem: "../imagens/pokemons/757-Salandit.png",
+  alt: "Pokémon Salandit",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Ele espalha gás tóxico e chama quente para atacar sem ser tocado."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "758",
+  nome: "Salazzle",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno fogo",
+  imagem: "../imagens/pokemons/758-Salazzle.png",
+  alt: "Pokémon Salazzle",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Seu veneno perfumado pode deixar o inimigo tonto e sem reação."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "759",
+  nome: "Stufful",
+  classe: "pokemon-normal",
+  dataTipo: "normal lutador",
+  imagem: "../imagens/pokemons/759-Stufful.png",
+  alt: "Pokémon Stufful",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Parece fofo, mas sua força é grande o bastante para surpreender qualquer um."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "760",
+  nome: "Bewear",
+  classe: "pokemon-normal",
+  dataTipo: "normal lutador",
+  imagem: "../imagens/pokemons/760-Bewear.png",
+  alt: "Pokémon Bewear",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Seu abraço é perigoso de tão poderoso, mesmo quando tenta ser carinhoso."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "761",
+  nome: "Bounsweet",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/761-Bounsweet.png",
+  alt: "Pokémon Bounsweet",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Seu aroma doce chama atenção de Pokémon e pessoas ao redor."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "762",
+  nome: "Steenee",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/762-Steenee.png",
+  alt: "Pokémon Steenee",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Move-se com energia e usa as pernas para aplicar chutes rápidos."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "763",
+  nome: "Tsareena",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/763-Tsareena.png",
+  alt: "Pokémon Tsareena",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Seu orgulho é tão marcante quanto a força devastadora de seus chutes."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "764",
+  nome: "Comfey",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/764-Comfey.png",
+  alt: "Pokémon Comfey",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Adora coletar flores e carregá-las como enfeite ao redor do corpo."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "765",
+  nome: "Oranguru",
+  classe: "pokemon-normal",
+  dataTipo: "normal psiquico",
+  imagem: "../imagens/pokemons/765-Oranguru.png",
+  alt: "Pokémon Oranguru",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "É sábio e costuma observar tudo com calma antes de agir."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "766",
+  nome: "Passimian",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/766-Passimian.png",
+  alt: "Pokémon Passimian",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Trabalha em equipe com grande disciplina e usa frutos como armas."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "767",
+  nome: "Wimpod",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto agua",
+  imagem: "../imagens/pokemons/767-Wimpod.png",
+  alt: "Pokémon Wimpod",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "É extremamente cauteloso e foge no primeiro sinal de perigo."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "768",
+  nome: "Golisopod",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto agua",
+  imagem: "../imagens/pokemons/768-Golisopod.png",
+  alt: "Pokémon Golisopod",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Sua armadura dura o protege enquanto ele desfere golpes muito fortes."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "769",
+  nome: "Sandygast",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma terra",
+  imagem: "../imagens/pokemons/769-Sandygast.png",
+  alt: "Pokémon Sandygast",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Nasce da areia de praias somada a sentimentos sombrios acumulados."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "770",
+  nome: "Palossand",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma terra",
+  imagem: "../imagens/pokemons/770-Palossand.png",
+  alt: "Pokémon Palossand",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Ele manipula montes de areia e pode prender o oponente em seu corpo."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "771",
+  nome: "Pyukumuku",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/771-Pyukumuku.png",
+  alt: "Pokémon Pyukumuku",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Quando ameaçado, expulsa parte de seus órgãos para se defender."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "772",
+  nome: "Type: Null",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/772-Type-Null.png",
+  alt: "Pokémon Type: Null",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Foi criado artificialmente para enfrentar ameaças extraordinárias."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "773",
+  nome: "Silvally",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/773-Silvally.png",
+  alt: "Pokémon Silvally",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ao libertar todo o seu poder, adapta-se de acordo com o disco equipado."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "774",
+  nome: "Minior",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra voador",
+  imagem: "../imagens/pokemons/774-Minior.png",
+  alt: "Pokémon Minior",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Sua carapaça externa o protege até o momento de revelar seu núcleo colorido."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "775",
+  nome: "Komala",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/775-Komala.png",
+  alt: "Pokémon Komala",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Passa a vida dormindo enquanto se movimenta segurando seu tronco favorito."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "776",
+  nome: "Turtonator",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo dragao",
+  imagem: "../imagens/pokemons/776-Turtonator.png",
+  alt: "Pokémon Turtonator",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Sua carapaça explosiva faz dele um adversário arriscado de enfrentar."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "777",
+  nome: "Togedemaru",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico aco",
+  imagem: "../imagens/pokemons/777-Togedemaru.png",
+  alt: "Pokémon Togedemaru",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Ergue os espinhos do corpo para armazenar e descarregar eletricidade."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "778",
+  nome: "Mimikyu",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma fada",
+  imagem: "../imagens/pokemons/778-Mimikyu.png",
+  alt: "Pokémon Mimikyu",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Esconde sua verdadeira aparência sob um disfarce improvisado e assustador."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "779",
+  nome: "Bruxish",
+  classe: "pokemon-agua",
+  dataTipo: "agua psiquico",
+  imagem: "../imagens/pokemons/779-Bruxish.png",
+  alt: "Pokémon Bruxish",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu brilho intenso e seus poderes psíquicos confundem quem se aproxima."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "780",
+  nome: "Drampa",
+  classe: "pokemon-normal",
+  dataTipo: "normal dragao",
+  imagem: "../imagens/pokemons/780-Drampa.png",
+  alt: "Pokémon Drampa",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Calmo e amigável, pode ficar furioso se alguém machuca quem ele protege."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "781",
+  nome: "Dhelmise",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma planta",
+  imagem: "../imagens/pokemons/781-Dhelmise.png",
+  alt: "Pokémon Dhelmise",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Move a grande âncora e a alga do corpo como se fossem parte de si mesmo."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "782",
+  nome: "Jangmo-o",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao",
+  imagem: "../imagens/pokemons/782-Jangmo-o.png",
+  alt: "Pokémon Jangmo-o",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Treina duro desde cedo e fortalece suas escamas em batalhas constantes."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "783",
+  nome: "Hakamo-o",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao lutador",
+  imagem: "../imagens/pokemons/783-Hakamo-o.png",
+  alt: "Pokémon Hakamo-o",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Seus gritos e o som das escamas assustam qualquer oponente desavisado."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "784",
+  nome: "Kommo-o",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao lutador",
+  imagem: "../imagens/pokemons/784-Kommo-o.png",
+  alt: "Pokémon Kommo-o",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "As escamas metálicas do seu corpo soam como um aviso de batalha."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "785",
+  nome: "Tapu Koko",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico fada",
+  imagem: "../imagens/pokemons/785-Tapu-Koko.png",
+  alt: "Pokémon Tapu Koko",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "É um guardião veloz que usa eletricidade com enorme intensidade."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "786",
+  nome: "Tapu Lele",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico fada",
+  imagem: "../imagens/pokemons/786-Tapu-Lele.png",
+  alt: "Pokémon Tapu Lele",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu poder misterioso envolve o campo de batalha com energia psíquica."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "787",
+  nome: "Tapu Bulu",
+  classe: "pokemon-planta",
+  dataTipo: "planta fada",
+  imagem: "../imagens/pokemons/787-Tapu-Bulu.png",
+  alt: "Pokémon Tapu Bulu",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "É um guardião poderoso ligado à vegetação e à força da natureza."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "788",
+  nome: "Tapu Fini",
+  classe: "pokemon-agua",
+  dataTipo: "agua fada",
+  imagem: "../imagens/pokemons/788-Tapu-Fini.png",
+  alt: "Pokémon Tapu Fini",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Sua névoa espessa confunde os intrusos e protege seu território."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "789",
+  nome: "Cosmog",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/789-Cosmog.png",
+  alt: "Pokémon Cosmog",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Pequeno e frágil, move-se como se fosse uma nuvem de estrelas."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "790",
+  nome: "Cosmoem",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/790-Cosmoem.png",
+  alt: "Pokémon Cosmoem",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Mesmo imóvel, concentra em si uma energia imensa e misteriosa."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "791",
+  nome: "Solgaleo",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico aco",
+  imagem: "../imagens/pokemons/791-Solgaleo.png",
+  alt: "Pokémon Solgaleo",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Seu corpo brilha como o sol quando libera todo o seu poder."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "792",
+  nome: "Lunala",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico fantasma",
+  imagem: "../imagens/pokemons/792-Lunala.png",
+  alt: "Pokémon Lunala",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Ele abre as asas como o céu noturno e absorve a luz ao redor."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "793",
+  nome: "Nihilego",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra veneno",
+  imagem: "../imagens/pokemons/793-Nihilego.png",
+  alt: "Pokémon Nihilego",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Seu corpo estranho e translúcido faz dele uma presença inquietante."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "794",
+  nome: "Buzzwole",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto lutador",
+  imagem: "../imagens/pokemons/794-Buzzwole.png",
+  alt: "Pokémon Buzzwole",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Exibe músculos enormes e uma força física absurda."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "795",
+  nome: "Pheromosa",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto lutador",
+  imagem: "../imagens/pokemons/795-Pheromosa.png",
+  alt: "Pokémon Pheromosa",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Sua velocidade e elegância escondem um poder ofensivo perigoso."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "796",
+  nome: "Xurkitree",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/796-Xurkitree.png",
+  alt: "Pokémon Xurkitree",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Seu corpo lembra cabos vivos repletos de energia elétrica."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "797",
+  nome: "Celesteela",
+  classe: "pokemon-steel",
+  dataTipo: "aco voador",
+  imagem: "../imagens/pokemons/797-Celesteela.png",
+  alt: "Pokémon Celesteela",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Seu corpo maciço pode se lançar ao céu como um foguete."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "798",
+  nome: "Kartana",
+  classe: "pokemon-planta",
+  dataTipo: "planta aco",
+  imagem: "../imagens/pokemons/798-Kartana.png",
+  alt: "Pokémon Kartana",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Seu corpo fino e afiado corta com precisão impressionante."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "799",
+  nome: "Guzzlord",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio dragao",
+  imagem: "../imagens/pokemons/799-Guzzlord.png",
+  alt: "Pokémon Guzzlord",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Sua fome parece infinita e ele devora praticamente qualquer coisa."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "800",
+  nome: "Necrozma",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/800-Necrozma.png",
+  alt: "Pokémon Necrozma",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Ele busca luz incessantemente para recuperar seu poder perdido."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "801",
+  nome: "Magearna",
+  classe: "pokemon-steel",
+  dataTipo: "aco fada",
+  imagem: "../imagens/pokemons/801-Magearna.png",
+  alt: "Pokémon Magearna",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Foi criado artificialmente e possui um coração mecânico muito especial."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "802",
+  nome: "Marshadow",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador fantasma",
+  imagem: "../imagens/pokemons/802-Marshadow.png",
+  alt: "Pokémon Marshadow",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Ele se esconde nas sombras e imita os movimentos de quem observa."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "803",
+  nome: "Poipole",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno",
+  imagem: "../imagens/pokemons/803-Poipole.png",
+  alt: "Pokémon Poipole",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Curioso e imprevisível, dispara veneno pela cabeça em combate."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "804",
+  nome: "Naganadel",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno dragao",
+  imagem: "../imagens/pokemons/804-Naganadel.png",
+  alt: "Pokémon Naganadel",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu veneno é disparado com precisão e extrema velocidade."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "805",
+  nome: "Stakataka",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra aco",
+  imagem: "../imagens/pokemons/805-Stakataka.png",
+  alt: "Pokémon Stakataka",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Seu corpo parece uma fortaleza formada por muitas peças empilhadas."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "806",
+  nome: "Blacephalon",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo fantasma",
+  imagem: "../imagens/pokemons/806-Blacephalon.png",
+  alt: "Pokémon Blacephalon",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Faz movimentos teatrais e explosões surpreendentes para atacar."
+},
+{
+  geracao: "Sétima Geração",
+  numero: "807",
+  nome: "Zeraora",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/807-Zeraora.png",
+  alt: "Pokémon Zeraora",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Move-se com rapidez assustadora e canaliza eletricidade por todo o corpo."
+},
+
+//Oitava Geração
+{
+  geracao: "Oitava Geração",
+  numero: "808",
+  nome: "Meltan",
+  classe: "pokemon-steel",
+  dataTipo: "aco",
+  imagem: "../imagens/pokemons/808-Meltan.png",
+  alt: "Pokémon Meltan",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Seu corpo líquido de metal permite que ele absorva e misture diferentes metais."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "809",
+  nome: "Melmetal",
+  classe: "pokemon-steel",
+  dataTipo: "aco",
+  imagem: "../imagens/pokemons/809-Melmetal.png",
+  alt: "Pokémon Melmetal",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Ele controla metal líquido em seu corpo para desferir golpes extremamente poderosos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "810",
+  nome: "Grookey",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/810-Grookey.png",
+  alt: "Pokémon Grookey",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Seu bastão especial ajuda a despertar a energia das plantas ao seu redor."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "811",
+  nome: "Thwackey",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/811-Thwackey.png",
+  alt: "Pokémon Thwackey",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Ele bate o bastão em tudo ao redor para treinar ritmo e força."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "812",
+  nome: "Rillaboom",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/812-Rillaboom.png",
+  alt: "Pokémon Rillaboom",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Com sua bateria de madeira, ele controla raízes e cria ritmos poderosos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "813",
+  nome: "Scorbunny",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/813-Scorbunny.png",
+  alt: "Pokémon Scorbunny",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Corre e salta o tempo todo, aquecendo as patas até soltar chamas."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "814",
+  nome: "Raboot",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/814-Raboot.png",
+  alt: "Pokémon Raboot",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Mantém distância dos outros, mas usa os pés em ataques rápidos e certeiros."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "815",
+  nome: "Cinderace",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/815-Cinderace.png",
+  alt: "Pokémon Cinderace",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Transforma pequenas pedras em bolas flamejantes chutadas com enorme precisão."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "816",
+  nome: "Sobble",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/816-Sobble.png",
+  alt: "Pokémon Sobble",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Quando fica nervoso, libera água pelo corpo e some da vista de todos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "817",
+  nome: "Drizzile",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/817-Drizzile.png",
+  alt: "Pokémon Drizzile",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Age de forma reservada e ataca à distância com golpes d'água precisos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "818",
+  nome: "Inteleon",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/818-Inteleon.png",
+  alt: "Pokémon Inteleon",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Ele luta como um espião, usando água disparada dos dedos como projétil."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "819",
+  nome: "Skwovet",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/819-Skwovet.png",
+  alt: "Pokémon Skwovet",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Armazena tantas bagas que às vezes esquece onde guardou cada uma delas."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "820",
+  nome: "Greedent",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/820-Greedent.png",
+  alt: "Pokémon Greedent",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Seu rabo enorme esconde reservas de comida para tempos difíceis."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "821",
+  nome: "Rookidee",
+  classe: "pokemon-voador",
+  dataTipo: "voador",
+  imagem: "../imagens/pokemons/821-Rookidee.png",
+  alt: "Pokémon Rookidee",
+  tipos: [
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "É valente e enfrenta inimigos maiores sem pensar duas vezes."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "822",
+  nome: "Corvisquire",
+  classe: "pokemon-voador",
+  dataTipo: "voador",
+  imagem: "../imagens/pokemons/822-Corvisquire.png",
+  alt: "Pokémon Corvisquire",
+  tipos: [
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Aprende rápido e usa sua inteligência para vencer batalhas aéreas."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "823",
+  nome: "Corviknight",
+  classe: "pokemon-voador",
+  dataTipo: "voador aco",
+  imagem: "../imagens/pokemons/823-Corviknight.png",
+  alt: "Pokémon Corviknight",
+  tipos: [
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Seu corpo resistente e voo estável o tornam dominante nos céus."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "824",
+  nome: "Blipbug",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/824-Blipbug.png",
+  alt: "Pokémon Blipbug",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "É pequeno, mas muito atento ao que acontece ao seu redor."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "825",
+  nome: "Dottler",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto psiquico",
+  imagem: "../imagens/pokemons/825-Dottler.png",
+  alt: "Pokémon Dottler",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Permanece quieto enquanto sua mente trabalha de forma intensa e misteriosa."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "826",
+  nome: "Orbeetle",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto psiquico",
+  imagem: "../imagens/pokemons/826-Orbeetle.png",
+  alt: "Pokémon Orbeetle",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seu cérebro imenso usa poderes psíquicos para controlar o campo de batalha."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "827",
+  nome: "Nickit",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio",
+  imagem: "../imagens/pokemons/827-Nickit.png",
+  alt: "Pokémon Nickit",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "É sorrateiro e costuma roubar comida sem ser percebido."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "828",
+  nome: "Thievul",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio",
+  imagem: "../imagens/pokemons/828-Thievul.png",
+  alt: "Pokémon Thievul",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Usa inteligência e furtividade para pegar o que quer e escapar sem deixar rastros."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "829",
+  nome: "Gossifleur",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/829-Gossifleur.png",
+  alt: "Pokémon Gossifleur",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Seu pólen leve viaja pelo vento e ajuda plantas e Pokémon ao redor."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "830",
+  nome: "Eldegoss",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/830-Eldegoss.png",
+  alt: "Pokémon Eldegoss",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Espalha sementes e pólen fofos que trazem benefícios a quem recebe."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "831",
+  nome: "Wooloo",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/831-Wooloo.png",
+  alt: "Pokémon Wooloo",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Sua lã macia o protege bem e o ajuda a rolar para escapar."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "832",
+  nome: "Dubwool",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/832-Dubwool.png",
+  alt: "Pokémon Dubwool",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Sua lã espessa é excelente proteção e sua cabeça serve para investidas fortes."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "833",
+  nome: "Chewtle",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/833-Chewtle.png",
+  alt: "Pokémon Chewtle",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Ele morde qualquer coisa que vê pela frente, sem muito cuidado."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "834",
+  nome: "Drednaw",
+  classe: "pokemon-agua",
+  dataTipo: "agua pedra",
+  imagem: "../imagens/pokemons/834-Drednaw.png",
+  alt: "Pokémon Drednaw",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Sua mandíbula poderosa consegue quebrar até rochas resistentes."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "835",
+  nome: "Yamper",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/835-Yamper.png",
+  alt: "Pokémon Yamper",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Corre alegremente e solta eletricidade sempre que fica empolgado."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "836",
+  nome: "Boltund",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/836-Boltund.png",
+  alt: "Pokémon Boltund",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Armazena eletricidade nas patas e dispara em velocidade impressionante."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "837",
+  nome: "Rolycoly",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra",
+  imagem: "../imagens/pokemons/837-Rolycoly.png",
+  alt: "Pokémon Rolycoly",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Seu corpo de carvão continua se movendo mesmo em terrenos difíceis."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "838",
+  nome: "Carkol",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra fogo",
+  imagem: "../imagens/pokemons/838-Carkol.png",
+  alt: "Pokémon Carkol",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "O calor interno de seu corpo o transforma num verdadeiro vagão em brasa."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "839",
+  nome: "Coalossal",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra fogo",
+  imagem: "../imagens/pokemons/839-Coalossal.png",
+  alt: "Pokémon Coalossal",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Sua montanha de carvão em chamas libera calor e fumaça intensos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "840",
+  nome: "Applin",
+  classe: "pokemon-planta",
+  dataTipo: "planta dragao",
+  imagem: "../imagens/pokemons/840-Applin.png",
+  alt: "Pokémon Applin",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Vive escondido dentro da maçã, usando-a como abrigo e disfarce."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "841",
+  nome: "Flapple",
+  classe: "pokemon-planta",
+  dataTipo: "planta dragao",
+  imagem: "../imagens/pokemons/841-Flapple.png",
+  alt: "Pokémon Flapple",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Usa a casca da maçã como asas e ataca com ácido adocicado."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "842",
+  nome: "Appletun",
+  classe: "pokemon-planta",
+  dataTipo: "planta dragao",
+  imagem: "../imagens/pokemons/842-Appletun.png",
+  alt: "Pokémon Appletun",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu corpo espalha um aroma doce e reconfortante de maçã assada."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "843",
+  nome: "Silicobra",
+  classe: "pokemon-terra",
+  dataTipo: "terra",
+  imagem: "../imagens/pokemons/843-Silicobra.png",
+  alt: "Pokémon Silicobra",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Ele cospe areia para se esconder e confundir o inimigo."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "844",
+  nome: "Sandaconda",
+  classe: "pokemon-terra",
+  dataTipo: "terra",
+  imagem: "../imagens/pokemons/844-Sandaconda.png",
+  alt: "Pokémon Sandaconda",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Armazena muita areia no corpo e a dispara em grandes redemoinhos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "845",
+  nome: "Cramorant",
+  classe: "pokemon-voador",
+  dataTipo: "voador agua",
+  imagem: "../imagens/pokemons/845-Cramorant.png",
+  alt: "Pokémon Cramorant",
+  tipos: [
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Engole a presa inteira e às vezes cospe algo inesperado no meio da luta."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "846",
+  nome: "Arrokuda",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/846-Arrokuda.png",
+  alt: "Pokémon Arrokuda",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Nada em linha reta com rapidez, como se fosse uma flecha viva."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "847",
+  nome: "Barraskewda",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/847-Barraskewda.png",
+  alt: "Pokémon Barraskewda",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Seu corpo afilado permite ataques velozes e extremamente fortes."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "848",
+  nome: "Toxel",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico veneno",
+  imagem: "../imagens/pokemons/848-Toxel.png",
+  alt: "Pokémon Toxel",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Acumula toxinas e eletricidade no corpo, mesmo sendo ainda um bebê."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "849",
+  nome: "Toxtricity",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico veneno",
+  imagem: "../imagens/pokemons/849-Toxtricity.png",
+  alt: "Pokémon Toxtricity",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Transforma eletricidade em música agressiva e ataques cheios de atitude."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "850",
+  nome: "Sizzlipede",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo inseto",
+  imagem: "../imagens/pokemons/850-Sizzlipede.png",
+  alt: "Pokémon Sizzlipede",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Seu corpo aquecido ajuda a capturar a presa por exaustão."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "851",
+  nome: "Centiskorch",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo inseto",
+  imagem: "../imagens/pokemons/851-Centiskorch.png",
+  alt: "Pokémon Centiskorch",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Seu corpo longo irradia calor intenso e chamas crescentes."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "852",
+  nome: "Clobbopus",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/852-Clobbopus.png",
+  alt: "Pokémon Clobbopus",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Treina seus tentáculos como se fossem punhos de um lutador nato."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "853",
+  nome: "Grapploct",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/853-Grapploct.png",
+  alt: "Pokémon Grapploct",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Agarra o adversário com braços poderosos antes de finalizar o combate."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "854",
+  nome: "Sinistea",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/854-Sinistea.png",
+  alt: "Pokémon Sinistea",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Sua presença habita uma xícara antiga de chá misterioso."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "855",
+  nome: "Polteageist",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/855-Polteageist.png",
+  alt: "Pokémon Polteageist",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Espalha seu chá estranho e pode envolver outros em sua atmosfera sombria."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "856",
+  nome: "Hatenna",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/856-Hatenna.png",
+  alt: "Pokémon Hatenna",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "É sensível às emoções fortes e prefere ambientes calmos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "857",
+  nome: "Hattrem",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/857-Hattrem.png",
+  alt: "Pokémon Hattrem",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Tenta manter a tranquilidade ao redor usando seus poderes mentais."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "858",
+  nome: "Hatterene",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico fada",
+  imagem: "../imagens/pokemons/858-Hatterene.png",
+  alt: "Pokémon Hatterene",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu poder reage a emoções intensas com uma força assustadora."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "859",
+  nome: "Impidimp",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio fada",
+  imagem: "../imagens/pokemons/859-Impidimp.png",
+  alt: "Pokémon Impidimp",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Adora provocar e se alimentar das emoções negativas dos outros."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "860",
+  nome: "Morgrem",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio fada",
+  imagem: "../imagens/pokemons/860-Morgrem.png",
+  alt: "Pokémon Morgrem",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Usa truques sujos e cabelos longos para atacar sem dar chance ao rival."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "861",
+  nome: "Grimmsnarl",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio fada",
+  imagem: "../imagens/pokemons/861-Grimmsnarl.png",
+  alt: "Pokémon Grimmsnarl",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seus cabelos viram músculos e armas em ataques brutais."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "862",
+  nome: "Obstagoon",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio normal",
+  imagem: "../imagens/pokemons/862-Obstagoon.png",
+  alt: "Pokémon Obstagoon",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Ele provoca o oponente e responde com contra-ataques ferozes."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "863",
+  nome: "Perrserker",
+  classe: "pokemon-steel",
+  dataTipo: "aco",
+  imagem: "../imagens/pokemons/863-Perrserker.png",
+  alt: "Pokémon Perrserker",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Seu comportamento agressivo combina com o corpo duro e as garras afiadas."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "864",
+  nome: "Cursola",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/864-Cursola.png",
+  alt: "Pokémon Cursola",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Seu corpo frágil carrega uma energia triste e espiritual."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "865",
+  nome: "Sirfetch’d",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/865-Sirfetchd.png",
+  alt: "Pokémon Sirfetch’d",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Luta com honra usando o alho-poró como espada e escudo."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "866",
+  nome: "Mr. Rime",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo psiquico",
+  imagem: "../imagens/pokemons/866-MrRime.png",
+  alt: "Pokémon Mr. Rime",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Move-se como um dançarino habilidoso enquanto usa poderes mentais."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "867",
+  nome: "Runerigus",
+  classe: "pokemon-terra",
+  dataTipo: "terra fantasma",
+  imagem: "../imagens/pokemons/867-Runerigus.png",
+  alt: "Pokémon Runerigus",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Os desenhos em seu corpo escondem uma energia muito antiga e perigosa."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "868",
+  nome: "Milcery",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/868-Milcery.png",
+  alt: "Pokémon Milcery",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu corpo cremoso e doce atrai quem gosta de sobremesas."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "869",
+  nome: "Alcremie",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/869-Alcremie.png",
+  alt: "Pokémon Alcremie",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Seu creme aromático traz alegria a quem o prova."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "870",
+  nome: "Falinks",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/870-Falinks.png",
+  alt: "Pokémon Falinks",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Seis pequenos guerreiros marcham juntos como se fossem uma única unidade."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "871",
+  nome: "Pincurchin",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/871-Pincurchin.png",
+  alt: "Pokémon Pincurchin",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Suas pontas armazenam eletricidade e podem ser disparadas em defesa."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "872",
+  nome: "Snom",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo inseto",
+  imagem: "../imagens/pokemons/872-Snom.png",
+  alt: "Pokémon Snom",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Move-se lentamente enquanto busca locais frios e tranquilos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "873",
+  nome: "Frosmoth",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo inseto",
+  imagem: "../imagens/pokemons/873-Frosmoth.png",
+  alt: "Pokémon Frosmoth",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Bate as asas e espalha escamas geladas pelo ar."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "874",
+  nome: "Stonjourner",
+  classe: "pokemon-rocha",
+  dataTipo: "pedra",
+  imagem: "../imagens/pokemons/874-Stonjourner.png",
+  alt: "Pokémon Stonjourner",
+  tipos: [
+    { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Seu corpo lembra antigas formações rochosas erguidas em campo aberto."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "875",
+  nome: "Eiscue",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/875-Eiscue.png",
+  alt: "Pokémon Eiscue",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Protege a cabeça com um bloco de gelo resistente enquanto nada em águas frias."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "876",
+  nome: "Indeedee",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico normal",
+  imagem: "../imagens/pokemons/876-Indeedee.png",
+  alt: "Pokémon Indeedee",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "É atencioso e ajuda os outros usando seus poderes psíquicos."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "877",
+  nome: "Morpeko",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico sombrio",
+  imagem: "../imagens/pokemons/877-Morpeko.png",
+  alt: "Pokémon Morpeko",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Sua fome muda seu humor e até a forma como luta."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "878",
+  nome: "Cufant",
+  classe: "pokemon-steel",
+  dataTipo: "aco",
+  imagem: "../imagens/pokemons/878-Cufant.png",
+  alt: "Pokémon Cufant",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Mesmo jovem, tem muita força e adora ajudar carregando coisas."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "879",
+  nome: "Copperajah",
+  classe: "pokemon-steel",
+  dataTipo: "aco",
+  imagem: "../imagens/pokemons/879-Copperajah.png",
+  alt: "Pokémon Copperajah",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Seu corpo enorme e resistente abre caminho por quase qualquer terreno."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "880",
+  nome: "Dracozolt",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico dragao",
+  imagem: "../imagens/pokemons/880-Dracozolt.png",
+  alt: "Pokémon Dracozolt",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu corpo recriado mistura partes antigas em um ser cheio de energia."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "881",
+  nome: "Arctozolt",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico gelo",
+  imagem: "../imagens/pokemons/881-Arctozolt.png",
+  alt: "Pokémon Arctozolt",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "A eletricidade em seu corpo contrasta com o frio intenso que carrega."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "882",
+  nome: "Dracovish",
+  classe: "pokemon-agua",
+  dataTipo: "agua dragao",
+  imagem: "../imagens/pokemons/882-Dracovish.png",
+  alt: "Pokémon Dracovish",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Sua mordida feroz mostra um poder surpreendente vindo de um corpo incomum."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "883",
+  nome: "Arctovish",
+  classe: "pokemon-agua",
+  dataTipo: "agua gelo",
+  imagem: "../imagens/pokemons/883-Arctovish.png",
+  alt: "Pokémon Arctovish",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Seu corpo combina traços de eras diferentes de uma forma muito estranha."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "884",
+  nome: "Duraludon",
+  classe: "pokemon-steel",
+  dataTipo: "aco dragao",
+  imagem: "../imagens/pokemons/884-Duraludon.png",
+  alt: "Pokémon Duraludon",
+  tipos: [
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu corpo metálico resiste bem a ataques, mas ainda pode sofrer ferrugem."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "885",
+  nome: "Dreepy",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao fantasma",
+  imagem: "../imagens/pokemons/885-Dreepy.png",
+  alt: "Pokémon Dreepy",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "É fraco sozinho, mas muito curioso e rápido quando se move."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "886",
+  nome: "Drakloak",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao fantasma",
+  imagem: "../imagens/pokemons/886-Drakloak.png",
+  alt: "Pokémon Drakloak",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Carrega outros Dreepy e os lança com grande velocidade."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "887",
+  nome: "Dragapult",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao fantasma",
+  imagem: "../imagens/pokemons/887-Dragapult.png",
+  alt: "Pokémon Dragapult",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "É veloz como um caça e ataca usando Dreepy como projéteis."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "888",
+  nome: "Zacian",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/888-Zacian.png",
+  alt: "Pokémon Zacian",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Sua aparência nobre esconde uma força lendária em combate."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "889",
+  nome: "Zamazenta",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/889-Zamazenta.png",
+  alt: "Pokémon Zamazenta",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Seu corpo firme e sua postura defensiva lembram um escudo vivo."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "890",
+  nome: "Eternatus",
+  classe: "pokemon-venenoso",
+  dataTipo: "veneno dragao",
+  imagem: "../imagens/pokemons/890-Eternatus.png",
+  alt: "Pokémon Eternatus",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Seu poder colossal ameaça envolver tudo com energia tóxica."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "891",
+  nome: "Kubfu",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador",
+  imagem: "../imagens/pokemons/891-Kubfu.png",
+  alt: "Pokémon Kubfu",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Treina com disciplina rígida para fortalecer corpo e espírito."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "892",
+  nome: "Urshifu",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador sombrio",
+  imagem: "../imagens/pokemons/892-Urshifu.png",
+  alt: "Pokémon Urshifu",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Seu estilo de combate une técnica refinada e grande poder ofensivo."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "893",
+  nome: "Zarude",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio planta",
+  imagem: "../imagens/pokemons/893-Zarude.png",
+  alt: "Pokémon Zarude",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "É feroz e ágil, usando cipós para se mover e atacar na floresta."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "894",
+  nome: "Regieleki",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/894-Regieleki.png",
+  alt: "Pokémon Regieleki",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Seu corpo inteiro é feito de energia elétrica concentrada."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "895",
+  nome: "Regidrago",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao",
+  imagem: "../imagens/pokemons/895-Regidrago.png",
+  alt: "Pokémon Regidrago",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Sua cabeça em forma de dragão concentra um poder ancestral assustador."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "896",
+  nome: "Glastrier",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/896-Glastrier.png",
+  alt: "Pokémon Glastrier",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Seu corpo pesado e gelado atravessa qualquer obstáculo em linha reta."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "897",
+  nome: "Spectrier",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/897-Spectrier.png",
+  alt: "Pokémon Spectrier",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Corre silenciosamente pela escuridão com uma presença arrepiante."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "898",
+  nome: "Calyrex",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico planta",
+  imagem: "../imagens/pokemons/898-Calyrex.png",
+  alt: "Pokémon Calyrex",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "É lembrado em lendas como um soberano ligado à colheita e à sabedoria."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "899",
+  nome: "Wyrdeer",
+  classe: "pokemon-normal",
+  dataTipo: "normal psiquico",
+  imagem: "../imagens/pokemons/899-Wyrdeer.png",
+  alt: "Pokémon Wyrdeer",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Seus chifres canalizam energia psíquica usada para atacar e se orientar."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "900",
+  nome: "Kleavor",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto pedra",
+  imagem: "../imagens/pokemons/900-Kleavor.png",
+  alt: "Pokémon Kleavor",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Suas lâminas de pedra podem cortar troncos inteiros de uma só vez."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "901",
+  nome: "Ursaluna",
+  classe: "pokemon-terra",
+  dataTipo: "terra normal",
+  imagem: "../imagens/pokemons/901-Ursaluna.png",
+  alt: "Pokémon Ursaluna",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Seu corpo pesado e forte domina o terreno com enorme facilidade."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "902",
+  nome: "Basculegion",
+  classe: "pokemon-agua",
+  dataTipo: "agua fantasma",
+  imagem: "../imagens/pokemons/902-Basculegion.png",
+  alt: "Pokémon Basculegion",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Ele nada com a força das almas que o acompanham em batalha."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "903",
+  nome: "Sneasler",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador veneno",
+  imagem: "../imagens/pokemons/903-Sneasler.png",
+  alt: "Pokémon Sneasler",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Escala penhascos com agilidade e usa garras cheias de veneno."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "904",
+  nome: "Overqwil",
+  classe: "pokemon-noturno",
+  dataTipo: "sombrio veneno",
+  imagem: "../imagens/pokemons/904-Overqwil.png",
+  alt: "Pokémon Overqwil",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Espinhos venenosos cobrem seu corpo, tornando-o muito perigoso."
+},
+{
+  geracao: "Oitava Geração",
+  numero: "905",
+  nome: "Enamorus",
+  classe: "pokemon-fada",
+  dataTipo: "fada voador",
+  imagem: "../imagens/pokemons/905-Enamorus.png",
+  alt: "Pokémon Enamorus",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Sua presença é associada à chegada do amor e de novos encontros."
+},
+
+//Nona Geração
+{
+  geracao: "Nona Geração",
+  numero: "906",
+  nome: "Sprigatito",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/906-Sprigatito.png",
+  alt: "Pokémon Sprigatito",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Sprigatito é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "907",
+  nome: "Floragato",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/907-Floragato.png",
+  alt: "Pokémon Floragato",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Floragato é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "908",
+  nome: "Meowscarada",
+  classe: "pokemon-planta",
+  dataTipo: "planta sombrio",
+  imagem: "../imagens/pokemons/908-Meowscarada.png",
+  alt: "Pokémon Meowscarada",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Meowscarada é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "909",
+  nome: "Fuecoco",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/909-Fuecoco.png",
+  alt: "Pokémon Fuecoco",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Fuecoco é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "910",
+  nome: "Crocalor",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/910-Crocalor.png",
+  alt: "Pokémon Crocalor",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Crocalor é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "911",
+  nome: "Skeledirge",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo fantasma",
+  imagem: "../imagens/pokemons/911-Skeledirge.png",
+  alt: "Pokémon Skeledirge",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Skeledirge é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "912",
+  nome: "Quaxly",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/912-Quaxly.png",
+  alt: "Pokémon Quaxly",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Quaxly é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "913",
+  nome: "Quaxwell",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/913-Quaxwell.png",
+  alt: "Pokémon Quaxwell",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Quaxwell é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "914",
+  nome: "Quaquaval",
+  classe: "pokemon-agua",
+  dataTipo: "agua lutador",
+  imagem: "../imagens/pokemons/914-Quaquaval.png",
+  alt: "Pokémon Quaquaval",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Quaquaval é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "915",
+  nome: "Lechonk",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/915-Lechonk.png",
+  alt: "Pokémon Lechonk",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Lechonk é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "916",
+  nome: "Oinkologne",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/916-Oinkologne.png",
+  alt: "Pokémon Oinkologne",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Oinkologne é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "917",
+  nome: "Tarountula",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/917-Tarountula.png",
+  alt: "Pokémon Tarountula",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Tarountula é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "918",
+  nome: "Spidops",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/918-Spidops.png",
+  alt: "Pokémon Spidops",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Spidops é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "919",
+  nome: "Nymble",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/919-Nymble.png",
+  alt: "Pokémon Nymble",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Nymble é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "920",
+  nome: "Lokix",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto sombrio",
+  imagem: "../imagens/pokemons/920-Lokix.png",
+  alt: "Pokémon Lokix",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Lokix é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "921",
+  nome: "Pawmi",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/921-Pawmi.png",
+  alt: "Pokémon Pawmi",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Pawmi é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "922",
+  nome: "Pawmo",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico lutador",
+  imagem: "../imagens/pokemons/922-Pawmo.png",
+  alt: "Pokémon Pawmo",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Pawmo é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "923",
+  nome: "Pawmot",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico lutador",
+  imagem: "../imagens/pokemons/923-Pawmot.png",
+  alt: "Pokémon Pawmot",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Pawmot é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "924",
+  nome: "Tandemaus",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/924-Tandemaus.png",
+  alt: "Pokémon Tandemaus",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Tandemaus é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "925",
+  nome: "Maushold",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/925-Maushold.png",
+  alt: "Pokémon Maushold",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Maushold é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "926",
+  nome: "Fidough",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/926-Fidough.png",
+  alt: "Pokémon Fidough",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Fidough é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "927",
+  nome: "Dachsbun",
+  classe: "pokemon-fada",
+  dataTipo: "fada",
+  imagem: "../imagens/pokemons/927-Dachsbun.png",
+  alt: "Pokémon Dachsbun",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Dachsbun é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "928",
+  nome: "Smoliv",
+  classe: "pokemon-planta",
+  dataTipo: "planta normal",
+  imagem: "../imagens/pokemons/928-Smoliv.png",
+  alt: "Pokémon Smoliv",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Smoliv é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "929",
+  nome: "Dolliv",
+  classe: "pokemon-planta",
+  dataTipo: "planta normal",
+  imagem: "../imagens/pokemons/929-Dolliv.png",
+  alt: "Pokémon Dolliv",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Dolliv é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "930",
+  nome: "Arboliva",
+  classe: "pokemon-planta",
+  dataTipo: "planta normal",
+  imagem: "../imagens/pokemons/930-Arboliva.png",
+  alt: "Pokémon Arboliva",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Arboliva é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "931",
+  nome: "Squawkabilly",
+  classe: "pokemon-normal",
+  dataTipo: "normal voador",
+  imagem: "../imagens/pokemons/931-Squawkabilly.png",
+  alt: "Pokémon Squawkabilly",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Squawkabilly é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "932",
+  nome: "Nacli",
+  classe: "pokemon-pedra",
+  dataTipo: "pedra",
+  imagem: "../imagens/pokemons/932-Nacli.png",
+  alt: "Pokémon Nacli",
+  tipos: [
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Nacli é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "933",
+  nome: "Naclstack",
+  classe: "pokemon-pedra",
+  dataTipo: "pedra",
+  imagem: "../imagens/pokemons/933-Naclstack.png",
+  alt: "Pokémon Naclstack",
+  tipos: [
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Naclstack é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "934",
+  nome: "Garganacl",
+  classe: "pokemon-pedra",
+  dataTipo: "pedra",
+  imagem: "../imagens/pokemons/934-Garganacl.png",
+  alt: "Pokémon Garganacl",
+  tipos: [
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Garganacl é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "935",
+  nome: "Charcadet",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo",
+  imagem: "../imagens/pokemons/935-Charcadet.png",
+  alt: "Pokémon Charcadet",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Charcadet é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "936",
+  nome: "Armarouge",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo psiquico",
+  imagem: "../imagens/pokemons/936-Armarouge.png",
+  alt: "Pokémon Armarouge",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Armarouge é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "937",
+  nome: "Ceruledge",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo fantasma",
+  imagem: "../imagens/pokemons/937-Ceruledge.png",
+  alt: "Pokémon Ceruledge",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Ceruledge é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "938",
+  nome: "Tadbulb",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/938-Tadbulb.png",
+  alt: "Pokémon Tadbulb",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Tadbulb é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "939",
+  nome: "Bellibolt",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico",
+  imagem: "../imagens/pokemons/939-Bellibolt.png",
+  alt: "Pokémon Bellibolt",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "Bellibolt é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "940",
+  nome: "Wattrel",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico voador",
+  imagem: "../imagens/pokemons/940-Wattrel.png",
+  alt: "Pokémon Wattrel",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Wattrel é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "941",
+  nome: "Kilowattrel",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico voador",
+  imagem: "../imagens/pokemons/941-Kilowattrel.png",
+  alt: "Pokémon Kilowattrel",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "Kilowattrel é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "942",
+  nome: "Maschiff",
+  classe: "pokemon-sombrio",
+  dataTipo: "sombrio",
+  imagem: "../imagens/pokemons/942-Maschiff.png",
+  alt: "Pokémon Maschiff",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Maschiff é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "943",
+  nome: "Mabosstiff",
+  classe: "pokemon-sombrio",
+  dataTipo: "sombrio",
+  imagem: "../imagens/pokemons/943-Mabosstiff.png",
+  alt: "Pokémon Mabosstiff",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Mabosstiff é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "944",
+  nome: "Shroodle",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno normal",
+  imagem: "../imagens/pokemons/944-Shroodle.png",
+  alt: "Pokémon Shroodle",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Shroodle é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "945",
+  nome: "Grafaiai",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno normal",
+  imagem: "../imagens/pokemons/945-Grafaiai.png",
+  alt: "Pokémon Grafaiai",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Grafaiai é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "946",
+  nome: "Bramblin",
+  classe: "pokemon-planta",
+  dataTipo: "planta fantasma",
+  imagem: "../imagens/pokemons/946-Bramblin.png",
+  alt: "Pokémon Bramblin",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Bramblin é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "947",
+  nome: "Brambleghast",
+  classe: "pokemon-planta",
+  dataTipo: "planta fantasma",
+  imagem: "../imagens/pokemons/947-Brambleghast.png",
+  alt: "Pokémon Brambleghast",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Brambleghast é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "948",
+  nome: "Toedscool",
+  classe: "pokemon-terra",
+  dataTipo: "terra planta",
+  imagem: "../imagens/pokemons/948-Toedscool.png",
+  alt: "Pokémon Toedscool",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Toedscool é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "949",
+  nome: "Toedscruel",
+  classe: "pokemon-terra",
+  dataTipo: "terra planta",
+  imagem: "../imagens/pokemons/949-Toedscruel.png",
+  alt: "Pokémon Toedscruel",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Toedscruel é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "950",
+  nome: "Klawf",
+  classe: "pokemon-pedra",
+  dataTipo: "pedra",
+  imagem: "../imagens/pokemons/950-Klawf.png",
+  alt: "Pokémon Klawf",
+  tipos: [
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" }
+  ],
+  descricao: "Klawf é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "951",
+  nome: "Capsakid",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/951-Capsakid.png",
+  alt: "Pokémon Capsakid",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Capsakid é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "952",
+  nome: "Scovillain",
+  classe: "pokemon-planta",
+  dataTipo: "planta fogo",
+  imagem: "../imagens/pokemons/952-Scovillain.png",
+  alt: "Pokémon Scovillain",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "Scovillain é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "953",
+  nome: "Rellor",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto",
+  imagem: "../imagens/pokemons/953-Rellor.png",
+  alt: "Pokémon Rellor",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" }
+  ],
+  descricao: "Rellor é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "954",
+  nome: "Rabsca",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto psiquico",
+  imagem: "../imagens/pokemons/954-Rabsca.png",
+  alt: "Pokémon Rabsca",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Rabsca é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "955",
+  nome: "Flittle",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/955-Flittle.png",
+  alt: "Pokémon Flittle",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Flittle é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "956",
+  nome: "Espathra",
+  classe: "pokemon-psiquico",
+  dataTipo: "psiquico",
+  imagem: "../imagens/pokemons/956-Espathra.png",
+  alt: "Pokémon Espathra",
+  tipos: [
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Espathra é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "957",
+  nome: "Tinkatink",
+  classe: "pokemon-fada",
+  dataTipo: "fada aco",
+  imagem: "../imagens/pokemons/957-Tinkatink.png",
+  alt: "Pokémon Tinkatink",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Tinkatink é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "958",
+  nome: "Tinkatuff",
+  classe: "pokemon-fada",
+  dataTipo: "fada aco",
+  imagem: "../imagens/pokemons/958-Tinkatuff.png",
+  alt: "Pokémon Tinkatuff",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Tinkatuff é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "959",
+  nome: "Tinkaton",
+  classe: "pokemon-fada",
+  dataTipo: "fada aco",
+  imagem: "../imagens/pokemons/959-Tinkaton.png",
+  alt: "Pokémon Tinkaton",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Tinkaton é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "960",
+  nome: "Wiglett",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/960-Wiglett.png",
+  alt: "Pokémon Wiglett",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Wiglett é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "961",
+  nome: "Wugtrio",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/961-Wugtrio.png",
+  alt: "Pokémon Wugtrio",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Wugtrio é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "962",
+  nome: "Bombirdier",
+  classe: "pokemon-voador",
+  dataTipo: "voador sombrio",
+  imagem: "../imagens/pokemons/962-Bombirdier.png",
+  alt: "Pokémon Bombirdier",
+  tipos: [
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "Bombirdier é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "963",
+  nome: "Finizen",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/963-Finizen.png",
+  alt: "Pokémon Finizen",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Finizen é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "964",
+  nome: "Palafin",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/964-Palafin.png",
+  alt: "Pokémon Palafin",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Palafin é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "965",
+  nome: "Varoom",
+  classe: "pokemon-aco",
+  dataTipo: "aco veneno",
+  imagem: "../imagens/pokemons/965-Varoom.png",
+  alt: "Pokémon Varoom",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Varoom é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "966",
+  nome: "Revavroom",
+  classe: "pokemon-aco",
+  dataTipo: "aco veneno",
+  imagem: "../imagens/pokemons/966-Revavroom.png",
+  alt: "Pokémon Revavroom",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Revavroom é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "967",
+  nome: "Cyclizar",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao normal",
+  imagem: "../imagens/pokemons/967-Cyclizar.png",
+  alt: "Pokémon Cyclizar",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Cyclizar é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "968",
+  nome: "Orthworm",
+  classe: "pokemon-aco",
+  dataTipo: "aco",
+  imagem: "../imagens/pokemons/968-Orthworm.png",
+  alt: "Pokémon Orthworm",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Orthworm é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "969",
+  nome: "Glimmet",
+  classe: "pokemon-pedra",
+  dataTipo: "pedra veneno",
+  imagem: "../imagens/pokemons/969-Glimmet.png",
+  alt: "Pokémon Glimmet",
+  tipos: [
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Glimmet é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "970",
+  nome: "Glimmora",
+  classe: "pokemon-pedra",
+  dataTipo: "pedra veneno",
+  imagem: "../imagens/pokemons/970-Glimmora.png",
+  alt: "Pokémon Glimmora",
+  tipos: [
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "Glimmora é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "971",
+  nome: "Greavard",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/971-Greavard.png",
+  alt: "Pokémon Greavard",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Greavard é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "972",
+  nome: "Houndstone",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/972-Houndstone.png",
+  alt: "Pokémon Houndstone",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Houndstone é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "973",
+  nome: "Flamigo",
+  classe: "pokemon-voador",
+  dataTipo: "voador lutador",
+  imagem: "../imagens/pokemons/973-Flamigo.png",
+  alt: "Pokémon Flamigo",
+  tipos: [
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Flamigo é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "974",
+  nome: "Cetoddle",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/974-Cetoddle.png",
+  alt: "Pokémon Cetoddle",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Cetoddle é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "975",
+  nome: "Cetitan",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo",
+  imagem: "../imagens/pokemons/975-Cetitan.png",
+  alt: "Pokémon Cetitan",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Cetitan é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "976",
+  nome: "Veluza",
+  classe: "pokemon-agua",
+  dataTipo: "agua psiquico",
+  imagem: "../imagens/pokemons/976-Veluza.png",
+  alt: "Pokémon Veluza",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Veluza é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "977",
+  nome: "Dondozo",
+  classe: "pokemon-agua",
+  dataTipo: "agua",
+  imagem: "../imagens/pokemons/977-Dondozo.png",
+  alt: "Pokémon Dondozo",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Dondozo é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "978",
+  nome: "Tatsugiri",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao agua",
+  imagem: "../imagens/pokemons/978-Tatsugiri.png",
+  alt: "Pokémon Tatsugiri",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "Tatsugiri é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "979",
+  nome: "Annihilape",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador fantasma",
+  imagem: "../imagens/pokemons/979-Annihilape.png",
+  alt: "Pokémon Annihilape",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Annihilape é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "980",
+  nome: "Clodsire",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno terra",
+  imagem: "../imagens/pokemons/980-Clodsire.png",
+  alt: "Pokémon Clodsire",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "Clodsire é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "981",
+  nome: "Farigiraf",
+  classe: "pokemon-normal",
+  dataTipo: "normal psiquico",
+  imagem: "../imagens/pokemons/981-Farigiraf.png",
+  alt: "Pokémon Farigiraf",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Farigiraf é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "982",
+  nome: "Dudunsparce",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/982-Dudunsparce.png",
+  alt: "Pokémon Dudunsparce",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Dudunsparce é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "983",
+  nome: "Kingambit",
+  classe: "pokemon-sombrio",
+  dataTipo: "sombrio aco",
+  imagem: "../imagens/pokemons/983-Kingambit.png",
+  alt: "Pokémon Kingambit",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "Kingambit é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "984",
+  nome: "GreatTusk",
+  classe: "pokemon-terra",
+  dataTipo: "terra lutador",
+  imagem: "../imagens/pokemons/984-GreatTusk.png",
+  alt: "Pokémon GreatTusk",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "GreatTusk é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "985",
+  nome: "ScreamTail",
+  classe: "pokemon-fada",
+  dataTipo: "fada psiquico",
+  imagem: "../imagens/pokemons/985-ScreamTail.png",
+  alt: "Pokémon ScreamTail",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "ScreamTail é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "986",
+  nome: "BruteBonnet",
+  classe: "pokemon-planta",
+  dataTipo: "planta sombrio",
+  imagem: "../imagens/pokemons/986-BruteBonnet.png",
+  alt: "Pokémon BruteBonnet",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "BruteBonnet é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "987",
+  nome: "FlutterMane",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma fada",
+  imagem: "../imagens/pokemons/987-FlutterMane.png",
+  alt: "Pokémon FlutterMane",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "FlutterMane é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "988",
+  nome: "SlitherWing",
+  classe: "pokemon-inseto",
+  dataTipo: "inseto lutador",
+  imagem: "../imagens/pokemons/988-SlitherWing.png",
+  alt: "Pokémon SlitherWing",
+  tipos: [
+    { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "SlitherWing é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "989",
+  nome: "SandyShocks",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico terra",
+  imagem: "../imagens/pokemons/989-SandyShocks.png",
+  alt: "Pokémon SandyShocks",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "SandyShocks é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "990",
+  nome: "IronTreads",
+  classe: "pokemon-terra",
+  dataTipo: "terra aco",
+  imagem: "../imagens/pokemons/990-IronTreads.png",
+  alt: "Pokémon IronTreads",
+  tipos: [
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+  ],
+  descricao: "IronTreads é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "991",
+  nome: "IronBundle",
+  classe: "pokemon-gelo",
+  dataTipo: "gelo agua",
+  imagem: "../imagens/pokemons/991-IronBundle.png",
+  alt: "Pokémon IronBundle",
+  tipos: [
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" },
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" }
+  ],
+  descricao: "IronBundle é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "992",
+  nome: "IronHands",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador eletrico",
+  imagem: "../imagens/pokemons/992-IronHands.png",
+  alt: "Pokémon IronHands",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "IronHands é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "993",
+  nome: "IronJugulis",
+  classe: "pokemon-sombrio",
+  dataTipo: "sombrio voador",
+  imagem: "../imagens/pokemons/993-IronJugulis.png",
+  alt: "Pokémon IronJugulis",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
+  ],
+  descricao: "IronJugulis é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "994",
+  nome: "IronMoth",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo veneno",
+  imagem: "../imagens/pokemons/994-IronMoth.png",
+  alt: "Pokémon IronMoth",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" }
+  ],
+  descricao: "IronMoth é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "995",
+  nome: "IronThorns",
+  classe: "pokemon-pedra",
+  dataTipo: "pedra eletrico",
+  imagem: "../imagens/pokemons/995-IronThorns.png",
+  alt: "Pokémon IronThorns",
+  tipos: [
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" }
+  ],
+  descricao: "IronThorns é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "996",
+  nome: "Frigibax",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao gelo",
+  imagem: "../imagens/pokemons/996-Frigibax.png",
+  alt: "Pokémon Frigibax",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Frigibax é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "997",
+  nome: "Arctibax",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao gelo",
+  imagem: "../imagens/pokemons/997-Arctibax.png",
+  alt: "Pokémon Arctibax",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Arctibax é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "998",
+  nome: "Baxcalibur",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao gelo",
+  imagem: "../imagens/pokemons/998-Baxcalibur.png",
+  alt: "Pokémon Baxcalibur",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "Baxcalibur é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "999",
+  nome: "Gimmighoul",
+  classe: "pokemon-fantasma",
+  dataTipo: "fantasma",
+  imagem: "../imagens/pokemons/999-Gimmighoul.png",
+  alt: "Pokémon Gimmighoul",
+  tipos: [
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Gimmighoul é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1000",
+  nome: "Gholdengo",
+  classe: "pokemon-aco",
+  dataTipo: "aco fantasma",
+  imagem: "../imagens/pokemons/1000-Gholdengo.png",
+  alt: "Pokémon Gholdengo",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Gholdengo é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1001",
+  nome: "WoChien",
+  classe: "pokemon-sombrio",
+  dataTipo: "sombrio planta",
+  imagem: "../imagens/pokemons/1001-WoChien.png",
+  alt: "Pokémon WoChien",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "WoChien é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1002",
+  nome: "ChienPao",
+  classe: "pokemon-sombrio",
+  dataTipo: "sombrio gelo",
+  imagem: "../imagens/pokemons/1002-ChienPao.png",
+  alt: "Pokémon ChienPao",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Gelo", classe: "but-gelo", link: "../pokemons/gelo.html" }
+  ],
+  descricao: "ChienPao é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1003",
+  nome: "TingLu",
+  classe: "pokemon-sombrio",
+  dataTipo: "sombrio terra",
+  imagem: "../imagens/pokemons/1003-TingLu.png",
+  alt: "Pokémon TingLu",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
+  ],
+  descricao: "TingLu é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1004",
+  nome: "ChiYu",
+  classe: "pokemon-sombrio",
+  dataTipo: "sombrio fogo",
+  imagem: "../imagens/pokemons/1004-ChiYu.png",
+  alt: "Pokémon ChiYu",
+  tipos: [
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" }
+  ],
+  descricao: "ChiYu é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1005",
+  nome: "RoaringMoon",
+  classe: "pokemon-dragao",
+  dataTipo: "dragao sombrio",
+  imagem: "../imagens/pokemons/1005-RoaringMoon.png",
+  alt: "Pokémon RoaringMoon",
+  tipos: [
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" },
+    { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" }
+  ],
+  descricao: "RoaringMoon é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1006",
+  nome: "IronValiant",
+  classe: "pokemon-fada",
+  dataTipo: "fada lutador",
+  imagem: "../imagens/pokemons/1006-IronValiant.png",
+  alt: "Pokémon IronValiant",
+  tipos: [
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "IronValiant é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1007",
+  nome: "Koraidon",
+  classe: "pokemon-lutador",
+  dataTipo: "lutador dragao",
+  imagem: "../imagens/pokemons/1007-Koraidon.png",
+  alt: "Pokémon Koraidon",
+  tipos: [
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Koraidon é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1008",
+  nome: "Miraidon",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico dragao",
+  imagem: "../imagens/pokemons/1008-Miraidon.png",
+  alt: "Pokémon Miraidon",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Miraidon é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1009",
+  nome: "WalkingWake",
+  classe: "pokemon-agua",
+  dataTipo: "agua dragao",
+  imagem: "../imagens/pokemons/1009-WalkingWake.png",
+  alt: "Pokémon WalkingWake",
+  tipos: [
+    { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "WalkingWake é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1010",
+  nome: "IronLeaves",
+  classe: "pokemon-planta",
+  dataTipo: "planta psiquico",
+  imagem: "../imagens/pokemons/1010-IronLeaves.png",
+  alt: "Pokémon IronLeaves",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "IronLeaves é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1011",
+  nome: "Okidogi",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno lutador",
+  imagem: "../imagens/pokemons/1011-Okidogi.png",
+  alt: "Pokémon Okidogi",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
+  ],
+  descricao: "Okidogi é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1012",
+  nome: "Munkidori",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno psiquico",
+  imagem: "../imagens/pokemons/1012-Munkidori.png",
+  alt: "Pokémon Munkidori",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "Munkidori é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1013",
+  nome: "Fezandipiti",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno fada",
+  imagem: "../imagens/pokemons/1013-Fezandipiti.png",
+  alt: "Pokémon Fezandipiti",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
+  ],
+  descricao: "Fezandipiti é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1014",
+  nome: "Ogerpon",
+  classe: "pokemon-planta",
+  dataTipo: "planta",
+  imagem: "../imagens/pokemons/1014-Ogerpon.png",
+  alt: "Pokémon Ogerpon",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" }
+  ],
+  descricao: "Ogerpon é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1015",
+  nome: "Archaludon",
+  classe: "pokemon-aco",
+  dataTipo: "aco dragao",
+  imagem: "../imagens/pokemons/1015-Archaludon.png",
+  alt: "Pokémon Archaludon",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Archaludon é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1016",
+  nome: "Hydrapple",
+  classe: "pokemon-planta",
+  dataTipo: "planta dragao",
+  imagem: "../imagens/pokemons/1016-Hydrapple.png",
+  alt: "Pokémon Hydrapple",
+  tipos: [
+    { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "Hydrapple é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1017",
+  nome: "GougingFire",
+  classe: "pokemon-fogo",
+  dataTipo: "fogo dragao",
+  imagem: "../imagens/pokemons/1017-GougingFire.png",
+  alt: "Pokémon GougingFire",
+  tipos: [
+    { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "GougingFire é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1018",
+  nome: "RagingBolt",
+  classe: "pokemon-eletrico",
+  dataTipo: "eletrico dragao",
+  imagem: "../imagens/pokemons/1018-RagingBolt.png",
+  alt: "Pokémon RagingBolt",
+  tipos: [
+    { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
+    { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
+  ],
+  descricao: "RagingBolt é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1019",
+  nome: "IronBoulder",
+  classe: "pokemon-pedra",
+  dataTipo: "pedra psiquico",
+  imagem: "../imagens/pokemons/1019-IronBoulder.png",
+  alt: "Pokémon IronBoulder",
+  tipos: [
+    { nome: "Pedra", classe: "but-rocha", link: "../pokemons/rocha.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "IronBoulder é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1020",
+  nome: "IronCrown",
+  classe: "pokemon-aco",
+  dataTipo: "aco psiquico",
+  imagem: "../imagens/pokemons/1020-IronCrown.png",
+  alt: "Pokémon IronCrown",
+  tipos: [
+    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" },
+    { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
+  ],
+  descricao: "IronCrown é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1021",
+  nome: "Terapagos",
+  classe: "pokemon-normal",
+  dataTipo: "normal",
+  imagem: "../imagens/pokemons/1021-Terapagos.png",
+  alt: "Pokémon Terapagos",
+  tipos: [
+    { nome: "Normal", classe: "but-normal", link: "../pokemons/normal.html" }
+  ],
+  descricao: "Terapagos é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+{
+  geracao: "Nona Geração",
+  numero: "1022",
+  nome: "Pecharunt",
+  classe: "pokemon-veneno",
+  dataTipo: "veneno fantasma",
+  imagem: "../imagens/pokemons/1022-Pecharunt.png",
+  alt: "Pokémon Pecharunt",
+  tipos: [
+    { nome: "Veneno", classe: "but-veneno", link: "../pokemons/venenoso.html" },
+    { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
+  ],
+  descricao: "Pecharunt é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
+},
+]
 
 
 
@@ -8782,4 +13851,5 @@ const pokemons = [
 
 
 
-];
+
+
