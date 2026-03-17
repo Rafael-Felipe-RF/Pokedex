@@ -1083,12 +1083,12 @@ const pokemons = [
   numero: "0081",
   nome: "Magnemite",
   classe: "pokemon-eletrico",
-  dataTipo: "eletrico aco",
+  dataTipo: "eletrico steel",
   imagem: "../imagens/pokemons/081-Magnemite.png",
   alt: "Pokémon Magnemite",
   tipos: [
     { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "As ondas eletromagnéticas emitidas pelas unidades nas laterais de sua cabeça expelem a antigravidade, o que lhe permite flutuar."
 },
@@ -1097,12 +1097,12 @@ const pokemons = [
   numero: "0082",
   nome: "Magneton",
   classe: "pokemon-eletrico",
-  dataTipo: "eletrico aco",
+  dataTipo: "eletrico steel",
   imagem: "../imagens/pokemons/082-Magneton.png",
   alt: "Pokémon Magneton",
   tipos: [
     { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Três ímãs Magnemite estão ligados por uma forte força magnética. Se você se aproximar demais, poderá sentir dor de ouvido."
 },
@@ -2792,11 +2792,11 @@ const pokemons = [
   numero: "208",
   nome: "Steelix",
   classe: "pokemon-steel",
-  dataTipo: "aco terra",
+  dataTipo: "steel terra",
   imagem: "../imagens/pokemons/208-Steelix.png",
   alt: "Pokémon Steelix",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" }
   ],
   descricao: "Seu corpo foi comprimido e endurecido ao longo de muitos anos sob a terra, tornando-se resistente como aço."
@@ -3051,11 +3051,11 @@ const pokemons = [
   numero: "227",
   nome: "Skarmory",
   classe: "pokemon-steel",
-  dataTipo: "aco voador",
+  dataTipo: "steel voador",
   imagem: "../imagens/pokemons/227-Skarmory.png",
   alt: "Pokémon Skarmory",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
   ],
   descricao: "Seu corpo metálico é resistente, e as asas cortantes podem ferir o adversário como lâminas."
@@ -5319,12 +5319,12 @@ const pokemons = [
   numero: "395",
   nome: "Empoleon",
   classe: "pokemon-agua",
-  dataTipo: "agua aco",
+  dataTipo: "agua steel",
   imagem: "../imagens/pokemons/395-Empoleon.png",
   alt: "Pokémon Empoleon",
   tipos: [
     { nome: "Água", classe: "but-agua", link: "../pokemons/agua.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Suas asas possuem bordas afiadas capazes de cortar gelo com facilidade."
 },
@@ -5521,12 +5521,12 @@ const pokemons = [
   numero: "410",
   nome: "Shieldon",
   classe: "pokemon-rocha",
-  dataTipo: "rocha aco",
+  dataTipo: "rocha steel",
   imagem: "../imagens/pokemons/410-Shieldon.png",
   alt: "Pokémon Shieldon",
   tipos: [
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ele possui uma face dura como aço que usa para bloquear ataques."
 },
@@ -5535,12 +5535,12 @@ const pokemons = [
   numero: "411",
   nome: "Bastiodon",
   classe: "pokemon-rocha",
-  dataTipo: "rocha aco",
+  dataTipo: "rocha steel",
   imagem: "../imagens/pokemons/411-Bastiodon.png",
   alt: "Pokémon Bastiodon",
   tipos: [
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu rosto é tão resistente que pode proteger um grupo inteiro."
 },
@@ -5871,11 +5871,11 @@ const pokemons = [
   numero: "436",
   nome: "Bronzor",
   classe: "pokemon-steel",
-  dataTipo: "aco psiquico",
+  dataTipo: "steel psiquico",
   imagem: "../imagens/pokemons/436-Bronzor.png",
   alt: "Pokémon Bronzor",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
   descricao: "Seu corpo brilhante lembra antigos objetos de bronze."
@@ -5885,11 +5885,11 @@ const pokemons = [
   numero: "437",
   nome: "Bronzong",
   classe: "pokemon-steel",
-  dataTipo: "aco psiquico",
+  dataTipo: "steel psiquico",
   imagem: "../imagens/pokemons/437-Bronzong.png",
   alt: "Pokémon Bronzong",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" }
   ],
   descricao: "Dizem que ele pode invocar chuvas ao soar como um grande sino."
@@ -6035,12 +6035,12 @@ const pokemons = [
   numero: "448",
   nome: "Lucario",
   classe: "pokemon-lutador",
-  dataTipo: "lutador aco",
+  dataTipo: "lutador steel",
   imagem: "../imagens/pokemons/448-Lucario.png",
   alt: "Pokémon Lucario",
   tipos: [
     { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ele percebe a aura dos outros e pode localizar alvos mesmo à distância."
 },
@@ -6226,12 +6226,12 @@ const pokemons = [
   numero: "462",
   nome: "Magnezone",
   classe: "pokemon-eletrico",
-  dataTipo: "eletrico aco",
+  dataTipo: "eletrico steel",
   imagem: "../imagens/pokemons/462-Magnezone.png",
   alt: "Pokémon Magnezone",
   tipos: [
     { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu forte campo magnético interfere em aparelhos eletrônicos próximos."
 },
@@ -6415,12 +6415,12 @@ const pokemons = [
   numero: "476",
   nome: "Probopass",
   classe: "pokemon-rocha",
-  dataTipo: "rocha aco",
+  dataTipo: "rocha steel",
   imagem: "../imagens/pokemons/476-Probopass.png",
   alt: "Pokémon Probopass",
   tipos: [
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu nariz magnético controla pequenas unidades que giram à sua volta."
 },
@@ -6509,11 +6509,11 @@ const pokemons = [
   numero: "483",
   nome: "Dialga",
   classe: "pokemon-steel",
-  dataTipo: "aco dragao",
+  dataTipo: "steel dragao",
   imagem: "../imagens/pokemons/483-Dialga.png",
   alt: "Pokémon Dialga",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
   descricao: "Ele tem poder sobre o tempo e é reverenciado em lendas antigas."
@@ -6537,12 +6537,12 @@ const pokemons = [
   numero: "485",
   nome: "Heatran",
   classe: "pokemon-fogo",
-  dataTipo: "fogo aco",
+  dataTipo: "fogo steel",
   imagem: "../imagens/pokemons/485-Heatran.png",
   alt: "Pokémon Heatran",
   tipos: [
     { nome: "Fogo", classe: "but-fogo", link: "../pokemons/fogo.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ele habita cavernas vulcânicas e possui um corpo resistente ao calor extremo."
 },
@@ -7134,12 +7134,12 @@ const pokemons = [
   numero: "530",
   nome: "Excadrill",
   classe: "pokemon-terra",
-  dataTipo: "terra aco",
+  dataTipo: "terra steel",
   imagem: "../imagens/pokemons/530-Excadrill.png",
   alt: "Pokémon Excadrill",
   tipos: [
     { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Suas brocas perfuram metal e rocha com facilidade."
 },
@@ -7929,12 +7929,12 @@ const pokemons = [
   numero: "589",
   nome: "Escavalier",
   classe: "pokemon-inseto",
-  dataTipo: "inseto aco",
+  dataTipo: "inseto steel",
   imagem: "../imagens/pokemons/589-Escavalier.png",
   alt: "Pokémon Escavalier",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ele investe em alta velocidade usando suas lanças como arma."
 },
@@ -8040,12 +8040,12 @@ const pokemons = [
   numero: "597",
   nome: "Ferroseed",
   classe: "pokemon-planta",
-  dataTipo: "planta aco",
+  dataTipo: "planta steel",
   imagem: "../imagens/pokemons/597-Ferroseed.png",
   alt: "Pokémon Ferroseed",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu corpo espinhoso gira para afastar quem chega perto."
 },
@@ -8054,12 +8054,12 @@ const pokemons = [
   numero: "598",
   nome: "Ferrothorn",
   classe: "pokemon-planta",
-  dataTipo: "planta aco",
+  dataTipo: "planta steel",
   imagem: "../imagens/pokemons/598-Ferrothorn.png",
   alt: "Pokémon Ferrothorn",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ele usa cipós de aço com espinhos para capturar o alvo."
 },
@@ -8068,11 +8068,11 @@ const pokemons = [
   numero: "599",
   nome: "Klink",
   classe: "pokemon-steel",
-  dataTipo: "aco",
+  dataTipo: "steel",
   imagem: "../imagens/pokemons/599-Klink.png",
   alt: "Pokémon Klink",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "As engrenagens do seu corpo giram em perfeita sincronia."
 },
@@ -8081,11 +8081,11 @@ const pokemons = [
   numero: "600",
   nome: "Klang",
   classe: "pokemon-steel",
-  dataTipo: "aco",
+  dataTipo: "steel",
   imagem: "../imagens/pokemons/600-Klang.png",
   alt: "Pokémon Klang",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Suas peças se encaixam melhor e giram com ainda mais força."
 },
@@ -8094,11 +8094,11 @@ const pokemons = [
   numero: "601",
   nome: "Klinklang",
   classe: "pokemon-steel",
-  dataTipo: "aco",
+  dataTipo: "steel",
   imagem: "../imagens/pokemons/601-Klinklang.png",
   alt: "Pokémon Klinklang",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ele lança energia por suas engrenagens em rotação intensa."
 },
@@ -8399,12 +8399,12 @@ const pokemons = [
   numero: "624",
   nome: "Pawniard",
   classe: "pokemon-noturno",
-  dataTipo: "sombrio aco",
+  dataTipo: "sombrio steel",
   imagem: "../imagens/pokemons/624-Pawniard.png",
   alt: "Pokémon Pawniard",
   tipos: [
     { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ele testa a própria força enfrentando rivais sem hesitar."
 },
@@ -8413,12 +8413,12 @@ const pokemons = [
   numero: "625",
   nome: "Bisharp",
   classe: "pokemon-noturno",
-  dataTipo: "sombrio aco",
+  dataTipo: "sombrio steel",
   imagem: "../imagens/pokemons/625-Bisharp.png",
   alt: "Pokémon Bisharp",
   tipos: [
     { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Lidera grupos com disciplina severa e ataques cortantes."
 },
@@ -8509,12 +8509,12 @@ const pokemons = [
   numero: "632",
   nome: "Durant",
   classe: "pokemon-inseto",
-  dataTipo: "inseto aco",
+  dataTipo: "inseto steel",
   imagem: "../imagens/pokemons/632-Durant.png",
   alt: "Pokémon Durant",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Trabalha em grupo com organização perfeita e grande resistência."
 },
@@ -8593,11 +8593,11 @@ const pokemons = [
   numero: "638",
   nome: "Cobalion",
   classe: "pokemon-steel",
-  dataTipo: "aco lutador",
+  dataTipo: "steel lutador",
   imagem: "../imagens/pokemons/638-Cobalion.png",
   alt: "Pokémon Cobalion",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Lutador", classe: "but-lutador", link: "../pokemons/lutador.html" }
   ],
   descricao: "É um líder firme que protege seus companheiros com coragem."
@@ -8746,12 +8746,12 @@ const pokemons = [
   numero: "649",
   nome: "Genesect",
   classe: "pokemon-inseto",
-  dataTipo: "inseto aco",
+  dataTipo: "inseto steel",
   imagem: "../imagens/pokemons/649-Genesect.png",
   alt: "Pokémon Genesect",
   tipos: [
     { nome: "Inseto", classe: "but-inseto", link: "../pokemons/inseto.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Um antigo Pokémon que foi modificado e recebeu um canhão nas costas."
 },
@@ -9150,11 +9150,11 @@ const pokemons = [
   numero: "679",
   nome: "Honedge",
   classe: "pokemon-steel",
-  dataTipo: "aco fantasma",
+  dataTipo: "steel fantasma",
   imagem: "../imagens/pokemons/679-Honedge.png",
   alt: "Pokémon Honedge",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "Sua lâmina carrega uma presença estranha que inspira cautela."
@@ -9164,11 +9164,11 @@ const pokemons = [
   numero: "680",
   nome: "Doublade",
   classe: "pokemon-steel",
-  dataTipo: "aco fantasma",
+  dataTipo: "steel fantasma",
   imagem: "../imagens/pokemons/680-Doublade.png",
   alt: "Pokémon Doublade",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "As duas espadas atacam juntas em perfeita coordenação."
@@ -9178,11 +9178,11 @@ const pokemons = [
   numero: "681",
   nome: "Aegislash",
   classe: "pokemon-steel",
-  dataTipo: "aco fantasma",
+  dataTipo: "steel fantasma",
   imagem: "../imagens/pokemons/681-Aegislash.png",
   alt: "Pokémon Aegislash",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "Alterna entre defesa e ataque com grande habilidade estratégica."
@@ -9532,11 +9532,11 @@ const pokemons = [
   numero: "707",
   nome: "Klefki",
   classe: "pokemon-steel",
-  dataTipo: "aco fada",
+  dataTipo: "steel fada",
   imagem: "../imagens/pokemons/707-Klefki.png",
   alt: "Pokémon Klefki",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
   ],
   descricao: "Adora colecionar chaves e carregá-las como se fossem tesouros."
@@ -10487,12 +10487,12 @@ const pokemons = [
   numero: "777",
   nome: "Togedemaru",
   classe: "pokemon-eletrico",
-  dataTipo: "eletrico aco",
+  dataTipo: "eletrico steel",
   imagem: "../imagens/pokemons/777-Togedemaru.png",
   alt: "Pokémon Togedemaru",
   tipos: [
     { nome: "Elétrico", classe: "but-eletrico", link: "../pokemons/eletrico.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ergue os espinhos do corpo para armazenar e descarregar eletricidade."
 },
@@ -10680,12 +10680,12 @@ const pokemons = [
   numero: "791",
   nome: "Solgaleo",
   classe: "pokemon-psiquico",
-  dataTipo: "psiquico aco",
+  dataTipo: "psiquico steel",
   imagem: "../imagens/pokemons/791-Solgaleo.png",
   alt: "Pokémon Solgaleo",
   tipos: [
     { nome: "Psíquico", classe: "but-psiquico", link: "../pokemons/psiquico.html" },
-    { nome: "Aço", classe: "but-aco", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu corpo brilha como o sol quando libera todo o seu poder."
 },
@@ -10763,11 +10763,11 @@ const pokemons = [
   numero: "797",
   nome: "Celesteela",
   classe: "pokemon-steel",
-  dataTipo: "aco voador",
+  dataTipo: "steel voador",
   imagem: "../imagens/pokemons/797-Celesteela.png",
   alt: "Pokémon Celesteela",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" }
   ],
   descricao: "Seu corpo maciço pode se lançar ao céu como um foguete."
@@ -10777,12 +10777,12 @@ const pokemons = [
   numero: "798",
   nome: "Kartana",
   classe: "pokemon-planta",
-  dataTipo: "planta aco",
+  dataTipo: "planta steel",
   imagem: "../imagens/pokemons/798-Kartana.png",
   alt: "Pokémon Kartana",
   tipos: [
     { nome: "Planta", classe: "but-planta", link: "../pokemons/planta.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu corpo fino e afiado corta com precisão impressionante."
 },
@@ -10818,11 +10818,11 @@ const pokemons = [
   numero: "801",
   nome: "Magearna",
   classe: "pokemon-steel",
-  dataTipo: "aco fada",
+  dataTipo: "steel fada",
   imagem: "../imagens/pokemons/801-Magearna.png",
   alt: "Pokémon Magearna",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" }
   ],
   descricao: "Foi criado artificialmente e possui um coração mecânico muito especial."
@@ -10873,12 +10873,12 @@ const pokemons = [
   numero: "805",
   nome: "Stakataka",
   classe: "pokemon-rocha",
-  dataTipo: "rocha aco",
+  dataTipo: "rocha steel",
   imagem: "../imagens/pokemons/805-Stakataka.png",
   alt: "Pokémon Stakataka",
   tipos: [
     { nome: "Rocha", classe: "but-rocha", link: "../pokemons/rocha.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu corpo parece uma fortaleza formada por muitas peças empilhadas."
 },
@@ -10916,11 +10916,11 @@ const pokemons = [
   numero: "808",
   nome: "Meltan",
   classe: "pokemon-steel",
-  dataTipo: "aco",
+  dataTipo: "steel",
   imagem: "../imagens/pokemons/808-Meltan.png",
   alt: "Pokémon Meltan",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu corpo líquido de metal permite que ele absorva e misture diferentes metais."
 },
@@ -10929,11 +10929,11 @@ const pokemons = [
   numero: "809",
   nome: "Melmetal",
   classe: "pokemon-steel",
-  dataTipo: "aco",
+  dataTipo: "steel",
   imagem: "../imagens/pokemons/809-Melmetal.png",
   alt: "Pokémon Melmetal",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Ele controla metal líquido em seu corpo para desferir golpes extremamente poderosos."
 },
@@ -11111,12 +11111,12 @@ const pokemons = [
   numero: "823",
   nome: "Corviknight",
   classe: "pokemon-voador",
-  dataTipo: "voador aco",
+  dataTipo: "voador steel",
   imagem: "../imagens/pokemons/823-Corviknight.png",
   alt: "Pokémon Corviknight",
   tipos: [
     { nome: "Voador", classe: "but-voador", link: "../pokemons/voador.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu corpo resistente e voo estável o tornam dominante nos céus."
 },
@@ -11654,7 +11654,7 @@ const pokemons = [
   imagem: "../imagens/pokemons/863-Perrserker.png",
   alt: "Pokémon Perrserker",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu comportamento agressivo combina com o corpo duro e as garras afiadas."
 },
@@ -11851,11 +11851,11 @@ const pokemons = [
   numero: "878",
   nome: "Cufant",
   classe: "pokemon-steel",
-  dataTipo: "aco",
+  dataTipo: "steel",
   imagem: "../imagens/pokemons/878-Cufant.png",
   alt: "Pokémon Cufant",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Mesmo jovem, tem muita força e adora ajudar carregando coisas."
 },
@@ -11864,11 +11864,11 @@ const pokemons = [
   numero: "879",
   nome: "Copperajah",
   classe: "pokemon-steel",
-  dataTipo: "aco",
+  dataTipo: "steel",
   imagem: "../imagens/pokemons/879-Copperajah.png",
   alt: "Pokémon Copperajah",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Seu corpo enorme e resistente abre caminho por quase qualquer terreno."
 },
@@ -11933,11 +11933,11 @@ const pokemons = [
   numero: "884",
   nome: "Duraludon",
   classe: "pokemon-steel",
-  dataTipo: "aco dragao",
+  dataTipo: "steel dragao",
   imagem: "../imagens/pokemons/884-Duraludon.png",
   alt: "Pokémon Duraludon",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
   descricao: "Seu corpo metálico resiste bem a ataques, mas ainda pode sofrer ferrugem."
@@ -12921,12 +12921,12 @@ const pokemons = [
   numero: "957",
   nome: "Tinkatink",
   classe: "pokemon-fada",
-  dataTipo: "fada aco",
+  dataTipo: "fada steel",
   imagem: "../imagens/pokemons/957-Tinkatink.png",
   alt: "Pokémon Tinkatink",
   tipos: [
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Tinkatink é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -12935,12 +12935,12 @@ const pokemons = [
   numero: "958",
   nome: "Tinkatuff",
   classe: "pokemon-fada",
-  dataTipo: "fada aco",
+  dataTipo: "fada steel",
   imagem: "../imagens/pokemons/958-Tinkatuff.png",
   alt: "Pokémon Tinkatuff",
   tipos: [
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Tinkatuff é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -12949,12 +12949,12 @@ const pokemons = [
   numero: "959",
   nome: "Tinkaton",
   classe: "pokemon-fada",
-  dataTipo: "fada aco",
+  dataTipo: "fada steel",
   imagem: "../imagens/pokemons/959-Tinkaton.png",
   alt: "Pokémon Tinkaton",
   tipos: [
     { nome: "Fada", classe: "but-fada", link: "../pokemons/fada.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Tinkaton é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13029,11 +13029,11 @@ const pokemons = [
   numero: "965",
   nome: "Varoom",
   classe: "pokemon-steel",
-  dataTipo: "aco veneno",
+  dataTipo: "steel veneno",
   imagem: "../imagens/pokemons/965-Varoom.png",
   alt: "Pokémon Varoom",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Varoom é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13043,11 +13043,11 @@ const pokemons = [
   numero: "966",
   nome: "Revavroom",
   classe: "pokemon-steel",
-  dataTipo: "aco veneno",
+  dataTipo: "steel veneno",
   imagem: "../imagens/pokemons/966-Revavroom.png",
   alt: "Pokémon Revavroom",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Veneno", classe: "but-veneno", link: "../pokemons/veneno.html" }
   ],
   descricao: "Revavroom é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13071,11 +13071,11 @@ const pokemons = [
   numero: "968",
   nome: "Orthworm",
   classe: "pokemon-steel",
-  dataTipo: "aco",
+  dataTipo: "steel",
   imagem: "../imagens/pokemons/968-Orthworm.png",
   alt: "Pokémon Orthworm",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Orthworm é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13274,12 +13274,12 @@ const pokemons = [
   numero: "983",
   nome: "Kingambit",
   classe: "pokemon-noturno",
-  dataTipo: "sombrio aco",
+  dataTipo: "sombrio steel",
   imagem: "../imagens/pokemons/983-Kingambit.png",
   alt: "Pokémon Kingambit",
   tipos: [
     { nome: "Sombrio", classe: "but-sombrio", link: "../pokemons/sombrio.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "Kingambit é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13372,12 +13372,12 @@ const pokemons = [
   numero: "990",
   nome: "IronTreads",
   classe: "pokemon-terra",
-  dataTipo: "terra aco",
+  dataTipo: "terra steel",
   imagem: "../imagens/pokemons/990-IronTreads.png",
   alt: "Pokémon IronTreads",
   tipos: [
     { nome: "Terra", classe: "but-terra", link: "../pokemons/terra.html" },
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" }
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" }
   ],
   descricao: "IronTreads é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
 },
@@ -13511,11 +13511,11 @@ const pokemons = [
   numero: "1000",
   nome: "Gholdengo",
   classe: "pokemon-steel",
-  dataTipo: "aco fantasma",
+  dataTipo: "steel fantasma",
   imagem: "../imagens/pokemons/1000-Gholdengo.png",
   alt: "Pokémon Gholdengo",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Fantasma", classe: "but-fantasma", link: "../pokemons/fantasma.html" }
   ],
   descricao: "Gholdengo é um Pokémon descoberto na região de Paldea e possui habilidades únicas em batalha."
@@ -13762,11 +13762,11 @@ const pokemons = [
   numero: "1018",
   nome: "Archaludon",
   classe: "pokemon-steel",
-  dataTipo: "aco dragao",
+  dataTipo: "steel dragao",
   imagem: "../imagens/pokemons/1018-Archaludon.png",
   alt: "Pokémon Archaludon",
   tipos: [
-    { nome: "Aço", classe: "but-steel", link: "../pokemons/aco.html" },
+    { nome: "Aço", classe: "but-steel", link: "../pokemons/steel.html" },
     { nome: "Dragão", classe: "but-dragao", link: "../pokemons/dragao.html" }
   ],
   descricao: "Ela coleta eletricidade estática do ambiente ao seu redor. Os feixes que emite quando está de quatro são extremamente poderosos."
