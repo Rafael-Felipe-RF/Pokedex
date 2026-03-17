@@ -12,11 +12,92 @@
 </head>
 <body>
 
-  <div id="pokedex"></div>  
+  <div class="area-busca">
+  <div class="campo-busca">
+    <label for="busca-nome">Nome</label>
+    <input type="text" id="busca-nome" placeholder="Digite o nome do Pokémon">
+  </div>
 
-  <script src="../script/pokedex-dados.js"></script>
-  <script src="../script/pokedex-script.js"></script>
-  <script src="../script/busca.js"></script>
+  <div class="campo-busca">
+    <label for="busca-elemento-1">Elemento - 1</label>
+    <select id="busca-elemento-1">
+      <option value="">Todos</option>
+      <option value="agua">Água</option>
+      <option value="fogo">Fogo</option>
+      <option value="planta">Planta</option>
+      <option value="eletrico">Elétrico</option>
+      <option value="normal">Normal</option>
+      <option value="gelo">Gelo</option>
+      <option value="lutador">Lutador</option>
+      <option value="veneno">Veneno</option>
+      <option value="terra">Terra</option>
+      <option value="voador">Voador</option>
+      <option value="psiquico">Psíquico</option>
+      <option value="inseto">Inseto</option>
+      <option value="rocha">Rocha</option>
+      <option value="fantasma">Fantasma</option>
+      <option value="dragao">Dragão</option>
+      <option value="sombrio">Sombrio</option>
+      <option value="steel">Aço</option>
+      <option value="fada">Fada</option>
+      <option value="stellar">Stellar</option>
+    </select>
+  </div>
+
+  <div class="campo-busca">
+    <label for="busca-elemento-2">Elemento - 2</label>
+    <select id="busca-elemento-2">
+      <option value="">Todos</option>
+      <option value="agua">Água</option>
+      <option value="fogo">Fogo</option>
+      <option value="planta">Planta</option>
+      <option value="eletrico">Elétrico</option>
+      <option value="normal">Normal</option>
+      <option value="gelo">Gelo</option>
+      <option value="lutador">Lutador</option>
+      <option value="veneno">Veneno</option>
+      <option value="terra">Terra</option>
+      <option value="voador">Voador</option>
+      <option value="psiquico">Psíquico</option>
+      <option value="inseto">Inseto</option>
+      <option value="rocha">Rocha</option>
+      <option value="fantasma">Fantasma</option>
+      <option value="dragao">Dragão</option>
+      <option value="sombrio">Sombrio</option>
+      <option value="steel">Aço</option>
+      <option value="fada">Fada</option>
+      <option value="stellar">Stellar</option>
+    </select>
+  </div>
+
+  <div class="campo-busca">
+    <label for="busca-geracao">Geração</label>
+    <select id="busca-geracao">
+      <option value="">Todas</option>
+      <option value="Primeira Geração">1</option>
+      <option value="Segunda Geração">2</option>
+      <option value="Terceira Geração">3</option>
+      <option value="Quarta Geração">4</option>
+      <option value="Quinta Geração">5</option>
+      <option value="Sexta Geração">6</option>
+      <option value="Sétima Geração">7</option>
+      <option value="Oitava Geração">8</option>
+      <option value="Nona Geração">9</option>
+    </select>
+  </div>
+
+  <div class="botoes-busca">
+    <button type="button" id="btn-buscar">Buscar</button>
+    <button type="button" id="btn-limpar">Limpar</button>
+  </div>
+</div>
+
+<div id="pokedex"></div>
+
+  <div id="pokedex"></div>
+    <script src="../script/pokedex-dados.js"></script>
+    <script src="../script/pokedex-script.js"></script> 
+    <script src="../script/busca.js"></script> 
 </body>
 </html>
 

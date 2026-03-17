@@ -4185,7 +4185,7 @@ const pokemons = [
 },
 {
   geracao: "Terceira Geração",
-  numero: "311",
+  numero: "0311",
   nome: "Plusle",
   classe: "pokemon-eletrico",
   dataTipo: "eletrico",
