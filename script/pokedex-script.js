@@ -62,4 +62,24 @@ function renderizarPokedex(listaPokemons) {
   });
 }
 
+
 renderizarPokedex(pokemons);
+
+const btnTopo = document.getElementById("btn-topo");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    btnTopo.style.opacity = "1";
+    btnTopo.style.pointerEvents = "auto";
+  } else {
+    btnTopo.style.opacity = "0";
+    btnTopo.style.pointerEvents = "none";
+  }
+});
+
+btnTopo.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});

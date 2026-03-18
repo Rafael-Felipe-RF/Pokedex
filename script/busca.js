@@ -13,30 +13,25 @@ function normalizarTexto(texto) {
 }
 
 function filtrarPokemons() {
-  const nome = normalizarTexto(campoNome.value.trim());
+  const nomeBusca = normalizarTexto(campoNome.value.trim());
   const elemento1 = campoElemento1.value;
   const elemento2 = campoElemento2.value;
   const geracao = campoGeracao.value;
 
-  const resultado = pokemons.filter((pokemon) => {
+  const filtrados = pokemons.filter((pokemon) => {
     const nomePokemon = normalizarTexto(pokemon.nome);
-    const tiposPokemon = pokemon.dataTipo.split(" ").map(tipo => tipo.toLowerCase());
+    const tiposPokemon = pokemon.dataTipo.toLowerCase().split(" ");
     const geracaoPokemon = pokemon.geracao;
 
-    const correspondeNome = !nome || nomePokemon.includes(nome);
-    const correspondeElemento1 = !elemento1 || tiposPokemon.includes(elemento1);
-    const correspondeElemento2 = !elemento2 || tiposPokemon.includes(elemento2);
-    const correspondeGeracao = !geracao || geracaoPokemon === geracao;
+    const filtroNome = nomeBusca === "" || nomePokemon.includes(nomeBusca);
+    const filtroElemento1 = elemento1 === "" || tiposPokemon.includes(elemento1);
+    const filtroElemento2 = elemento2 === "" || tiposPokemon.includes(elemento2);
+    const filtroGeracao = geracao === "" || geracaoPokemon === geracao;
 
-    return (
-      correspondeNome &&
-      correspondeElemento1 &&
-      correspondeElemento2 &&
-      correspondeGeracao
-    );
+    return filtroNome && filtroElemento1 && filtroElemento2 && filtroGeracao;
   });
 
-  renderizarPokedex(resultado);
+  renderizarPokedex(filtrados);
 }
 
 function limparBusca() {
@@ -44,15 +39,13 @@ function limparBusca() {
   campoElemento1.value = "";
   campoElemento2.value = "";
   campoGeracao.value = "";
-
   renderizarPokedex(pokemons);
 }
 
 btnBuscar.addEventListener("click", filtrarPokemons);
 btnLimpar.addEventListener("click", limparBusca);
 
-campoNome.addEventListener("keyup", function (event) {
-  if (event.key === "Enter") {
-    filtrarPokemons();
-  }
-});
+campoNome.addEventListener("input", filtrarPokemons);
+campoElemento1.addEventListener("change", filtrarPokemons);
+campoElemento2.addEventListener("change", filtrarPokemons);
+campoGeracao.addEventListener("change", filtrarPokemons);
