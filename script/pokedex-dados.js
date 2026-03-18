@@ -13895,3 +13895,9 @@ const pokemons = [
 
 
 
+
+
+// Padroniza números para 4 dígitos
+pokemons.forEach(pokemon => {
+  pokemon.numero = String(pokemon.numero).padStart(4, "0");
+});
