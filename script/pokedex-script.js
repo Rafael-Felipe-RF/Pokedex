@@ -1,3 +1,4 @@
+
 const pokedex = document.getElementById("pokedex");
 
 function criarTipos(tipos) {
